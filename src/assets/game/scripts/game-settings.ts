@@ -4,17 +4,17 @@ import { LogStore } from "db://shared-components/game/scripts/stores/log-store";
 import { sharedContainer } from "../../scripts/shared-container";
 
 export const settings = {
-    id: 73,
-    name: "Spaceflight",
+    id: 81,
+    name: "Bac99",
     durations: {
-        wholeRound: 14,
+        wholeRound: 48,
         lockingBet: 3,
-        placingBet: 10,
+        placingBet: 30,
         generatingResult: 0,
         startRound: 1,
     },
     numberOfRoundHistory: 11,
-    validateBalanceWhenBet:true
+    validateBalanceWhenBet: true,
 };
 
 export const containerOptions: gc.IContainerOptions = {

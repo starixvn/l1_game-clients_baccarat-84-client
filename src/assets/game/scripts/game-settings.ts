@@ -5,7 +5,7 @@ import { sharedContainer } from "../../scripts/shared-container";
 
 export const settings = {
     id: 81,
-    name: "Bac99",
+    name: "BaccaratX",
     durations: {
         wholeRound: 48,
         lockingBet: 3,
@@ -23,5 +23,5 @@ export const containerOptions: gc.IContainerOptions = {
         container.bind(gc.GameConfigs.GameSetting).toConstantValue(settings);
         container.bind(LogStore).to(LogStore);
     },
-    features: [gc.GameCrash, ...gc.defaultFeatures],
+    features: [...gc.defaultFeatures],
 };

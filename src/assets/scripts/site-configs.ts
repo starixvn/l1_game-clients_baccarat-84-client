@@ -20,12 +20,12 @@ const defaultConfig: gc.Configs.SiteConfigs = {
     enableMsgpackParserAllGames: false,
     enableMsgpackParserOnNotification: false,
     websocket: {
-        proxyPath: "spaceflight",
-        route: "spaceflight",
+        proxyPath: "baccaratx",
+        route: "baccaratx",
     },
-    mainObserverNamespace: "Spaceflight",
+    mainObserverNamespace: "BaccaratX",
     tolgeeUrl: "",
-    storagePrefixKey: "spaceflight",
+    storagePrefixKey: "baccaratx",
 };
 
 let configDev = {

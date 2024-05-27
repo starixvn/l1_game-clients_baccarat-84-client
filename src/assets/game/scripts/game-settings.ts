@@ -5,7 +5,7 @@ import { sharedContainer } from "../../scripts/shared-container";
 
 export const settings = {
     id: 81,
-    name: "BaccaratX",
+    name: "Bac81",
     durations: {
         wholeRound: 48,
         lockingBet: 3,

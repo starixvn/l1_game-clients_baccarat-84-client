@@ -13,19 +13,19 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         localhost: "lumigame.com",
     },
     ssl: true,
-    subDomain: "l1-proxy3",
+    subDomain: "l1-proxy",
     env: "LOCAL",
     subGuideDomain: "l1-guide-3",
     SGConnectSubDomain: "connectsite",
     enableMsgpackParserAllGames: false,
     enableMsgpackParserOnNotification: false,
     websocket: {
-        proxyPath: "baccaratx",
+        proxyPath: "bac81",
         route: "baccaratx",
     },
-    mainObserverNamespace: "BaccaratX",
+    mainObserverNamespace: "Bac81",
     tolgeeUrl: "",
-    storagePrefixKey: "baccaratx",
+    storagePrefixKey: "bac81",
 };
 
 let configDev = {

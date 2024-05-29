@@ -5576,6 +5576,8 @@
       "__uuid__": "1300662a-2d9e-445e-9a12-b3bc8170d813",
       "__expectedType__": "cc.Prefab"
     },
+    "minCSNumber": 300,
+    "maxCSNumber": 350,
     "_id": "a2P6zbFPhBwoFnhCXLY5PX"
   },
   {
@@ -5587,7 +5589,7 @@
       "__id__": 2
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 221

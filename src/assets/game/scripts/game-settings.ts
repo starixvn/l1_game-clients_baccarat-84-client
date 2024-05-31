@@ -8,6 +8,7 @@ export const settings = {
     name: "Bac81",
     durations: {
         wholeRound: 48,
+        wholeShoe: 68,
         lockingBet: 3,
         placingBet: 30,
         generatingResult: 7,

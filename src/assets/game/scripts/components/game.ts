@@ -1,20 +1,77 @@
-import { _decorator } from "cc";
+import gc from "@sg/game-client-base";
+import { _decorator, Node } from "cc";
 import { startGame } from "db://shared-components/shared/scripts/startup";
 import Observer from "observer";
 
+import { CardModel, convertRank } from "../../../../extensions/shared-components/assets/game/poker-cards/scripts/poker-card";
 import GameComponent from "../../../../extensions/shared-components/assets/game/scripts/components/game-component";
 import { siteConfigs } from "../../../scripts/site-configs";
 import { containerOptions, settings } from "../game-settings";
 import "./../../../resources/i18n";
+import { BaccaratXCards } from "./baccarat-x-cards";
 
 startGame(settings.name, containerOptions, siteConfigs);
+const { Rounds, Connection, HideGame, Settlements, FormatUtils, RoundHistories } = gc;
 
-const { ccclass } = _decorator;
-const { observer } = Observer;
+const { ccclass, property } = _decorator;
+const { observer, render } = Observer;
+
+export interface TeamInfo {
+    score: number;
+    cards: CardModel[];
+}
 
 @ccclass
 @observer(settings.name)
 export default class Game extends GameComponent {
     override namespace = settings.name;
     override containerOptions = containerOptions;
+
+    @property(Node)
+    cardSection: Node[] = [];
+
+    async showResult(
+        result: gc.GameServiceMessage.TResult,
+        hasAnimation: boolean,
+        settlementResult: gc.GameServiceMessage.TSettlementResult
+    ) {
+        if (result) {
+            const infoTeams = [];
+            Object.keys(result).forEach((team) => {
+                if (team === "player" || team === "banker") {
+                    infoTeams.push(this.setResultTeam(result[team]));
+                }
+            });
+            infoTeams.forEach((team, index) => {
+                console.log("cardSection", this.cardSection[index]);
+                const card = this.cardSection[index].getComponent(BaccaratXCards);
+                card.faceUpCard(team.cards);
+                card.setScore(team.score);
+            });
+        }
+    }
+
+    setResultTeam(team: any) {
+        let teamInfo: TeamInfo = { score: 0, cards: [] };
+        if (team) {
+            const cards = [];
+            cards.push({ rank: convertRank(team.card1.rank), suit: team.card1.suit });
+            cards.push({ rank: convertRank(team.card2.rank), suit: team.card2.suit });
+            if (team.card3) {
+                cards.push({ rank: convertRank(team.card3.rank), suit: team.card3.suit });
+            }
+            teamInfo.cards = cards;
+        }
+        teamInfo.score = team.score;
+        return teamInfo;
+    }
+
+    @render(Rounds.RoundTimeStore, (store) => store.isStartingRound)
+    closeCards() {
+        this.cardSection.forEach((card) => {
+            const comp = card.getComponent(BaccaratXCards);
+            comp.showScore(false);
+            comp.faceDownCard();
+        });
+    }
 }

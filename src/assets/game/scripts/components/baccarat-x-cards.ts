@@ -1,13 +1,14 @@
-import { Component, Label, Node, Prefab, _decorator, instantiate } from "cc";
+import { Label, Node, Prefab, _decorator, instantiate } from "cc";
 import Observer from "observer";
 import { FairnessCard } from "../../../../extensions/shared-components/assets/game/poker-cards/scripts/fairness-card";
 import { CardModel } from "../../../../extensions/shared-components/assets/game/poker-cards/scripts/poker-card";
+import { ObserverComponent } from "../../../../extensions/shared-components/assets/shared/common-components/observer-component/scripts/observer-component";
 
 const { ccclass, property } = _decorator;
 const { render, handle } = Observer;
 
 @ccclass
-export class BaccaratXCards extends Component {
+export class BaccaratXCards extends ObserverComponent {
     @property(Prefab)
     prfCard: Prefab = null;
 
@@ -20,9 +21,8 @@ export class BaccaratXCards extends Component {
     @property(Node)
     nodeScore: Node = null;
 
-    onLoad() {
-        this.renderCards();
-    }
+    @property(Node)
+    nodeCard3: Node = null;
 
     renderCards() {
         this.cards.forEach((card) => {
@@ -36,6 +36,9 @@ export class BaccaratXCards extends Component {
             const cardComponent = card?.children[0]?.getComponent(FairnessCard);
             cardComponent.card.setCard(cards[index]);
             cardComponent.card.openCard();
+            if (cards.length > 2) {
+                this.showCard3(true);
+            }
         });
     }
 
@@ -53,5 +56,9 @@ export class BaccaratXCards extends Component {
 
     showScore(isShow: boolean) {
         this.nodeScore.active = isShow;
+    }
+
+    showCard3(isShow: boolean) {
+        this.nodeCard3.active = isShow;
     }
 }

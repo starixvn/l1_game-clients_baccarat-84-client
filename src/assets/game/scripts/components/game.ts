@@ -44,9 +44,12 @@ export default class Game extends GameComponent {
             });
             infoTeams.forEach((team, index) => {
                 console.log("cardSection", this.cardSection[index]);
-                const card = this.cardSection[index].getComponent(BaccaratXCards);
-                card.faceUpCard(team.cards);
-                card.setScore(team.score);
+                const comp = this.cardSection[index].getComponent(BaccaratXCards);
+                if (comp.cards[0].children.length === 0) {
+                    comp.renderCards();
+                }
+                comp.faceUpCard(team.cards);
+                comp.setScore(team.score);
             });
         }
     }
@@ -70,7 +73,11 @@ export default class Game extends GameComponent {
     closeCards() {
         this.cardSection.forEach((card) => {
             const comp = card.getComponent(BaccaratXCards);
+            if (comp.cards[0].children.length === 0) {
+                comp.renderCards();
+            }
             comp.showScore(false);
+            comp.showCard3(false);
             comp.faceDownCard();
         });
     }

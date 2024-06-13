@@ -9,6 +9,7 @@ import { siteConfigs } from "../../../scripts/site-configs";
 import { containerOptions, settings } from "../game-settings";
 import "./../../../resources/i18n";
 import { BaccaratXCards } from "./baccarat-x-cards";
+import { MultiplierCards } from "./multiplier-cards";
 
 startGame(settings.name, containerOptions, siteConfigs);
 const { Rounds, Connection, HideGame, Settlements, FormatUtils, RoundHistories } = gc;
@@ -29,6 +30,9 @@ export default class Game extends GameComponent {
 
     @property(Node)
     cardSection: Node[] = [];
+
+    @property(Node)
+    nodeMultiplierCards: Node = null;
 
     async showResult(
         result: gc.GameServiceMessage.TResult,
@@ -80,5 +84,6 @@ export default class Game extends GameComponent {
             comp.showCard3(false);
             comp.faceDownCard();
         });
+        this.nodeMultiplierCards.getComponent(MultiplierCards).showMultiplierCards(false);
     }
 }

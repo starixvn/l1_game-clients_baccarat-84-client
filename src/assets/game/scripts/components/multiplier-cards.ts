@@ -28,6 +28,11 @@ export class MultiplierCards extends ObserverComponent {
         this.showMultiplierCards(true);
     }
 
+    @render(gc.Rounds.RoundTimeStore, (store) => store.isStartingRound)
+    hideCards() {
+        this.showMultiplierCards(false);
+    }
+
     showMultiplierCards(isShow: boolean) {
         this.content.active = isShow;
     }

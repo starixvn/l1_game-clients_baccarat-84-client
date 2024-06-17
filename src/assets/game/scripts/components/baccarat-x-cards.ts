@@ -1,7 +1,7 @@
 import { Label, Node, Prefab, _decorator, instantiate } from "cc";
 import Observer from "observer";
 import { FairnessCard } from "../../../../extensions/shared-components/assets/game/poker-cards/scripts/fairness-card";
-import { CardModel } from "../../../../extensions/shared-components/assets/game/poker-cards/scripts/poker-card";
+import { ServiceCard } from "../../../../extensions/shared-components/assets/game/poker-cards/scripts/poker-card";
 import { ObserverComponent } from "../../../../extensions/shared-components/assets/shared/common-components/observer-component/scripts/observer-component";
 
 const { ccclass, property } = _decorator;
@@ -13,38 +13,40 @@ export class BaccaratXCards extends ObserverComponent {
     prfCard: Prefab = null;
 
     @property(Node)
-    cards: Node[] = [];
+    cardContainer: Node = null;
 
     @property(Label)
     lblScore: Label = null;
 
-    @property(Node)
-    nodeScore: Node = null;
+    private initialized = false;
+    cards: FairnessCard[] = [];
 
-    @property(Node)
-    nodeCard3: Node = null;
+    initCards() {
+        if (this.initialized) {
+            return;
+        }
 
-    renderCards() {
-        this.cards.forEach((card) => {
+        this.initialized = true;
+        this.cardContainer.children.forEach((card) => {
             const node = instantiate(this.prfCard);
             card.addChild(node);
+
+            this.cards.push(node.getComponent(FairnessCard));
         });
     }
 
-    faceUpCard(cards: CardModel[]) {
-        this.cards.forEach((card, index) => {
-            const cardComponent = card?.children[0]?.getComponent(FairnessCard);
-            cardComponent.card.setCard(cards[index]);
+    faceUpCard(serviceCards: ServiceCard[]) {
+        this.cards.forEach((cardComponent, index) => {
+            cardComponent.card.setServiceCard(serviceCards[index]);
             cardComponent.card.openCard();
-            if (cards.length > 2) {
+            if (serviceCards.length > 2) {
                 this.showCard3(true);
             }
         });
     }
 
     faceDownCard() {
-        this.cards.forEach((card, index) => {
-            const cardComponent = card?.children[0]?.getComponent(FairnessCard);
+        this.cards.forEach((cardComponent, index) => {
             cardComponent.card.faceDown();
         });
     }
@@ -55,10 +57,10 @@ export class BaccaratXCards extends ObserverComponent {
     }
 
     showScore(isShow: boolean) {
-        this.nodeScore.active = isShow;
+        this.lblScore.node.parent.active = isShow;
     }
 
     showCard3(isShow: boolean) {
-        this.nodeCard3.active = isShow;
+        this.cards[2].node.active = isShow;
     }
 }

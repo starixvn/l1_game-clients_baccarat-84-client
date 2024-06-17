@@ -47,7 +47,6 @@ export default class Game extends GameComponent {
                 }
             });
             infoTeams.forEach((team, index) => {
-                console.log("cardSection", this.cardSection[index]);
                 const comp = this.cardSection[index].getComponent(BaccaratXCards);
                 if (comp.cards[0].children.length === 0) {
                     comp.renderCards();

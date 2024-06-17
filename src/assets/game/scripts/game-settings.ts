@@ -24,5 +24,5 @@ export const containerOptions: gc.IContainerOptions = {
         container.bind(gc.GameConfigs.GameSetting).toConstantValue(settings);
         container.bind(LogStore).to(LogStore);
     },
-    features: [gc.CutCardPF, gc.GameBaccaratX, ...gc.defaultFeatures],
+    features: [gc.CutCardPF, gc.BetDetailsNew, gc.GameBaccaratX, ...gc.defaultFeatures],
 };

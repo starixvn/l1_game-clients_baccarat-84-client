@@ -236,12 +236,12 @@ export class BaccaratXCardsUI extends ObserverComponent {
         if (this.cards.length === 0) {
             await this.initCards();
         }
-        for (const data of dataCards) {
+        for (const [dataIndex, data] of dataCards.entries()) {
             if (data) {
                 const card = this.cards[index];
                 card.setCardData(data);
                 if (index > 3) {
-                    const newLocation = index === 4 ? CardLocation.Player3 : CardLocation.Banker3;
+                    const newLocation = dataIndex === 4 ? CardLocation.Player3 : CardLocation.Banker3;
                     await this.moveCard(card.node, newLocation, animated);
                     // update remove from waiting cards
                     const item = this.cardPool.find((item) => item.card === card);

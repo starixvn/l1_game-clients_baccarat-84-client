@@ -218,7 +218,7 @@ export class BaccaratXCardsUI extends ObserverComponent {
     @render(GameBaccaratX.Shoe.ShoeStore, (store) => store.shoeInfo)
     renderShoeInfo(shoeInfo: gc.GameServiceMessage.ShoeInfo) {
         if (shoeInfo) {
-            this.currentCardIndex = shoeInfo.currentIndex;
+            this.currentCardIndex = shoeInfo.currentIndex ?? shoeInfo.burnedCards;
             console.log(`received current index`, this.currentCardIndex);
         }
     }

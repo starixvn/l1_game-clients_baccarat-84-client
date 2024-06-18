@@ -1,7 +1,5 @@
-import { Label, Node, Prefab, _decorator, instantiate } from "cc";
+import { Label, Node, Prefab, _decorator } from "cc";
 import Observer from "observer";
-import { FairnessCard } from "../../../../extensions/shared-components/assets/game/poker-cards/scripts/fairness-card";
-import { ServiceCard } from "../../../../extensions/shared-components/assets/game/poker-cards/scripts/poker-card";
 import { ObserverComponent } from "../../../../extensions/shared-components/assets/shared/common-components/observer-component/scripts/observer-component";
 
 const { ccclass, property } = _decorator;
@@ -18,37 +16,8 @@ export class BaccaratXCards extends ObserverComponent {
     @property(Label)
     lblScore: Label = null;
 
-    private initialized = false;
-    cards: FairnessCard[] = [];
-
-    initCards() {
-        if (this.initialized) {
-            return;
-        }
-
-        this.initialized = true;
-        this.cardContainer.children.forEach((card) => {
-            const node = instantiate(this.prfCard);
-            card.addChild(node);
-
-            this.cards.push(node.getComponent(FairnessCard));
-        });
-    }
-
-    faceUpCard(serviceCards: ServiceCard[]) {
-        this.cards.forEach((cardComponent, index) => {
-            cardComponent.card.setServiceCard(serviceCards[index]);
-            cardComponent.card.openCard();
-            if (serviceCards.length > 2) {
-                this.showCard3(true);
-            }
-        });
-    }
-
-    faceDownCard() {
-        this.cards.forEach((cardComponent, index) => {
-            cardComponent.card.faceDown();
-        });
+    getCardLocation(index: number) {
+        return this.cardContainer.children[index];
     }
 
     setScore(score: number) {
@@ -58,9 +27,5 @@ export class BaccaratXCards extends ObserverComponent {
 
     showScore(isShow: boolean) {
         this.lblScore.node.parent.active = isShow;
-    }
-
-    showCard3(isShow: boolean) {
-        this.cards[2].node.active = isShow;
     }
 }

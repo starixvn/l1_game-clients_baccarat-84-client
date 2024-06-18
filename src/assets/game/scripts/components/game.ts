@@ -35,6 +35,8 @@ export default class Game extends GameComponent {
 
     baccaratXCardsUi: BaccaratXCardsUI = null;
 
+    protected enableFixHandleFinish = true;
+
     onLoad() {
         this.baccaratXCardsUi = this.nodeBaccaratCardsUi.getComponent(BaccaratXCardsUI);
         super.onLoad();
@@ -46,7 +48,25 @@ export default class Game extends GameComponent {
         settlementResult: gc.GameServiceMessage.TSettlementResult
     ) {
         if (result) {
-            this.baccaratXCardsUi.openCards(result as any);
+            await this.baccaratXCardsUi.openCards(result as any, hasAnimation);
         }
+    }
+
+    @render(RoundHistories.RoundHistoryStore, (store) => store.firstJoinGameHistory)
+    async renderStaticResult(firstJoinGameHistory: gc.RoundHistories.IFirstJoinGameHistory) {
+        if (!firstJoinGameHistory) {
+            return;
+        }
+        const lastRound = firstJoinGameHistory.roundHistory;
+        if (lastRound) {
+            const { result, settlementResult } = lastRound;
+            const animated = firstJoinGameHistory.animationHighlight;
+            if (animated) {
+                await this.showResult(result, false, settlementResult);
+                return;
+            }
+        }
+
+        await this.baccaratXCardsUi.initCards();
     }
 }

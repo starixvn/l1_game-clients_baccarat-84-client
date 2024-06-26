@@ -57,6 +57,7 @@ export default class Game extends GameComponent {
         if (!firstJoinGameHistory) {
             return;
         }
+        console.log(`receive first join game `, firstJoinGameHistory);
         const lastRound = firstJoinGameHistory.roundHistory;
         if (lastRound) {
             const { result, settlementResult } = lastRound;
@@ -68,5 +69,6 @@ export default class Game extends GameComponent {
         }
 
         await this.baccaratXCardsUi.initCards();
+        await this.baccaratXCardsUi.draw6Cards(false);
     }
 }

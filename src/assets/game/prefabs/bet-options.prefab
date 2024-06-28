@@ -454,7 +454,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -107.294,
+      "x": 15.518,
       "y": 50.974,
       "z": 0
     },
@@ -495,12 +495,12 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 120.8349609375,
+      "width": 145.8837890625,
       "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 1,
       "y": 0.5
     },
     "_id": ""
@@ -531,7 +531,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "PLAYER",
+    "_string": "NHÀ CON",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 30,
@@ -618,7 +618,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 44.797,
+      "x": 29.119,
       "y": 48.905,
       "z": 0
     },
@@ -939,9 +939,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 252,
-      "g": 236,
-      "b": 121,
+      "r": 255,
+      "g": 204,
+      "b": 0,
       "a": 255
     },
     "_string": "200",
@@ -1191,7 +1191,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -268.762,
-      "y": 96.597,
+      "y": 118.808,
       "z": 0
     },
     "_lrot": {
@@ -2027,7 +2027,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -84.062,
+      "x": 41.362,
       "y": 50.974,
       "z": 0
     },
@@ -2068,12 +2068,12 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 128.5986328125,
+      "width": 133.2421875,
       "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 1,
       "y": 0.5
     },
     "_id": ""
@@ -2104,7 +2104,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "BANKER",
+    "_string": "NHÀ CÁI",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 30,
@@ -2210,7 +2210,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 78.085,
+      "x": 55.874,
       "y": 48.762,
       "z": 0
     },
@@ -2460,7 +2460,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 16.787,
-      "y": 105.027,
+      "y": 102.414,
       "z": 0
     },
     "_lrot": {
@@ -2531,9 +2531,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 252,
-      "g": 236,
-      "b": 121,
+      "r": 255,
+      "g": 204,
+      "b": 0,
       "a": 255
     },
     "_string": "200",
@@ -2783,7 +2783,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 195.521,
-      "y": 94.183,
+      "y": 116.394,
       "z": 0
     },
     "_lrot": {
@@ -3611,7 +3611,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -42.984,
+      "x": 7.104,
       "y": 28.248,
       "z": 0
     },
@@ -3652,12 +3652,12 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 40.95703125,
+      "width": 56.1328125,
       "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 1,
       "y": 0.5
     },
     "_id": ""
@@ -3710,7 +3710,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "TIE",
+    "_string": "HÒA",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 24,
@@ -4096,9 +4096,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 252,
-      "g": 236,
-      "b": 121,
+      "r": 255,
+      "g": 204,
+      "b": 0,
       "a": 255
     },
     "_string": "200",
@@ -5151,7 +5151,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 16.279,
+      "x": 165.221,
       "y": 23.521,
       "z": 0
     },
@@ -5192,12 +5192,12 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 148.2099609375,
+      "width": 98.076171875,
       "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 1,
       "y": 0.5
     },
     "_id": ""
@@ -5228,7 +5228,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "PLAYER PAIR",
+    "_string": "CON ĐÔI",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 22,
@@ -5334,7 +5334,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 189.859,
+      "x": 184.633,
       "y": 22.758,
       "z": 0
     },
@@ -5584,7 +5584,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 121.252,
-      "y": 60.145,
+      "y": 58.261,
       "z": 0
     },
     "_lrot": {
@@ -5655,9 +5655,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 252,
-      "g": 236,
-      "b": 121,
+      "r": 255,
+      "g": 204,
+      "b": 0,
       "a": 255
     },
     "_string": "200",
@@ -6401,7 +6401,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -237.835,
+      "x": -86.28,
       "y": 15.105,
       "z": 0
     },
@@ -6442,12 +6442,12 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 153.9033203125,
+      "width": 88.8056640625,
       "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 1,
       "y": 0.5
     },
     "_id": ""
@@ -6478,7 +6478,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "BANKER PAIR",
+    "_string": "CÁI ĐÔI",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 22,
@@ -6565,7 +6565,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -59.95,
+      "x": -69.096,
       "y": 14.484,
       "z": 0
     },
@@ -6815,7 +6815,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -136.699,
-      "y": 52.213,
+      "y": 50.329,
       "z": 0
     },
     "_lrot": {
@@ -6886,9 +6886,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 252,
-      "g": 236,
-      "b": 121,
+      "r": 255,
+      "g": 204,
+      "b": 0,
       "a": 255
     },
     "_string": "200",
@@ -7289,7 +7289,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 7.839,
-      "y": -124.423,
+      "y": -102.212,
       "z": 0
     },
     "_lrot": {

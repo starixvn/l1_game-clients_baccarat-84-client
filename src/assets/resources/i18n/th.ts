@@ -169,6 +169,8 @@ export const languages = {
         "glossary_option_player": "ผู้เล่น",
         "glossary_option_tie": "เสมอ",
         "multiplierpayouts_multiplier": "ตัวคูณ",
+        "scoreboard_banker_pair": "เจ้ามือคู่",
+        "scoreboard_player_pair": "ผู้เล่นคู่",
         "submit_button": "ตกลง",
         "table": "โต๊ะ"
     }

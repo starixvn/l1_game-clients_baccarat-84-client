@@ -169,6 +169,8 @@ export const languages = {
         "glossary_option_player": "玩家",
         "glossary_option_tie": "平局",
         "multiplierpayouts_multiplier": "乘數",
+        "scoreboard_banker_pair": "莊對子",
+        "scoreboard_player_pair": "閒對子",
         "submit_button": "提交",
         "table": "桌子"
     }

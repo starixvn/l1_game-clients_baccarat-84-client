@@ -187,6 +187,8 @@ export const languages = {
         "multiplierpayouts_game_name": "Fortune Baccarat",
         "multiplierpayouts_lucky_card": "Lucky Cards",
         "multiplierpayouts_multiplier": "Multiplier",
+        "scoreboard_banker_pair": "B. Pair",
+        "scoreboard_player_pair": "P. Pair",
         "shoe_result": "Shoe Result",
         "shoe_result SHA256": "Shoe Result SHA256",
         "shuffling_cards": "Shuffling",

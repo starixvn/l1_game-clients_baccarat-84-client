@@ -169,6 +169,8 @@ export const languages = {
         "glossary_option_player": "Pemain",
         "glossary_option_tie": "Seri",
         "multiplierpayouts_multiplier": "Pengali",
+        "scoreboard_banker_pair": "B. Pair",
+        "scoreboard_player_pair": "P. Pair",
         "submit_button": "KIRIMKAN",
         "table": "Meja"
     }

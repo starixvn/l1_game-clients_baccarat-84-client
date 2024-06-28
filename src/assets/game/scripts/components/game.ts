@@ -57,18 +57,19 @@ export default class Game extends GameComponent {
         if (!firstJoinGameHistory) {
             return;
         }
-        console.log(`receive first join game `, firstJoinGameHistory);
+        console.log(`receive first join game `, firstJoinGameHistory.roundTime);
+        console.log(`firstjoin draw 6 cards`);
+        await this.baccaratXCardsUi.initCards();
+        await this.baccaratXCardsUi.draw6Cards(false);
         const lastRound = firstJoinGameHistory.roundHistory;
         if (lastRound) {
             const { result, settlementResult } = lastRound;
             const animated = firstJoinGameHistory.animationHighlight;
             if (animated) {
+                console.log(`firstjoin show result`);
                 await this.showResult(result, false, settlementResult);
                 return;
             }
         }
-
-        await this.baccaratXCardsUi.initCards();
-        await this.baccaratXCardsUi.draw6Cards(false);
     }
 }

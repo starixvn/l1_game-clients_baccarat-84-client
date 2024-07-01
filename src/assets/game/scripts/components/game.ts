@@ -14,7 +14,7 @@ startGame(settings.name, containerOptions, siteConfigs);
 const { Rounds, Connection, HideGame, Settlements, FormatUtils, RoundHistories, GameBaccaratX } = gc;
 
 const { ccclass, property } = _decorator;
-const { observer, render } = Observer;
+const { observer, render, handle } = Observer;
 
 export interface TeamInfo {
     score: number;
@@ -48,7 +48,7 @@ export default class Game extends GameComponent {
         settlementResult: gc.GameServiceMessage.TSettlementResult
     ) {
         if (result) {
-            await this.baccaratXCardsUi.openCards(result as any, hasAnimation);
+            await this.baccaratXCardsUi.openCards(result as any, settlementResult, hasAnimation);
         }
     }
 
@@ -57,19 +57,23 @@ export default class Game extends GameComponent {
         if (!firstJoinGameHistory) {
             return;
         }
-        console.log(`receive first join game `, firstJoinGameHistory.roundTime);
-        console.log(`firstjoin draw 6 cards`);
         await this.baccaratXCardsUi.initCards();
         await this.baccaratXCardsUi.draw6Cards(false);
         const lastRound = firstJoinGameHistory.roundHistory;
+
         if (lastRound) {
+            this.parseOddsMultipliers(lastRound);
             const { result, settlementResult } = lastRound;
             const animated = firstJoinGameHistory.animationHighlight;
             if (animated) {
-                console.log(`firstjoin show result`);
                 await this.showResult(result, false, settlementResult);
                 return;
             }
         }
+    }
+
+    @handle(GameBaccaratX.Multiplier.BaccaratMultipliersHandler, (handler, lastRound) => handler.parseOddsMultiplers(lastRound))
+    parseOddsMultipliers(lastRound) {
+        return lastRound;
     }
 }

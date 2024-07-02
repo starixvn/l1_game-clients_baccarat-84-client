@@ -165,9 +165,12 @@ export const languages = {
     },
     "BaccaratX": {
         "don't_show_again": "Jangan tampilkan lagi",
+        "glossary_banker": "Banker",
         "glossary_option_banker": "Banker",
         "glossary_option_player": "Pemain",
         "glossary_option_tie": "Seri",
+        "glossary_player": "Pemain",
+        "glossary_tie": "Seri",
         "multiplierpayouts_multiplier": "Pengali",
         "scoreboard_banker_pair": "B. Pair",
         "scoreboard_player_pair": "P. Pair",

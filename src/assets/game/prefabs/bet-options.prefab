@@ -711,7 +711,7 @@
     "__prefab": {
       "__id__": 27
     },
-    "key": "BaccaratX.glossary_option_player",
+    "key": "BaccaratX.glossary_player",
     "format": 1,
     "prefix": "",
     "suffix": "",
@@ -2303,7 +2303,7 @@
     "__prefab": {
       "__id__": 97
     },
-    "key": "BaccaratX.glossary_option_banker",
+    "key": "BaccaratX.glossary_banker",
     "format": 1,
     "prefix": "",
     "suffix": "",
@@ -3615,7 +3615,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -0.08,
-      "y": 35.05,
+      "y": -2.563,
       "z": 0
     },
     "_lrot": {
@@ -3820,7 +3820,7 @@
     "__prefab": {
       "__id__": 163
     },
-    "key": "BaccaratX.glossary_option_tie",
+    "key": "BaccaratX.glossary_tie",
     "format": 1,
     "prefix": "",
     "suffix": "",

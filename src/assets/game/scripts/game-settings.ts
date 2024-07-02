@@ -6,6 +6,7 @@ import { sharedContainer } from "../../scripts/shared-container";
 export const settings = {
     id: 81,
     name: "Bac81",
+    tolgeeNamespace: "BaccaratX",
     durations: {
         wholeRound: 48,
         wholeShoe: 88,

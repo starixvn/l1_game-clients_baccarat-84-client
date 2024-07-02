@@ -165,9 +165,12 @@ export const languages = {
     },
     "BaccaratX": {
         "don't_show_again": "ไม่ต้องแสดงอีก",
+        "glossary_banker": "เจ้ามือ",
         "glossary_option_banker": "เจ้ามือ",
         "glossary_option_player": "ผู้เล่น",
         "glossary_option_tie": "เสมอ",
+        "glossary_player": "ผู้เล่น",
+        "glossary_tie": "เสมอ",
         "multiplierpayouts_multiplier": "ตัวคูณ",
         "scoreboard_banker_pair": "เจ้ามือคู่",
         "scoreboard_player_pair": "ผู้เล่นคู่",

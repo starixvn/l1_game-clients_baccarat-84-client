@@ -458,7 +458,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 15.518,
-      "y": 50.974,
+      "y": 51,
       "z": 0
     },
     "_lrot": {
@@ -2031,7 +2031,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 41.362,
-      "y": 50.974,
+      "y": 51,
       "z": 0
     },
     "_lrot": {
@@ -2463,7 +2463,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 16.787,
-      "y": 102.414,
+      "y": 106.277,
       "z": 0
     },
     "_lrot": {
@@ -2624,7 +2624,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 16.861,
-      "y": -8.994,
+      "y": -8.985,
       "z": 0
     },
     "_lrot": {
@@ -5155,7 +5155,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 165.221,
-      "y": 23.521,
+      "y": 10.543,
       "z": 0
     },
     "_lrot": {
@@ -5196,12 +5196,12 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 148.2099609375,
-      "height": 50.4
+      "height": 27.72
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 1,
-      "y": 0.5
+      "y": 0
     },
     "_id": ""
   },
@@ -5237,7 +5237,7 @@
     "_actualFontSize": 22,
     "_fontSize": 22,
     "_fontFamily": "Arial",
-    "_lineHeight": 40,
+    "_lineHeight": 22,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
@@ -5587,7 +5587,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 121.252,
-      "y": 58.261,
+      "y": 59.528,
       "z": 0
     },
     "_lrot": {
@@ -6405,7 +6405,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -86.28,
-      "y": 15.105,
+      "y": 1.901,
       "z": 0
     },
     "_lrot": {
@@ -6446,12 +6446,12 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 153.9033203125,
-      "height": 50.4
+      "height": 27.72
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 1,
-      "y": 0.5
+      "y": 0
     },
     "_id": ""
   },
@@ -6487,7 +6487,7 @@
     "_actualFontSize": 22,
     "_fontSize": 22,
     "_fontFamily": "Arial",
-    "_lineHeight": 40,
+    "_lineHeight": 22,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
@@ -6818,7 +6818,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -136.699,
-      "y": 50.329,
+      "y": 52.135,
       "z": 0
     },
     "_lrot": {

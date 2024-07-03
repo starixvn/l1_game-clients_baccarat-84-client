@@ -1616,48 +1616,6 @@
     "fileId": "47bsTT89tGw5Id8nTB4/aV"
   },
   {
-    "__type__": "f3fc1EjHDBMKqdZzkJVdwsk",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 8
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 72
-    },
-    "lblOwnBet": {
-      "__id__": 52
-    },
-    "lblTotalBet": {
-      "__id__": 44
-    },
-    "lblOdds": {
-      "__id__": 32
-    },
-    "chipBox": {
-      "__id__": 37
-    },
-    "highlightStatic": {
-      "__id__": 15
-    },
-    "highlightAnim": {
-      "__id__": 9
-    },
-    "choice": {
-      "__id__": 21
-    },
-    "lblBetPercentage": {
-      "__id__": 61
-    },
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "beNkpR4qxM/4T9ghEUMkPD"
-  },
-  {
     "__type__": "cc.PolygonCollider2D",
     "_name": "",
     "_objFlags": 0,
@@ -1667,7 +1625,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 74
+      "__id__": 72
     },
     "tag": 0,
     "_group": 1,
@@ -1782,6 +1740,48 @@
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "68B3SBsOVDIIMJgtzrazb4"
+  },
+  {
+    "__type__": "c18f829WOZECI7vFRK66rCh",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 8
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 74
+    },
+    "lblOwnBet": {
+      "__id__": 52
+    },
+    "lblTotalBet": {
+      "__id__": 44
+    },
+    "lblOdds": {
+      "__id__": 32
+    },
+    "chipBox": {
+      "__id__": 37
+    },
+    "highlightStatic": {
+      "__id__": 15
+    },
+    "highlightAnim": {
+      "__id__": 9
+    },
+    "choice": {
+      "__id__": 21
+    },
+    "lblBetPercentage": {
+      "__id__": 61
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "63UBphXslIWKRzMr6Hx4Gx"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3211,48 +3211,6 @@
     "fileId": "a2ilzKVLJJ4bxJ+og8NWYG"
   },
   {
-    "__type__": "f3fc1EjHDBMKqdZzkJVdwsk",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 76
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 142
-    },
-    "lblOwnBet": {
-      "__id__": 122
-    },
-    "lblTotalBet": {
-      "__id__": 114
-    },
-    "lblOdds": {
-      "__id__": 102
-    },
-    "chipBox": {
-      "__id__": 107
-    },
-    "highlightStatic": {
-      "__id__": 83
-    },
-    "highlightAnim": {
-      "__id__": 77
-    },
-    "choice": {
-      "__id__": 89
-    },
-    "lblBetPercentage": {
-      "__id__": 131
-    },
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "2eiYejnndNlpTXNYOGaPma"
-  },
-  {
     "__type__": "cc.PolygonCollider2D",
     "_name": "",
     "_objFlags": 0,
@@ -3262,7 +3220,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 144
+      "__id__": 142
     },
     "tag": 0,
     "_group": 1,
@@ -3372,6 +3330,48 @@
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "16nl51iHpKk4+2khZBooSz"
+  },
+  {
+    "__type__": "c18f829WOZECI7vFRK66rCh",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 76
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 144
+    },
+    "lblOwnBet": {
+      "__id__": 122
+    },
+    "lblTotalBet": {
+      "__id__": 114
+    },
+    "lblOdds": {
+      "__id__": 102
+    },
+    "chipBox": {
+      "__id__": 107
+    },
+    "highlightStatic": {
+      "__id__": 83
+    },
+    "highlightAnim": {
+      "__id__": 77
+    },
+    "choice": {
+      "__id__": 89
+    },
+    "lblBetPercentage": {
+      "__id__": 131
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "10qgiBm5hMDI6oVal3VISc"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -4779,48 +4779,6 @@
     "fileId": "dci/crZqdFZbfGFVMTQB0a"
   },
   {
-    "__type__": "f3fc1EjHDBMKqdZzkJVdwsk",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 146
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 210
-    },
-    "lblOwnBet": {
-      "__id__": 192
-    },
-    "lblTotalBet": {
-      "__id__": 182
-    },
-    "lblOdds": {
-      "__id__": 170
-    },
-    "chipBox": {
-      "__id__": 175
-    },
-    "highlightStatic": {
-      "__id__": 153
-    },
-    "highlightAnim": {
-      "__id__": 147
-    },
-    "choice": {
-      "__id__": 159
-    },
-    "lblBetPercentage": {
-      "__id__": 199
-    },
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "27nXLwsHhB4rPKzCRIYoL4"
-  },
-  {
     "__type__": "cc.PolygonCollider2D",
     "_name": "",
     "_objFlags": 0,
@@ -4830,7 +4788,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 212
+      "__id__": 210
     },
     "tag": 0,
     "_group": 1,
@@ -4915,6 +4873,48 @@
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "70pJF5M9RJ0KdaX0/lfDNc"
+  },
+  {
+    "__type__": "c18f829WOZECI7vFRK66rCh",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 146
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 212
+    },
+    "lblOwnBet": {
+      "__id__": 192
+    },
+    "lblTotalBet": {
+      "__id__": 182
+    },
+    "lblOdds": {
+      "__id__": 170
+    },
+    "chipBox": {
+      "__id__": 175
+    },
+    "highlightStatic": {
+      "__id__": 153
+    },
+    "highlightAnim": {
+      "__id__": 147
+    },
+    "choice": {
+      "__id__": 159
+    },
+    "lblBetPercentage": {
+      "__id__": 199
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "d3YalUq4JNi7uEnNyGyBVm"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -6062,46 +6062,6 @@
     "fileId": "28oeTtdKhGz5Y9d795BGkQ"
   },
   {
-    "__type__": "f3fc1EjHDBMKqdZzkJVdwsk",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 214
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 268
-    },
-    "lblOwnBet": {
-      "__id__": 260
-    },
-    "lblTotalBet": {
-      "__id__": 252
-    },
-    "lblOdds": {
-      "__id__": 240
-    },
-    "chipBox": {
-      "__id__": 245
-    },
-    "highlightStatic": {
-      "__id__": 221
-    },
-    "highlightAnim": {
-      "__id__": 215
-    },
-    "choice": {
-      "__id__": 227
-    },
-    "lblBetPercentage": null,
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "68z959wNhEuLRUmr+M/vRL"
-  },
-  {
     "__type__": "cc.PolygonCollider2D",
     "_name": "",
     "_objFlags": 0,
@@ -6111,7 +6071,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 270
+      "__id__": 268
     },
     "tag": 0,
     "_group": 1,
@@ -6171,6 +6131,46 @@
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "a5/RpdFfdFarWH2q9kSIn4"
+  },
+  {
+    "__type__": "c18f829WOZECI7vFRK66rCh",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 214
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 270
+    },
+    "lblOwnBet": {
+      "__id__": 260
+    },
+    "lblTotalBet": {
+      "__id__": 252
+    },
+    "lblOdds": {
+      "__id__": 240
+    },
+    "chipBox": {
+      "__id__": 245
+    },
+    "highlightStatic": {
+      "__id__": 221
+    },
+    "highlightAnim": {
+      "__id__": 215
+    },
+    "choice": {
+      "__id__": 227
+    },
+    "lblBetPercentage": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "d1OzovdstA5qZhN8KW3hWp"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -7296,46 +7296,6 @@
     "fileId": "0afoJiacpNapXabEI35SP3"
   },
   {
-    "__type__": "f3fc1EjHDBMKqdZzkJVdwsk",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 272
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 324
-    },
-    "lblOwnBet": {
-      "__id__": 316
-    },
-    "lblTotalBet": {
-      "__id__": 308
-    },
-    "lblOdds": {
-      "__id__": 296
-    },
-    "chipBox": {
-      "__id__": 301
-    },
-    "highlightStatic": {
-      "__id__": 279
-    },
-    "highlightAnim": {
-      "__id__": 273
-    },
-    "choice": {
-      "__id__": 285
-    },
-    "lblBetPercentage": null,
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "99r24NScJFI74oUDPcum01"
-  },
-  {
     "__type__": "cc.PolygonCollider2D",
     "_name": "",
     "_objFlags": 0,
@@ -7345,7 +7305,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 326
+      "__id__": 324
     },
     "tag": 0,
     "_group": 1,
@@ -7405,6 +7365,46 @@
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "ddEDUVYWpJhquxeSxQYn3Z"
+  },
+  {
+    "__type__": "c18f829WOZECI7vFRK66rCh",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 272
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 326
+    },
+    "lblOwnBet": {
+      "__id__": 316
+    },
+    "lblTotalBet": {
+      "__id__": 308
+    },
+    "lblOdds": {
+      "__id__": 296
+    },
+    "chipBox": {
+      "__id__": 301
+    },
+    "highlightStatic": {
+      "__id__": 279
+    },
+    "highlightAnim": {
+      "__id__": 273
+    },
+    "choice": {
+      "__id__": 285
+    },
+    "lblBetPercentage": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "d7gYbDRvtG9aa9UC5j1F8T"
   },
   {
     "__type__": "cc.PrefabInfo",

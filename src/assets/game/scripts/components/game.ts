@@ -58,19 +58,20 @@ export default class Game extends GameComponent {
             return;
         }
         await this.baccaratXCardsUi.initCards();
-        await this.baccaratXCardsUi.draw6Cards(false);
         const lastRound = firstJoinGameHistory.roundHistory;
-
         if (lastRound) {
             this.parseOddsMultipliers(lastRound);
             const { result, settlementResult } = lastRound;
             const animated = firstJoinGameHistory.animationHighlight;
             if (animated) {
                 this.baccaratXCardsUi.decreaseCardIndexForOldRound(result);
+                await this.baccaratXCardsUi.draw6Cards(false);
                 await this.showResult(result, false, settlementResult);
                 return;
             }
         }
+
+        await this.baccaratXCardsUi.draw6Cards(false);
     }
 
     @handle(GameBaccaratX.Multiplier.BaccaratMultipliersHandler, (handler, lastRound) => handler.parseOddsMultiplers(lastRound))

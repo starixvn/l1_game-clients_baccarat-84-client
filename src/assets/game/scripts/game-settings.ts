@@ -9,7 +9,7 @@ export const settings = {
     tolgeeNamespace: "BaccaratX",
     durations: {
         wholeRound: 48,
-        wholeShoe: 88,
+        wholeShoe: 68,
         lockingBet: 3,
         placingBet: 30,
         generatingResult: 7,

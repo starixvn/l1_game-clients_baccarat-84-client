@@ -260,8 +260,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 24.57,
-      "height": 16
+      "width": 30.07,
+      "height": 22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -299,10 +299,10 @@
     "_string": "2x",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16,
-    "_fontSize": 16,
+    "_actualFontSize": 22,
+    "_fontSize": 22,
     "_fontFamily": "Arial",
-    "_lineHeight": 16,
+    "_lineHeight": 22,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {

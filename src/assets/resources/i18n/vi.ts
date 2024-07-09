@@ -171,7 +171,7 @@ export const languages = {
         "fainess_settings_para_2": "Chỉ số Cut-card được tạo ra bằng cách kết hợp Server seed và Client seed.",
         "fairness_settings_client_seed_note": "(Vị trí bạn muốn chèn thẻ Cut-card)",
         "fairness_settings_para_1": "Người chơi có thể thay đổi giá trị Client seed và kiểm tra tính minh bạch của kết quả trong mục Lịch sử cược.",
-        "final_cut-card_index": "Chỉ Số Cut Card Cuối Cùng",
+        "final_cut-card_index": "Chỉ Số Cut-card Cuối Cùng",
         "final_shoe_result": "Kết Quả Hộp Bài Cuối Cùng",
         "game_name": "Baccarat Multi-X",
         "game_name_bac81": "Bac81",
@@ -194,13 +194,15 @@ export const languages = {
         "scoreboard_banker_pair": "Cái Đôi",
         "scoreboard_player_pair": "Con Đôi",
         "shoe_result": "Kết Quả Hộp Bài",
+        "show_cut-card_index": "Chỉ Số Cut-card là {cut-card index}",
         "shuffling_cards": "Xào Bài",
         "submit_button": "XÁC NHẬN",
         "submit_notes": "(Xin lưu ý rằng chỉ những giá trị được xác nhận mới được sử dụng để tính toán chỉ số Cut-card)",
         "table": "Bàn",
         "title_cut-card_index": "Chỉ Số Cut-card",
         "title_cut-card_index_settings": "Cài Đặt Chỉ Số Cut-card",
-        "waiting screen_para_2": "Nhấn vào nút bên dưới nếu bạn muốn tham gia vào quá trình tạo chỉ số Cut-card"
+        "waiting screen_para_2": "Nhấn vào nút bên dưới nếu bạn muốn tham gia vào quá trình tạo chỉ số Cut-card",
+        "waiting_screen_para_1": "Tạo Chỉ Số Cut-card"
     }
 };
 

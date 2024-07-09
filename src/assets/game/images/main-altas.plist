@@ -11,11 +11,11 @@
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{532,101}</string>
+                <string>{529,99}</string>
                 <key>spriteSourceSize</key>
-                <string>{532,103}</string>
+                <string>{529,99}</string>
                 <key>textureRect</key>
-                <string>{{109,150},{532,101}}</string>
+                <string>{{109,150},{529,99}}</string>
                 <key>textureRotated</key>
                 <true/>
             </dict>
@@ -258,7 +258,7 @@
             <key>size</key>
             <string>{512,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:52616b3e7fbfa5337dd9bc71dfade9d0:1a8f576fb8c10f57542b83fbb4c8b5de:c267e8d10c0bc09dc57664e81b0ef2af$</string>
+            <string>$TexturePacker:SmartUpdate:c842110f3abfde3c6c8980764f98071a:b839c5ee30b8e425e24969cbbcbcffa8:c267e8d10c0bc09dc57664e81b0ef2af$</string>
             <key>textureFileName</key>
             <string>main-altas.png</string>
         </dict>

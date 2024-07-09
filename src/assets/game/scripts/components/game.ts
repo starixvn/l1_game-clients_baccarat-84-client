@@ -78,16 +78,4 @@ export default class Game extends GameComponent {
     parseOddsMultipliers(lastRound) {
         return lastRound;
     }
-
-    @render(gc.GameBaccaratX.Shoe.ShoeStore, (store) => store.newShoePhase)
-    renderNewShoePhase(newShoePhase: boolean) {
-        this.setRoundIdVisibility(!newShoePhase);
-    }
-
-    setRoundIdVisibility(show: boolean) {
-        if (!this.lblRoundId) {
-            return;
-        }
-        this.lblRoundId.node.active = show;
-    }
 }

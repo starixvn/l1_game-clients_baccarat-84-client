@@ -79,25 +79,9 @@ export default class Game extends GameComponent {
         return lastRound;
     }
 
-    @render(gc.Rounds.RoundTimeStore, (store) => store.isStartingRound, { fireImmediately: false })
-    renderStartRound(isStartingRound: boolean) {
-        if (isStartingRound) {
-            this.setRoundIdVisibility(true);
-        }
-    }
-
-    @render(gc.GameBaccaratX.Shoe.ShoeStore, (store) => store.newShoeHash, { fireImmediately: false })
-    renderNewShoeHash(newShoeHash) {
-        if (newShoeHash) {
-            this.setRoundIdVisibility(false);
-        }
-    }
-
-    @render(gc.GameBaccaratX.Shoe.ShoeStore, (store) => store.shoeInfo, { fireImmediately: false })
-    renderShoeInfo(shoeInfo) {
-        if (shoeInfo && shoeInfo.new) {
-            this.setRoundIdVisibility(false);
-        }
+    @render(gc.GameBaccaratX.Shoe.ShoeStore, (store) => store.newShoePhase)
+    renderNewShoePhase(newShoePhase: boolean) {
+        this.setRoundIdVisibility(!newShoePhase);
     }
 
     setRoundIdVisibility(show: boolean) {

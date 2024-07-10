@@ -730,7 +730,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 120.8349609375,
+      "width": 145.8837890625,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -766,7 +766,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "PLAYER",
+    "_string": "NHÀ CON",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 30,
@@ -2624,7 +2624,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 128.5986328125,
+      "width": 133.2421875,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -2660,7 +2660,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "BANKER",
+    "_string": "NHÀ CÁI",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 30,
@@ -4405,7 +4405,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 40.95703125,
+      "width": 56.1328125,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -4463,7 +4463,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "TIE",
+    "_string": "HÒA",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 24,
@@ -6145,7 +6145,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 51.79150390625,
+      "x": 26.724609375,
       "y": -12.870999999999981,
       "z": 0
     },
@@ -6186,7 +6186,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 148.2099609375,
+      "width": 98.076171875,
       "height": 27.72
     },
     "_anchorPoint": {
@@ -6222,7 +6222,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "PLAYER PAIR",
+    "_string": "CON ĐÔI",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 22,
@@ -6328,7 +6328,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 71.79150390625,
+      "x": 46.724609375,
       "y": -0.6559999999999491,
       "z": 0
     },
@@ -6477,7 +6477,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 192.8369140625,
+      "width": 142.703125,
       "height": 100
     },
     "_anchorPoint": {
@@ -7715,7 +7715,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -91.9833984375,
+      "x": 29.37109375,
       "y": -12.350999999999999,
       "z": 0
     },
@@ -7756,12 +7756,12 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 153.9033203125,
+      "width": 88.8056640625,
       "height": 27.72
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 1,
       "y": 0
     },
     "_id": ""
@@ -7792,7 +7792,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "BANKER PAIR",
+    "_string": "CÁI ĐÔI",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
     "_actualFontSize": 22,
@@ -7879,7 +7879,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 81.919921875,
+      "x": 49.37109375,
       "y": 0.2319999999999709,
       "z": 0
     },
@@ -8028,7 +8028,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 183.966796875,
+      "width": 118.869140625,
       "height": 100
     },
     "_anchorPoint": {

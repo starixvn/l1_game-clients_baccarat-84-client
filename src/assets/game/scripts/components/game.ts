@@ -86,8 +86,8 @@ export default class Game extends GameComponent {
         return lastRound;
     }
 
-    @render(Settlements.SettlementStore, (store) => store.settlementResult)
-    disableWinNotice(settlementResult: any) {
-        !settlementResult && (this.nodeWinNotice.active = false);
+    @render(Rounds.RoundTimeStore, (store) => store.isStartingRound)
+    disableWinNotice(isStartingRound: boolean) {
+        isStartingRound && this.nodeWinNotice.getComponent(WinningResult).hideQuickly();
     }
 }

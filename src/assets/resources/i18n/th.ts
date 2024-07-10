@@ -13,6 +13,7 @@ export const languages = {
         "copy_failed_md5": "ฟังก์ชันคัดลอกใช้งานไม่ได้ชั่วคราว",
         "copy_successfully_md5": "คัดลอกสำเร็จ!",
         "create_nick_name": "ตั้งชื่อเล่น",
+        "details": "รายละเอียด",
         "enter_your_name": "กรอกชื่อเล่น",
         "game_excluded": "%{gameName}\n\nบัญชีของคุณไม่ได้รับอนุญาตให้เล่นเกมนี้อีกต่อไป โปรดลองเกมอื่น",
         "game_guide": "คู่มือเกม",

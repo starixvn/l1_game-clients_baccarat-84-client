@@ -13,6 +13,7 @@ export const languages = {
         "copy_failed_md5": "Fungsi salin untuk sementara tidak tersedia.",
         "copy_successfully_md5": "Salin berhasil!",
         "create_nick_name": "Buat Nama Panggilan Anda",
+        "details": "Details",
         "enter_your_name": "Masukkan nama panggilan Anda.",
         "game_excluded": "%{gameName}\n\nAkun Anda tidak lagi diizinkan untuk memainkan game ini. Silakan coba game lain.",
         "game_guide": "Panduan Permainan",

@@ -15,6 +15,7 @@ export const languages = {
         "copy_failed_md5": "Chức năng Copy tạm thời không hoạt động.",
         "copy_successfully_md5": "Copy thành công!",
         "create_nick_name": "Tạo tên nhân vật",
+        "details": "Chi tiết",
         "enter_your_name": "Nhập tên nhân vật",
         "game_excluded": "%{gameName}\n\nTài khoản của bạn hiện đang bị giới hạn, vui lòng thử các trò chơi khác.",
         "game_guide": "Hướng Dẫn",

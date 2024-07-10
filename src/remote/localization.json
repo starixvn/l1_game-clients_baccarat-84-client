@@ -1,18 +1,11 @@
 {
-    "lobbyNames": {
-        "en": "BAC81",
-        "id": "PENERBANGAN\nANTARIKSA",
-        "th": "การบินอวกาศ",
-        "vi": "BAC81",
-        "zh_cn": "航天",
-        "zh_tw": "航天"
-    },
+    "lobbyNames": {},
     "gameNames": {
-        "en": "BAC81",
-        "id": "Penerbangan Antariksa",
-        "th": "การบินอวกาศ",
-        "vi": "BAC81",
-        "zh_cn": "航天",
-        "zh_tw": "航天"
+        "en": "Baccarat Multi-X",
+        "id": "Baccarat Multi-X",
+        "th": "Baccarat Multi-X",
+        "vi": "Baccarat Multi-X",
+        "zh_cn": "Baccarat Multi-X",
+        "zh_tw": "Baccarat Multi-X"
     }
 }

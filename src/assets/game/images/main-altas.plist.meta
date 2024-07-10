@@ -7,6 +7,52 @@
     ".json"
   ],
   "subMetas": {
+    "b2502": {
+      "importer": "sprite-frame",
+      "uuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc@b2502",
+      "displayName": "",
+      "id": "b2502",
+      "name": "bg-multiplier",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 413,
+        "trimY": 143,
+        "width": 76,
+        "height": 35,
+        "rawWidth": 76,
+        "rawHeight": 35,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "c23f0": {
       "importer": "sprite-frame",
       "uuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc@c23f0",
@@ -167,52 +213,6 @@
         "borderBottom": 0,
         "borderLeft": 115,
         "borderRight": 106,
-        "packable": true,
-        "pixelsToUnit": 100,
-        "pivotX": 0.5,
-        "pivotY": 0.5,
-        "meshType": 0,
-        "vertices": {
-          "rawPosition": [],
-          "indexes": [],
-          "uv": [],
-          "nuv": [],
-          "minPos": [],
-          "maxPos": []
-        },
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
-        "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
-      },
-      "ver": "1.0.12",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
-    "b2502": {
-      "importer": "sprite-frame",
-      "uuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc@b2502",
-      "displayName": "",
-      "id": "b2502",
-      "name": "bg-multiplier",
-      "userData": {
-        "trimType": "auto",
-        "trimThreshold": 1,
-        "rotated": true,
-        "offsetX": 0,
-        "offsetY": 0,
-        "trimX": 413,
-        "trimY": 143,
-        "width": 76,
-        "height": 35,
-        "rawWidth": 76,
-        "rawHeight": 35,
-        "borderTop": 0,
-        "borderBottom": 0,
-        "borderLeft": 0,
-        "borderRight": 0,
         "packable": true,
         "pixelsToUnit": 100,
         "pivotX": 0.5,

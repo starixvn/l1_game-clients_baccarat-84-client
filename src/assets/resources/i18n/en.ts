@@ -2,7 +2,6 @@ const win = window as any;
 export const languages = {
     "Common": {
         "Loss": "Loss",
-        "Win/Loss": "Win/Loss",
         "back": "Back",
         "bet_amount_of_any_choice_incorrect": "Invalid Bet Amount",
         "bet_choice": "Bet Choice",
@@ -165,6 +164,7 @@ export const languages = {
         "under_maintenance_suggest": "Please kindly re-login to continue playing games after the maintenance is complete.",
         "under_maintenance_time": "Starting from %{startTime} to %{endTime} (GMT+8)",
         "win": "Win",
+        "win_loss": "Win Loss",
         "you_reach_max_win": "You reached the max win"
     },
     "BaccaratX": {

@@ -200,14 +200,18 @@ export const languages = {
         "scoreboard_banker_pair": "Cái Đôi",
         "scoreboard_player_pair": "Con Đôi",
         "shoe_result": "Kết Quả Hộp Bài",
+        "shoe_result SHA256": "Kết Quả Hộp Bài SHA256",
         "show_cut-card_index": "Chỉ Số Cut-card là {cut-card index}",
         "shuffling_cards": "Xào Bài",
+        "submission_fail": "Gửi không thành công, vui lòng thử lại.",
+        "submission_sucessful": "Gửi Thành Công!",
         "submit_button": "XÁC NHẬN",
         "submit_notes": "(Xin lưu ý rằng chỉ những giá trị được xác nhận mới được sử dụng để tính toán chỉ số Cut-card)",
         "table": "Bàn",
         "tie_win": "HÒA!",
         "title_cut-card_index": "Chỉ Số Cut-card",
         "title_cut-card_index_settings": "Cài Đặt Chỉ Số Cut-card",
+        "title_fairness_guides": "Hướng Dẫn Kiểm Tra Công Bằng",
         "waiting screen_para_2": "Nhấn vào nút bên dưới nếu bạn muốn tham gia vào quá trình tạo chỉ số Cut-card",
         "waiting_screen_para_1": "Tạo Chỉ Số Cut-card"
     }

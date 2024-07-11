@@ -205,12 +205,15 @@ export const languages = {
         "shoe_result SHA256": "Shoe Result SHA256",
         "show_cut-card_index": "The cut-card index is {cut-card index}",
         "shuffling_cards": "Shuffling",
+        "submission_fail": "Submission failed, please try again.",
+        "submission_sucessful": "Submission Successful!",
         "submit_button": "Submit",
         "submit_notes": "(Please note that only the submitted value is used to calculate the final Cut-card index) ",
         "table": "Table",
         "tie_win": "Tie",
         "title_cut-card_index": "Cut-card Index",
         "title_cut-card_index_settings": "Cut-card Index Settings",
+        "title_fairness_guides": "Fairness Guides",
         "waiting screen_para_2": "Click the button below if you would like to contribute to the cut-card index generation",
         "waiting_screen_para_1": "Generating the Cut-card Index"
     }

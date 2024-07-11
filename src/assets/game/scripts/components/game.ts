@@ -67,10 +67,10 @@ export default class Game extends GameComponent {
         await this.baccaratXCardsUi.initCards();
         const lastRound = firstJoinGameHistory.roundHistory;
         if (lastRound) {
-            this.parseOddsMultipliers(lastRound);
             const { result, settlementResult } = lastRound;
             const animated = firstJoinGameHistory.animationHighlight;
             if (animated) {
+                this.parseOddsMultipliers(lastRound);
                 this.baccaratXCardsUi.decreaseCardIndexForOldRound(result);
                 await this.baccaratXCardsUi.draw6Cards(false);
                 await this.showResult(result, false, settlementResult);

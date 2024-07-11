@@ -91,8 +91,8 @@ export default class Game extends GameComponent {
         isStartingRound && this.nodeWinNotice.getComponent(WinningResult).hideQuickly();
     }
 
-    @render(GameBaccaratX.Shoe.ShoeStore, (store) => store.newShoeHash)
-    disableWinNotice1(newShoeHash: any) {
-        newShoeHash && this.nodeWinNotice.getComponent(WinningResult).hideQuickly();
+    @render(GameBaccaratX.Shoe.ShoeStore, (store) => store.newShoePhase)
+    disableWinNotice1(newShoePhase: boolean) {
+        newShoePhase && this.nodeWinNotice.getComponent(WinningResult).hideQuickly();
     }
 }

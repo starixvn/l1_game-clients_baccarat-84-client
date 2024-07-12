@@ -226,7 +226,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 542.2948369565216,
+    "_orthoHeight": 456.5449275362319,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -2159,8 +2159,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 23.989,
-      "y": 52.294,
+      "x": 0,
+      "y": 0,
       "z": 0
     },
     "_lrot": {

@@ -203,7 +203,7 @@ export const languages = {
         "scoreboard_player_pair": "P. Pair",
         "shoe_result": "Shoe Result",
         "shoe_result SHA256": "Shoe Result SHA256",
-        "show_cut_card_index": "The cut-card index is {cut_card_index}",
+        "show_cut_card_index": "The cut-card index is %{cut_card_index}",
         "shuffling_cards": "Shuffling",
         "submission_fail": "Submission failed, please try again.",
         "submission_sucessful": "Submission Successful!",

@@ -201,7 +201,7 @@ export const languages = {
         "scoreboard_player_pair": "Con Đôi",
         "shoe_result": "Kết Quả Hộp Bài",
         "shoe_result SHA256": "Kết Quả Hộp Bài SHA256",
-        "show_cut_card_index": "Chỉ Số Cut-card là {cut_card_index}",
+        "show_cut_card_index": "Chỉ Số Cut-card là %{cut_card_index}",
         "shuffling_cards": "Xào Bài",
         "submission_fail": "Gửi không thành công, vui lòng thử lại.",
         "submission_sucessful": "Gửi Thành Công!",

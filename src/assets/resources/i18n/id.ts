@@ -165,21 +165,18 @@ export const languages = {
         "you_reach_max_win": "Anda mencapai Maksimal Menang"
     },
     "BaccaratX": {
-        "banker_win": "Banker Menang!",
         "don't_show_again": "Jangan tampilkan lagi",
         "glossary_banker": "Banker",
         "glossary_option_banker": "Banker",
-        "glossary_option_player": "Pemain",
         "glossary_option_tie": "Seri",
-        "glossary_player": "Pemain",
+        "glossary_player": "Player",
+        "glossary_player_pair": "Player Pair",
         "glossary_tie": "Seri",
         "multiplierpayouts_multiplier": "Pengali",
-        "player_win": "Player Menang!",
         "scoreboard_banker_pair": "B. Pair",
         "scoreboard_player_pair": "P. Pair",
         "submit_button": "KIRIMKAN",
-        "table": "Meja",
-        "tie_win": "Seri"
+        "table": "Meja"
     }
 };
 

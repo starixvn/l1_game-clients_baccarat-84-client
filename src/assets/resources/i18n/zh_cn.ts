@@ -165,7 +165,6 @@ export const languages = {
         "you_reach_max_win": "您达到了最大胜利"
     },
     "BaccaratX": {
-        "banker_win": "庄赢！",
         "don't_show_again": "不再显示",
         "glossary_banker": "庄家",
         "glossary_option_banker": "庄家",
@@ -174,12 +173,10 @@ export const languages = {
         "glossary_player": "玩家",
         "glossary_tie": "平局",
         "multiplierpayouts_multiplier": "乘数",
-        "player_win": "闲赢！",
         "scoreboard_banker_pair": "庄对子",
         "scoreboard_player_pair": "闲对子",
         "submit_button": "提交",
-        "table": "桌子",
-        "tie_win": "和"
+        "table": "桌子"
     }
 };
 

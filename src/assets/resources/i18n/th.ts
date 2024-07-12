@@ -165,7 +165,6 @@ export const languages = {
         "you_reach_max_win": "คุณถึงยอดชนะสูงสุด"
     },
     "BaccaratX": {
-        "banker_win": "เจ้ามือชนะ!",
         "don't_show_again": "ไม่ต้องแสดงอีก",
         "glossary_banker": "เจ้ามือ",
         "glossary_option_banker": "เจ้ามือ",
@@ -174,12 +173,10 @@ export const languages = {
         "glossary_player": "ผู้เล่น",
         "glossary_tie": "เสมอ",
         "multiplierpayouts_multiplier": "ตัวคูณ",
-        "player_win": "ผู้เล่นชนะ!",
         "scoreboard_banker_pair": "เจ้ามือคู่",
         "scoreboard_player_pair": "ผู้เล่นคู่",
         "submit_button": "ตกลง",
-        "table": "โต๊ะ",
-        "tie_win": "เสมอ"
+        "table": "โต๊ะ"
     }
 };
 

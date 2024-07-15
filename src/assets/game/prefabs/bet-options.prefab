@@ -322,7 +322,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 10.21,
+      "x": 527.108,
       "y": 2.013,
       "z": 0
     },
@@ -335,7 +335,7 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 1,
+      "x": -1,
       "y": 1,
       "z": 1
     },
@@ -454,7 +454,7 @@
       "__expectedType__": "sp.SkeletonData"
     },
     "defaultSkin": "default",
-    "defaultAnimation": "player",
+    "defaultAnimation": "player-banker-highlight",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -2367,7 +2367,7 @@
       "__expectedType__": "sp.SkeletonData"
     },
     "defaultSkin": "default",
-    "defaultAnimation": "banker",
+    "defaultAnimation": "player-banker-highlight",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -4173,7 +4173,7 @@
       "__expectedType__": "sp.SkeletonData"
     },
     "defaultSkin": "default",
-    "defaultAnimation": "tie",
+    "defaultAnimation": "tie-highlight",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -5784,7 +5784,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 7.603,
+      "x": 525.758,
       "y": 1.967,
       "z": 0
     },
@@ -5797,7 +5797,7 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 1,
+      "x": -1,
       "y": 1,
       "z": 1
     },
@@ -5834,7 +5834,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0.21399999999999864,
+      "x": 0,
       "y": -137.98000000000008,
       "z": 0
     },
@@ -5916,7 +5916,7 @@
       "__expectedType__": "sp.SkeletonData"
     },
     "defaultSkin": "default",
-    "defaultAnimation": "player-pair",
+    "defaultAnimation": "player-banker-pair-highlight",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -7346,7 +7346,7 @@
         "__id__": 324
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 330
@@ -7357,7 +7357,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -5.5,
+      "x": -5.977,
       "y": 1,
       "z": 0
     },
@@ -7393,7 +7393,7 @@
       "__id__": 323
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 325
@@ -7489,7 +7489,7 @@
       "__expectedType__": "sp.SkeletonData"
     },
     "defaultSkin": "default",
-    "defaultAnimation": "banker-pair",
+    "defaultAnimation": "player-banker-pair-highlight",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,

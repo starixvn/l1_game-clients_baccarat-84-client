@@ -1435,7 +1435,7 @@
       "__id__": 43
     },
     "asset": {
-      "__uuid__": "69ee4960-28d3-418b-b2a0-00bf72ef63c5",
+      "__uuid__": "e27b4a38-8025-4aa9-9b36-f7058ccb981c",
       "__expectedType__": "cc.Prefab"
     },
     "fileId": "e5NfEEVI5LIK7lLEjw33XT",
@@ -1447,7 +1447,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "06BqX/SkBAsLv0VFd7OIko",
+    "fileId": "0dv0jrnaxEb7mElLIAYCl9",
     "prefabRootNode": null,
     "mountedChildren": [],
     "mountedComponents": [],
@@ -2024,7 +2024,7 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": 136.9140625,
+      "x": 153.7548828125,
       "y": 0,
       "z": 0
     }
@@ -2045,7 +2045,7 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": 449.708984375,
+      "x": 483.390625,
       "y": 0,
       "z": 0
     }
@@ -2066,7 +2066,7 @@
     ],
     "value": {
       "__type__": "cc.Size",
-      "width": 601.58984375,
+      "width": 635.271484375,
       "height": 30
     }
   },
@@ -3790,7 +3790,7 @@
     "value": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -118.471,
+      "y": -198.282,
       "z": 0
     }
   },

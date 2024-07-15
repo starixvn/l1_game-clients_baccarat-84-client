@@ -1,0 +1,55 @@
+
+card.png
+size: 380,511
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: true
+  xy: 2, 154
+  size: 157, 218
+  orig: 162, 223
+  offset: 0, 5
+  index: -1
+boder
+  rotate: false
+  xy: 275, 252
+  size: 75, 105
+  orig: 80, 110
+  offset: 3, 2
+  index: -1
+empty
+  rotate: false
+  xy: 377, 508
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+front
+  rotate: false
+  xy: 222, 40
+  size: 150, 210
+  orig: 160, 220
+  offset: 5, 5
+  index: -1
+front gold
+  rotate: true
+  xy: 2, 2
+  size: 150, 210
+  orig: 160, 220
+  offset: 5, 5
+  index: -1
+overlay
+  rotate: true
+  xy: 275, 359
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 313
+  size: 196, 271
+  orig: 196, 271
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,602 @@
+{
+"skeleton": { "hash": "BAyHxuhz1Fi+k5ByemMXVCFk9nY=", "spine": "3.8.75", "x": -94.55, "y": -135.95, "width": 187.09, "height": 258.09 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "card", "parent": "root" },
+	{ "name": "bgWhiteCard", "parent": "card" },
+	{ "name": "bgBackCard", "parent": "card" },
+	{ "name": "shadowCard", "parent": "root", "x": -2.69, "y": -14.71 },
+	{ "name": "rank", "parent": "bgWhiteCard", "x": -55.2, "y": 70.94 },
+	{ "name": "largeSuit", "parent": "bgWhiteCard", "x": 66.35, "y": -94.91 },
+	{ "name": "overlay", "parent": "bgBackCard", "rotation": 180, "y": 55.33 },
+	{ "name": "smallSuit", "parent": "bgWhiteCard", "x": -55.2, "y": 26.84 },
+	{ "name": "IbICardIndex", "parent": "bgBackCard", "x": 62.71, "y": -95.17 },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "shadowCard", "bone": "shadowCard", "color": "ffffff92", "attachment": "shadow" },
+	{ "name": "boder", "bone": "bone" },
+	{ "name": "bgBackCard", "bone": "bgBackCard", "attachment": "back" },
+	{ "name": "bgWhiteCard", "bone": "bgWhiteCard" },
+	{ "name": "bgGold", "bone": "bgWhiteCard" },
+	{ "name": "path", "bone": "root", "attachment": "path" },
+	{ "name": "overlay", "bone": "overlay", "color": "ffffffaa", "attachment": "overlay", "blend": "screen" },
+	{ "name": "rank", "bone": "rank" },
+	{ "name": "largeSuit", "bone": "largeSuit" },
+	{ "name": "smallSuit", "bone": "smallSuit" },
+	{ "name": "IbICardIndex", "bone": "IbICardIndex", "attachment": "empty" }
+],
+"path": [
+	{
+		"name": "path",
+		"bones": [ "card" ],
+		"target": "path",
+		"rotateMode": "chain",
+		"rotateMix": 0
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bgGold": {
+				"front gold": { "y": -0.5, "rotation": -0.14, "width": 160, "height": 220 }
+			},
+			"shadowCard": {
+				"shadow": {
+					"x": 1.68,
+					"y": 7.81,
+					"scaleX": 0.95,
+					"scaleY": 0.95,
+					"rotation": 0.2,
+					"width": 196,
+					"height": 271
+				}
+			},
+			"IbICardIndex": {
+				"empty": { "width": 3, "height": 3 }
+			},
+			"bgWhiteCard": {
+				"front": { "y": -0.5, "rotation": -0.14, "width": 160, "height": 220 }
+			},
+			"boder": {
+				"boder": { "scaleX": 2, "scaleY": 2, "width": 80, "height": 110 }
+			},
+			"path": {
+				"path": {
+					"type": "path",
+					"closed": true,
+					"lengths": [ 95.73, 143.24, 184.79, 191.58 ],
+					"vertexCount": 12,
+					"vertices": [ 0.14, -0.05, 0.16, -0.05, -16.85, 0.04, -103.68, -0.78, -91.62, 13.23, -80.99, 25.57, -60.64, 14.03, -47.07, 8.9, -27.35, 1.45, -11.26, 0, -6.65, -0.01, -3.42, -0.02 ]
+				}
+			},
+			"largeSuit": {
+				"empty": { "width": 3, "height": 3 }
+			},
+			"rank": {
+				"empty": { "width": 3, "height": 3 }
+			},
+			"overlay": {
+				"overlay": { "y": -0.16, "width": 150, "height": 100 }
+			},
+			"smallSuit": {
+				"empty": { "width": 3, "height": 3 }
+			},
+			"bgBackCard": {
+				"back": { "width": 162, "height": 223 }
+			}
+		}
+	}
+],
+"animations": {
+	"default-back": {
+		"slots": {
+			"bgWhiteCard": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"rank": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"largeSuit": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"smallSuit": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"overlay": {
+				"color": [
+					{ "color": "ffffffee" }
+				]
+			},
+			"shadowCard": {
+				"color": [
+					{ "color": "ffffff97" }
+				]
+			}
+		},
+		"bones": {
+			"bgWhiteCard": {
+				"scale": [
+					{ "x": 0 }
+				]
+			},
+			"largeSuit": {
+				"scale": [
+					{ "x": 0 }
+				]
+			},
+			"rank": {
+				"scale": [
+					{ "x": 0 }
+				]
+			},
+			"smallSuit": {
+				"scale": [
+					{ "x": 0 }
+				]
+			}
+		}
+	},
+	"default-front": {
+		"slots": {
+			"bgWhiteCard": {
+				"attachment": [
+					{ "name": "front" }
+				]
+			},
+			"rank": {
+				"attachment": [
+					{ "name": "empty" }
+				]
+			},
+			"largeSuit": {
+				"attachment": [
+					{ "name": "empty" }
+				]
+			},
+			"smallSuit": {
+				"attachment": [
+					{ "name": "empty" }
+				]
+			},
+			"bgBackCard": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"overlay": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"shadowCard": {
+				"color": [
+					{ "color": "ffffff97" }
+				]
+			}
+		},
+		"bones": {
+			"bgBackCard": {
+				"rotate": [
+					{ "angle": -5 }
+				],
+				"scale": [
+					{ "x": 0 }
+				]
+			},
+			"shadowCard": {
+				"translate": [
+					{ "y": 0.57 }
+				]
+			},
+			"overlay": {
+				"scale": [
+					{ "x": 0 }
+				]
+			}
+		},
+		"path": {
+			"path": {
+				"position": [
+					{ "position": 1 }
+				]
+			}
+		}
+	},
+	"default-front-gold": {
+		"slots": {
+			"rank": {
+				"attachment": [
+					{ "name": "empty" }
+				]
+			},
+			"largeSuit": {
+				"attachment": [
+					{ "name": "empty" }
+				]
+			},
+			"smallSuit": {
+				"attachment": [
+					{ "name": "empty" }
+				]
+			},
+			"bgBackCard": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"bgGold": {
+				"attachment": [
+					{ "name": "front gold" }
+				]
+			},
+			"overlay": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"shadowCard": {
+				"color": [
+					{ "color": "ffffff97" }
+				]
+			}
+		},
+		"bones": {
+			"bgBackCard": {
+				"rotate": [
+					{ "angle": -5 }
+				],
+				"scale": [
+					{ "x": 0 }
+				]
+			},
+			"shadowCard": {
+				"translate": [
+					{ "y": 0.57 }
+				]
+			},
+			"overlay": {
+				"scale": [
+					{ "x": 0 }
+				]
+			}
+		},
+		"path": {
+			"path": {
+				"position": [
+					{ "position": 1 }
+				]
+			}
+		}
+	},
+	"lucky-card": {
+		"slots": {
+			"bgWhiteCard": {
+				"attachment": [
+					{ "name": "front" }
+				]
+			},
+			"rank": {
+				"attachment": [
+					{ "name": "empty" }
+				]
+			},
+			"largeSuit": {
+				"attachment": [
+					{ "name": "empty" }
+				]
+			},
+			"smallSuit": {
+				"attachment": [
+					{ "name": "empty" }
+				]
+			},
+			"bgBackCard": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"bgGold": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "front gold" }
+				]
+			},
+			"overlay": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"shadowCard": {
+				"color": [
+					{ "color": "ffffff97" }
+				]
+			},
+			"boder": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff", "curve": 0.39, "c2": 0.8, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "boder" }
+				]
+			}
+		},
+		"bones": {
+			"bgBackCard": {
+				"rotate": [
+					{ "angle": -5 }
+				],
+				"scale": [
+					{ "x": 0 }
+				]
+			},
+			"shadowCard": {
+				"translate": [
+					{ "y": 0.57 }
+				]
+			},
+			"overlay": {
+				"scale": [
+					{ "x": 0 }
+				]
+			},
+			"card": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "x": 0.98, "y": 0.98, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "x": 1.01, "y": 1.01, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3 }
+				]
+			},
+			"bone": {
+				"scale": [
+					{ "time": 0.1667, "curve": 0.39, "c2": 0.8, "c3": 0.75 },
+					{ "time": 0.5, "x": 1.16, "y": 1.1 }
+				]
+			}
+		},
+		"path": {
+			"path": {
+				"position": [
+					{ "position": 1 }
+				]
+			}
+		}
+	},
+	"new-card": {
+		"slots": {
+			"bgWhiteCard": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"rank": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"largeSuit": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"smallSuit": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"overlay": {
+				"color": [
+					{ "color": "ffffffee" },
+					{ "time": 1.1667, "color": "ffffffee" }
+				]
+			},
+			"shadowCard": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 1.0667, "color": "ffffff91" }
+				]
+			}
+		},
+		"bones": {
+			"card": {
+				"rotate": [
+					{ "angle": 180, "curve": 0.319, "c2": 0.91, "c3": 0.75 },
+					{ "time": 0.8333 }
+				],
+				"scale": [
+					{ "x": 0.573, "y": 0.478, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "x": 1.05, "y": 1.05, "curve": 0.427, "c2": 0.8, "c3": 0.75 },
+					{ "time": 1, "x": 0.99, "y": 0.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1 }
+				],
+				"shear": [
+					{ "x": 26.74, "y": -12.71 },
+					{ "time": 0.8333 }
+				]
+			},
+			"bgWhiteCard": {
+				"shear": [
+					{ "x": 75 }
+				]
+			}
+		}
+	},
+	"open-card": {
+		"slots": {
+			"bgWhiteCard": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.4667, "name": "front" }
+				]
+			},
+			"rank": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.4667, "name": "empty" }
+				]
+			},
+			"largeSuit": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.4667, "name": "empty" }
+				]
+			},
+			"smallSuit": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.4667, "name": "empty" }
+				]
+			},
+			"bgBackCard": {
+				"color": [
+					{ "time": 0.4333, "color": "ffffffff" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4667, "name": null }
+				]
+			},
+			"overlay": {
+				"color": [
+					{ "color": "ffffffee", "curve": "stepped" },
+					{ "time": 0.4333, "color": "ffffffee" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4667, "name": null }
+				]
+			},
+			"shadowCard": {
+				"color": [
+					{ "color": "ffffff97" },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.7667, "color": "ffffff97" }
+				]
+			}
+		},
+		"bones": {
+			"bgBackCard": {
+				"rotate": [
+					{ "time": 0.3333 },
+					{ "time": 0.4333, "angle": -5 }
+				],
+				"scale": [
+					{ "time": 0.3333 },
+					{ "time": 0.4333, "x": 0.25, "y": 1.2 },
+					{ "time": 0.4667, "x": 0 }
+				]
+			},
+			"bgWhiteCard": {
+				"rotate": [
+					{ "time": 0.4667, "angle": 5 },
+					{ "time": 0.6667, "angle": -1, "curve": 0.378, "c2": 0.74, "c3": 0.728 },
+					{ "time": 0.8333 }
+				],
+				"scale": [
+					{ "x": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0 },
+					{ "time": 0.4667, "x": 0.25, "y": 1.2, "curve": 0.368, "c2": 0.89, "c3": 0.75 },
+					{ "time": 0.7 }
+				]
+			},
+			"shadowCard": {
+				"translate": [
+					{ "curve": 0.479, "c3": 0.75 },
+					{ "time": 0.4, "x": -122.17, "curve": 0.402, "c2": 0.6, "c3": 0.75 },
+					{ "time": 0.8333, "y": 0.57 }
+				],
+				"scale": [
+					{ "time": 0.2333 },
+					{ "time": 0.4333, "x": 0.75, "curve": 0.384, "c2": 0.6, "c3": 0.75 },
+					{ "time": 0.8 }
+				]
+			},
+			"largeSuit": {
+				"scale": [
+					{ "x": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0 },
+					{ "time": 0.4667 }
+				]
+			},
+			"rank": {
+				"scale": [
+					{ "x": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0 },
+					{ "time": 0.4667 }
+				]
+			},
+			"smallSuit": {
+				"scale": [
+					{ "x": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0 },
+					{ "time": 0.4667 }
+				]
+			},
+			"overlay": {
+				"scale": [
+					{ "time": 0.4333 },
+					{ "time": 0.4667, "x": 0 }
+				]
+			}
+		},
+		"path": {
+			"path": {
+				"position": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "position": 1 }
+				]
+			}
+		}
+	}
+}
+}

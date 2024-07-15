@@ -59,23 +59,42 @@ export default class Game extends GameComponent {
         }
     }
 
+    renderCurrentFinish(currentFinish: gc.GameServiceMessage.Finish) {
+        if (!currentFinish || !this.enableFixHandleFinish) {
+            return;
+        }
+        const { result, settlementResult, usedCardIndexes } = currentFinish as any;
+
+        if (!this.isValidResult(result, settlementResult)) {
+            return;
+        }
+
+        this.baccaratXCardsUi.currentCardIndex = usedCardIndexes[0];
+        this.showResult(result, true, settlementResult).then(() => {
+            this.finishShowResult(result, settlementResult);
+        });
+        this.playSound(gc.Audios.AudioIds.RECEIVE_FINISH);
+    }
+
     @render(RoundHistories.RoundHistoryStore, (store) => store.firstJoinGameHistory)
     async renderStaticResult(firstJoinGameHistory: gc.RoundHistories.IFirstJoinGameHistory) {
         if (!firstJoinGameHistory) {
             return;
         }
         await this.baccaratXCardsUi.initCards();
-        const lastRound = firstJoinGameHistory.roundHistory;
+        const lastRound = firstJoinGameHistory.roundHistory as any;
         if (lastRound) {
-            const { result, settlementResult } = lastRound;
+            const { result, settlementResult, usedCardIndexes } = lastRound;
             const animated = firstJoinGameHistory.animationHighlight;
             if (animated) {
                 this.parseOddsMultipliers(lastRound);
-                this.baccaratXCardsUi.decreaseCardIndexForOldRound(result);
-                await this.baccaratXCardsUi.draw6Cards(false);
+                // this.baccaratXCardsUi.decreaseCardIndexForOldRound(result);
+                this.baccaratXCardsUi.currentCardIndex = usedCardIndexes[0];
                 await this.showResult(result, false, settlementResult);
                 return;
             }
+
+            this.baccaratXCardsUi.currentCardIndex = usedCardIndexes[usedCardIndexes.length - 1] + 1;
         }
 
         await this.baccaratXCardsUi.draw6Cards(false);

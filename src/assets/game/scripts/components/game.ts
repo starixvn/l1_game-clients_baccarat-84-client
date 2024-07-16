@@ -4,6 +4,7 @@ import { startGame } from "db://shared-components/shared/scripts/startup";
 import Observer from "observer";
 
 import { BaccaratXCardsUI } from "../../../../extensions/shared-components/assets/game-baccarat/cards/baccarat-x-cards-ui";
+import { TotalWinNotice } from "../../../../extensions/shared-components/assets/game-baccarat/total-win/total-win-notice";
 import { CardModel } from "../../../../extensions/shared-components/assets/game/poker-cards/scripts/poker-card";
 import GameComponent from "../../../../extensions/shared-components/assets/game/scripts/components/game-component";
 import { WinningResult } from "../../../../extensions/shared-components/assets/shared/common-components/winning-result/scripts/winning-result";
@@ -36,6 +37,9 @@ export default class Game extends GameComponent {
 
     @property(Node)
     nodeWinNotice: Node = null;
+
+    @property(Node)
+    nodeTotalWinNotice: Node = null;
 
     baccaratXCardsUi: BaccaratXCardsUI = null;
 
@@ -113,5 +117,14 @@ export default class Game extends GameComponent {
     @render(GameBaccaratX.Shoe.ShoeStore, (store) => store.newShoePhase)
     disableWinNotice1(newShoePhase: boolean) {
         newShoePhase && this.nodeWinNotice.getComponent(WinningResult).hideQuickly();
+    }
+
+    @render(Settlements.SettlementStatusStore, (store) => store.eventData)
+    renderTotalWin(eventData: any) {
+        if (eventData && eventData.event === Settlements.SettlementAction.TOTAL_WIN) {
+            const noticeControl = this.nodeTotalWinNotice.getComponent(TotalWinNotice);
+            noticeControl.winAmount = eventData.winAmount;
+            noticeControl.addNotice();
+        }
     }
 }

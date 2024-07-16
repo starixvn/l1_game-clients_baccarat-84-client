@@ -1,11 +1,13 @@
 const win = window as any;
 export const languages = {
     "Common": {
+        "Loss": "输",
         "back": "回",
         "bet_amount_of_any_choice_incorrect": "投注金额无效",
         "bet_choice": "投注选择",
         "bet_detail": "投注详情",
         "bet_history": "投注历史",
+        "bet_limit": "投注限额",
         "bet_option_even": "双",
         "bet_option_odd": "单",
         "button_change": "改变",
@@ -162,10 +164,12 @@ export const languages = {
         "under_maintenance_suggest": "维护完成后请重新登录继续玩游戏。",
         "under_maintenance_time": "从 %{startTime} 到 %{endTime} (GMT+8)",
         "win": "赢",
+        "win_loss": "赢 输",
         "you_reach_max_win": "您达到了最大胜利"
     },
     "BaccaratX": {
         "don't_show_again": "不再显示",
+        "game_icon_name_bac81": "Bac81",
         "glossary_banker": "庄家",
         "glossary_option_banker": "庄家",
         "glossary_option_player": "玩家",
@@ -176,7 +180,8 @@ export const languages = {
         "scoreboard_banker_pair": "庄对子",
         "scoreboard_player_pair": "闲对子",
         "submit_button": "提交",
-        "table": "桌子"
+        "table": "桌子",
+        "tie_win": "和"
     }
 };
 

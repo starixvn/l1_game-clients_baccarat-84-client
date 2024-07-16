@@ -161,6 +161,7 @@ export const languages = {
         "time": "Thời Gian",
         "total": "Tổng",
         "total_stake": "Tổng Cược",
+        "total_win": "Tổng Thắng",
         "under_maintenance_suggest": "Sau thời gian bảo trì, bạn hãy đăng nhập lại để có thể tiếp tục chơi game.",
         "under_maintenance_time": "Thời gian bảo trì từ %{startTime} đến %{endTime} (GMT+8).",
         "win": "Thắng",

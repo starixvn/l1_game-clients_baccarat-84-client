@@ -161,6 +161,7 @@ export const languages = {
         "time": "Time",
         "total": "Total",
         "total_stake": "Total Stake",
+        "total_win": "Total win",
         "under_maintenance_suggest": "Please kindly re-login to continue playing games after the maintenance is complete.",
         "under_maintenance_time": "Starting from %{startTime} to %{endTime} (GMT+8)",
         "win": "Win",

@@ -1,111 +1,111 @@
 
 dealer2.png
-size: 173,267
+size: 126,518
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 arm L
-  rotate: false
-  xy: 117, 172
-  size: 29, 93
-  orig: 29, 93
+  rotate: true
+  xy: 2, 448
+  size: 35, 111
+  orig: 35, 111
   offset: 0, 0
   index: -1
 arm R
-  rotate: false
-  xy: 86, 86
-  size: 26, 96
-  orig: 26, 96
+  rotate: true
+  xy: 2, 485
+  size: 31, 115
+  orig: 31, 115
   offset: 0, 0
   index: -1
 body
-  rotate: true
-  xy: 2, 184
-  size: 81, 113
-  orig: 81, 113
+  rotate: false
+  xy: 2, 217
+  size: 97, 136
+  orig: 97, 136
   offset: 0, 0
   index: -1
 eye close
   rotate: true
-  xy: 64, 6
-  size: 40, 13
-  orig: 40, 16
+  xy: 101, 231
+  size: 48, 15
+  orig: 48, 19
   offset: 0, 2
   index: -1
 hair L
-  rotate: true
-  xy: 79, 2
-  size: 11, 59
-  orig: 11, 59
+  rotate: false
+  xy: 101, 159
+  size: 13, 70
+  orig: 13, 70
   offset: 0, 0
   index: -1
 hair R
   rotate: false
-  xy: 148, 210
-  size: 14, 55
-  orig: 14, 55
+  xy: 101, 281
+  size: 16, 66
+  orig: 16, 66
   offset: 0, 0
   index: -1
 hair back a
-  rotate: false
+  rotate: true
   xy: 2, 2
-  size: 60, 44
-  orig: 60, 44
+  size: 72, 52
+  orig: 72, 52
   offset: 0, 0
   index: -1
 hair back b
   rotate: true
-  xy: 2, 106
-  size: 76, 82
-  orig: 76, 82
+  xy: 2, 355
+  size: 91, 98
+  orig: 91, 98
   offset: 0, 0
   index: -1
 hair front a
-  rotate: true
-  xy: 139, 43
-  size: 25, 32
-  orig: 25, 33
+  rotate: false
+  xy: 93, 118
+  size: 29, 39
+  orig: 29, 40
   offset: 0, 1
   index: -1
 hair front b
   rotate: false
-  xy: 140, 7
-  size: 19, 34
-  orig: 19, 34
+  xy: 102, 405
+  size: 22, 41
+  orig: 22, 41
   offset: 0, 0
   index: -1
 hair front c
   rotate: true
-  xy: 139, 70
-  size: 34, 31
-  orig: 34, 32
+  xy: 86, 76
+  size: 40, 37
+  orig: 40, 38
   offset: 0, 1
   index: -1
 hand L
-  rotate: true
-  xy: 79, 15
-  size: 69, 58
-  orig: 69, 58
+  rotate: false
+  xy: 2, 76
+  size: 82, 70
+  orig: 82, 70
   offset: 0, 0
   index: -1
 hand R
   rotate: false
-  xy: 2, 48
-  size: 75, 56
-  orig: 75, 56
+  xy: 2, 148
+  size: 89, 67
+  orig: 89, 67
   offset: 0, 0
   index: -1
 head
   rotate: false
-  xy: 114, 106
-  size: 56, 55
-  orig: 56, 55
+  xy: 56, 8
+  size: 67, 66
+  orig: 67, 66
   offset: 0, 0
   index: -1
 rib
   rotate: true
-  xy: 148, 163
-  size: 45, 17
-  orig: 45, 17
+  xy: 102, 349
+  size: 54, 20
+  orig: 54, 20
   offset: 0, 0
   index: -1

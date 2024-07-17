@@ -1,7 +1,7 @@
 {
-"skeleton": { "hash": "lZz1mlUIKczlBlwA8aJeLTAhAVk=", "spine": "3.8.75", "x": -111, "y": -91, "width": 213, "height": 440 },
+"skeleton": { "hash": "f6aPkrVgbHXISirSKDHEsUk0qwg=", "spine": "3.8.75", "x": -66.6, "y": -54.6, "width": 127.8, "height": 264 },
 "bones": [
-	{ "name": "root" },
+	{ "name": "root", "scaleX": 0.6, "scaleY": 0.6 },
 	{ "name": "character", "parent": "root" },
 	{ "name": "body", "parent": "character", "length": 26.64, "rotation": 90, "x": 0.16, "y": 0.47 },
 	{ "name": "body2", "parent": "body", "length": 46.08, "rotation": -0.45, "x": 26.64 },
@@ -12,6 +12,8 @@
 		"rotation": 0.19,
 		"x": 52.02,
 		"y": -0.13,
+		"scaleX": 0.6,
+		"scaleY": 0.6,
 		"transform": "noScale"
 	},
 	{
@@ -21,6 +23,8 @@
 		"rotation": 92.34,
 		"x": 80.07,
 		"y": 1.7,
+		"scaleX": 0.6,
+		"scaleY": 0.6,
 		"transform": "noScale"
 	},
 	{
@@ -30,6 +34,8 @@
 		"rotation": -92.4,
 		"x": 80.08,
 		"y": -1.18,
+		"scaleX": 0.6,
+		"scaleY": 0.6,
 		"transform": "noScale"
 	},
 	{ "name": "arm L", "parent": "body4", "length": 140.52, "rotation": 81.67, "x": 77.37, "y": 4.66 },
@@ -49,6 +55,8 @@
 		"rotation": -7.6,
 		"x": 73.06,
 		"y": -0.21,
+		"scaleX": 0.6,
+		"scaleY": 0.6,
 		"transform": "noScale"
 	},
 	{ "name": "arm R", "parent": "body5", "length": 143.83, "rotation": -84.4, "x": 75.79, "y": -4.7 },
@@ -68,6 +76,8 @@
 		"rotation": 6.8,
 		"x": 75.46,
 		"y": 0.2,
+		"scaleX": 0.6,
+		"scaleY": 0.6,
 		"transform": "noScale"
 	},
 	{
@@ -77,6 +87,8 @@
 		"rotation": 0.72,
 		"x": 89.18,
 		"y": 0.32,
+		"scaleX": 0.6,
+		"scaleY": 0.6,
 		"transform": "noScale"
 	},
 	{ "name": "head", "parent": "body6", "length": 80.74, "rotation": 2.35, "x": 45.02, "y": 0.36 },

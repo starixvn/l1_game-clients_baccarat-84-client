@@ -54,7 +54,7 @@ unit_test_js:
   stage: test
   image: "$NODEJS_IMAGE"
   tags:
-    - docker
+    - ci
   before_script:
     - npm set registry http://npm.lumigame.com
     - cd ./src
@@ -198,7 +198,7 @@ cocos_integration_docker_build:
     name: gcr.io/kaniko-project/executor:debug
     entrypoint: [""]
   tags:
-    - docker
+    - ci
   stage: test
   allow_failure: true
   before_script:

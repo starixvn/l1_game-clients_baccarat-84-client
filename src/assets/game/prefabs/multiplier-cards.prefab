@@ -1611,6 +1611,10 @@
     "lblExtraFee": {
       "__id__": 52
     },
+    "prfCardDecor": {
+      "__uuid__": "c80604f2-8da7-42e4-8004-9d0b114e0709",
+      "__expectedType__": "cc.Prefab"
+    },
     "_id": ""
   },
   {

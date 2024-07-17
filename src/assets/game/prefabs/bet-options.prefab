@@ -894,7 +894,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 66.5390625,
+      "width": 68.02734375,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -940,7 +940,7 @@
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "0b9efa3d-c517-4301-af5b-ac67552528db",
+      "__uuid__": "41a12541-a4db-4259-b803-4c477054c858",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -2829,7 +2829,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 32.8359375,
+      "width": 33.890625,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -2875,7 +2875,7 @@
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "0b9efa3d-c517-4301-af5b-ac67552528db",
+      "__uuid__": "41a12541-a4db-4259-b803-4c477054c858",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -4409,7 +4409,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 7.104,
-      "y": 4.975,
+      "y": -3.75,
       "z": 0
     },
     "_lrot": {
@@ -4573,7 +4573,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 23.162,
-      "y": 4.5,
+      "y": -4.225,
       "z": 0
     },
     "_lrot": {
@@ -4613,7 +4613,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 32.8359375,
+      "width": 33.890625,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -4659,7 +4659,7 @@
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "0b9efa3d-c517-4301-af5b-ac67552528db",
+      "__uuid__": "41a12541-a4db-4259-b803-4c477054c858",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -4728,7 +4728,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -83.433,
-      "y": -16.478,
+      "y": -38.687,
       "z": 0
     },
     "_lrot": {
@@ -4769,7 +4769,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 170,
-      "height": 40
+      "height": 60
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -6211,7 +6211,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -44.626953125,
+      "x": -51.06640625,
       "y": -12.870999999999981,
       "z": 0
     },
@@ -6394,7 +6394,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -24.626953125,
+      "x": -31.06640625,
       "y": -0.6559999999999491,
       "z": 0
     },
@@ -6435,7 +6435,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 24.626953125,
+      "width": 31.06640625,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -6474,14 +6474,14 @@
     "_string": "1.8",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18,
-    "_fontSize": 18,
+    "_actualFontSize": 22,
+    "_fontSize": 22,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "0b9efa3d-c517-4301-af5b-ac67552528db",
+      "__uuid__": "41a12541-a4db-4259-b803-4c477054c858",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -6543,7 +6543,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 192.8369140625,
+      "width": 199.2763671875,
       "height": 100
     },
     "_anchorPoint": {
@@ -7986,7 +7986,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 10.0634765625,
+      "width": 12.2998046875,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -8025,14 +8025,14 @@
     "_string": "1",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18,
-    "_fontSize": 18,
+    "_actualFontSize": 22,
+    "_fontSize": 22,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "0b9efa3d-c517-4301-af5b-ac67552528db",
+      "__uuid__": "41a12541-a4db-4259-b803-4c477054c858",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -8094,7 +8094,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 183.966796875,
+      "width": 186.203125,
       "height": 100
     },
     "_anchorPoint": {

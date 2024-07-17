@@ -922,7 +922,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 248.023,
+      "y": 159.516,
       "z": 0
     },
     "_lrot": {
@@ -934,8 +934,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
+      "x": 0.6,
+      "y": 0.6,
       "z": 1
     },
     "_mobility": 0,
@@ -946,7 +946,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": "3f3Xgp3kVKY4tLzwb1Se9r"
+    "_id": "18z3y9ZelFfbmoUloMsGdl"
   },
   {
     "__type__": "cc.UITransform",
@@ -960,18 +960,18 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 152,
-      "height": 212
+      "width": 213,
+      "height": 440
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
+      "x": 0.5211267605633803,
+      "y": 0.20681818181818182
     },
-    "_id": "d0CBb4VvxAuYVT9DWKbAho"
+    "_id": "cacPttDbdP767QU5EjxoVA"
   },
   {
-    "__type__": "cc.Sprite",
+    "__type__": "sp.Skeleton",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -990,24 +990,25 @@
       "b": 255,
       "a": 255
     },
-    "_spriteFrame": {
-      "__uuid__": "881a1e34-4123-48a4-994c-5a23454de737@f9941",
-      "__expectedType__": "cc.SpriteFrame"
+    "_skeletonData": {
+      "__uuid__": "79768322-3f93-495c-ae3f-2bced9526c4a",
+      "__expectedType__": "sp.SkeletonData"
     },
-    "_type": 0,
-    "_fillType": 0,
-    "_sizeMode": 1,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": true,
-    "_useGrayscale": false,
-    "_atlas": null,
-    "_id": "f75+KULVRKs5JOQuLZ9KVJ"
+    "defaultSkin": "default",
+    "defaultAnimation": "animation",
+    "_premultipliedAlpha": false,
+    "_timeScale": 1,
+    "_preCacheMode": 0,
+    "_cacheMode": 0,
+    "_defaultCacheMode": 0,
+    "_sockets": [],
+    "_useTint": false,
+    "_debugMesh": false,
+    "_debugBones": false,
+    "_debugSlots": false,
+    "_enableBatch": false,
+    "loop": true,
+    "_id": "2dqhThzqtCta9lMu/3P4E4"
   },
   {
     "__type__": "cc.Node",

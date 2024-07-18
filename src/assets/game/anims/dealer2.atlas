@@ -1,110 +1,131 @@
 
 dealer2.png
-size: 126,518
+size: 521,142
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 arm L
-  rotate: true
-  xy: 2, 448
+  rotate: false
+  xy: 134, 29
   size: 35, 111
   orig: 35, 111
   offset: 0, 0
   index: -1
 arm R
-  rotate: true
-  xy: 2, 485
+  rotate: false
+  xy: 101, 25
   size: 31, 115
   orig: 31, 115
   offset: 0, 0
   index: -1
 body
   rotate: false
-  xy: 2, 217
+  xy: 2, 4
   size: 97, 136
   orig: 97, 136
   offset: 0, 0
   index: -1
 eye close
   rotate: true
-  xy: 101, 231
+  xy: 374, 4
   size: 48, 15
   orig: 48, 19
   offset: 0, 2
   index: -1
 hair L
   rotate: false
-  xy: 101, 159
+  xy: 438, 70
   size: 13, 70
   orig: 13, 70
   offset: 0, 0
   index: -1
 hair R
   rotate: false
-  xy: 101, 281
+  xy: 465, 5
   size: 16, 66
   orig: 16, 66
   offset: 0, 0
   index: -1
 hair back a
-  rotate: true
-  xy: 2, 2
+  rotate: false
+  xy: 391, 2
   size: 72, 52
   orig: 72, 52
   offset: 0, 0
   index: -1
 hair back b
-  rotate: true
-  xy: 2, 355
+  rotate: false
+  xy: 171, 42
   size: 91, 98
   orig: 91, 98
   offset: 0, 0
   index: -1
 hair front a
   rotate: false
-  xy: 93, 118
+  xy: 483, 32
   size: 29, 39
   orig: 29, 40
   offset: 0, 1
   index: -1
 hair front b
-  rotate: false
-  xy: 102, 405
+  rotate: true
+  xy: 157, 5
   size: 22, 41
   orig: 22, 41
   offset: 0, 0
   index: -1
 hair front c
-  rotate: true
-  xy: 86, 76
+  rotate: false
+  xy: 200, 3
   size: 40, 37
   orig: 40, 38
   offset: 0, 1
   index: -1
 hand L
-  rotate: false
-  xy: 2, 76
-  size: 82, 70
-  orig: 82, 70
-  offset: 0, 0
+  rotate: true
+  xy: 264, 50
+  size: 90, 64
+  orig: 90, 70
+  offset: 0, 6
+  index: -1
+hand L shadow
+  rotate: true
+  xy: 330, 54
+  size: 86, 48
+  orig: 88, 52
+  offset: 2, 0
   index: -1
 hand R
-  rotate: false
-  xy: 2, 148
-  size: 89, 67
-  orig: 89, 67
+  rotate: true
+  xy: 380, 56
+  size: 84, 56
+  orig: 84, 56
   offset: 0, 0
   index: -1
-head
+hand R shadow
   rotate: false
-  xy: 56, 8
+  xy: 289, 4
+  size: 83, 44
+  orig: 85, 47
+  offset: 0, 1
+  index: -1
+hand R shadow top
+  rotate: false
+  xy: 242, 11
+  size: 45, 29
+  orig: 47, 32
+  offset: 1, 1
+  index: -1
+head
+  rotate: true
+  xy: 453, 73
   size: 67, 66
   orig: 67, 66
   offset: 0, 0
   index: -1
 rib
-  rotate: true
-  xy: 102, 349
+  rotate: false
+  xy: 101, 3
   size: 54, 20
   orig: 54, 20
   offset: 0, 0

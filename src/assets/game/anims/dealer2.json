@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "nGXkCcIxZA6y/9U4r7vMJZwIqZo=", "spine": "3.8.75", "x": -98.44, "y": -47.5, "width": 202.8, "height": 256.9 },
+"skeleton": { "hash": "4bWq8iOseyaDCR1mIkG66CNebJE=", "spine": "3.8.75", "x": -66.73, "y": -47.5, "width": 128.09, "height": 256.9 },
 "bones": [
 	{ "name": "root", "scaleX": 0.6, "scaleY": 0.6 },
 	{ "name": "character", "parent": "root" },
@@ -148,7 +148,7 @@
 	{ "name": "hair front a", "bone": "hair front a", "attachment": "hair front a" },
 	{ "name": "rib", "bone": "hair front b", "attachment": "rib" },
 	{ "name": "hand R", "bone": "hand R3", "attachment": "hand R" },
-	{ "name": "hand R shadow top", "bone": "hand R shadow top", "attachment": "hand R shadow top", "blend": "multiply" },
+	{ "name": "hand R shadow top", "bone": "hand R shadow top", "attachment": "hand R shadow top" },
 	{ "name": "hand L", "bone": "hand L3", "attachment": "hand L" }
 ],
 "transform": [
@@ -284,7 +284,7 @@
 			},
 			"hand R shadow top": {
 				"color": [
-					{ "color": "ffffff9e" }
+					{ "color": "ffffff9d" }
 				]
 			}
 		},

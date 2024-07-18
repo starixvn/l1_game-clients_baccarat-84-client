@@ -40,6 +40,7 @@ export default class Game extends GameComponent {
     baccaratXCardsUi: BaccaratXCardsUI = null;
 
     protected enableFixHandleFinish = true;
+    private currentCardIndexInGame = -1;
 
     onLoad() {
         this.baccaratXCardsUi = this.nodeBaccaratCardsUi.getComponent(BaccaratXCardsUI);
@@ -76,6 +77,17 @@ export default class Game extends GameComponent {
         this.playSound(gc.Audios.AudioIds.RECEIVE_FINISH);
     }
 
+    @render(GameBaccaratX.Shoe.ShoeStore, (store) => store.shoeInfo)
+    renderShoeInfo(shoeInfo: gc.GameServiceMessage.ShoeInfo) {
+        if (shoeInfo) {
+            const currentCardIndex = shoeInfo.currentIndex ?? shoeInfo.burnedCards;
+            console.log(`currentCardIndex from shoe ======================== `, currentCardIndex);
+            if (this.currentCardIndexInGame === -1) {
+                this.currentCardIndexInGame = currentCardIndex;
+            }
+        }
+    }
+
     @render(RoundHistories.RoundHistoryStore, (store) => store.firstJoinGameHistory)
     async renderStaticResult(firstJoinGameHistory: gc.RoundHistories.IFirstJoinGameHistory) {
         if (!firstJoinGameHistory) {
@@ -88,7 +100,6 @@ export default class Game extends GameComponent {
             const animated = firstJoinGameHistory.animationHighlight;
             if (animated) {
                 this.parseOddsMultipliers(lastRound);
-                // this.baccaratXCardsUi.decreaseCardIndexForOldRound(result);
                 this.baccaratXCardsUi.currentCardIndex = usedCardIndexes[0];
                 await this.showResult(result, false, settlementResult);
                 return;
@@ -97,6 +108,8 @@ export default class Game extends GameComponent {
             this.baccaratXCardsUi.currentCardIndex = usedCardIndexes[usedCardIndexes.length - 1] + 1;
         }
 
+        console.log("resume game when first round of shoe, current card index", this.currentCardIndexInGame);
+        this.baccaratXCardsUi.currentCardIndex = this.currentCardIndexInGame;
         await this.baccaratXCardsUi.draw6Cards(false);
     }
 

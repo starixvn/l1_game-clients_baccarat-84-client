@@ -172,6 +172,7 @@ export const languages = {
     },
     "BaccaratX": {
         "Header_fairness_settings": "Pengaturan keadilan",
+        "average": "Rata-rata",
         "banker_win": "BANKER MENANG",
         "calculate_final_cut-card_index": "Hitung indeks Cut-card akhir",
         "cut-card_index_note": "Indeks Cut-card merupakan kombinasi dari Server Seed dan Client Seed dari semua pemain yang diserahkan.",

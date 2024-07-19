@@ -172,6 +172,7 @@ export const languages = {
     },
     "BaccaratX": {
         "Header_fairness_settings": "การตั้งค่าความยุติธรรม",
+        "average": "ค่าเฉลี่ย",
         "banker_win": "เจ้ามือชนะ",
         "calculate_final_cut-card_index": "คำนวณดัชนีตัดไพ่ขั้นสุดท้าย",
         "cut-card_index_note": "ดัชนีตัดไพ่ คือการรวมกันของ Server Seed และ Client Seeds ของผู้เล่นที่ส่งเข้ามาทั้งหมด",

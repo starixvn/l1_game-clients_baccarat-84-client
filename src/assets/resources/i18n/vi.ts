@@ -172,6 +172,7 @@ export const languages = {
     },
     "BaccaratX": {
         "Header_fairness_settings": "Cài Đặt Công Bằng",
+        "average": "Trung bình cộng",
         "banker_win": "NHÀ CÁI THẮNG",
         "calculate_final_cut-card_index": "Tính toán chỉ số Cut-card cuối cùng",
         "don't_show_again": "Không hiển thị lại",

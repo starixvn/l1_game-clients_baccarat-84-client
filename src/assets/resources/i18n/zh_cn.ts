@@ -172,6 +172,7 @@ export const languages = {
     },
     "BaccaratX": {
         "Header_fairness_settings": "公平性设置",
+        "average": "平均值",
         "banker_win": "庄家赢",
         "calculate_final_cut-card_index": "计算最终的切牌指数",
         "cut-card_index_note": "切牌指数是所有提交玩家的伺服器种子和客户端种子的组合。",

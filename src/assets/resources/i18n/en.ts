@@ -172,6 +172,7 @@ export const languages = {
     },
     "BaccaratX": {
         "Header_fairness_settings": "Fairness Settings",
+        "average": "Average",
         "banker_win": "BANKER WIN",
         "calculate_final_cut-card_index": "Calculate final Cut-card index",
         "cut-card_index_note": "The Cut-card index is a combination of the Server Seed and the Client Seeds of all submitted players.",

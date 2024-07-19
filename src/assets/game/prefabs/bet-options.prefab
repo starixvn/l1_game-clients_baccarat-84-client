@@ -6326,7 +6326,7 @@
     "__prefab": {
       "__id__": 274
     },
-    "key": "BaccaratX.glossary_option_player_pair",
+    "key": "BaccaratX.glossary_player_pair",
     "format": 1,
     "prefix": "",
     "suffix": "",
@@ -7896,7 +7896,7 @@
     "__prefab": {
       "__id__": 346
     },
-    "key": "BaccaratX.glossary_option_banker_pair",
+    "key": "BaccaratX.glossary_banker_pair",
     "format": 1,
     "prefix": "",
     "suffix": "",

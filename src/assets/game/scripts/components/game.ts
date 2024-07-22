@@ -80,6 +80,7 @@ export default class Game extends GameComponent {
     @render(GameBaccaratX.Shoe.ShoeStore, (store) => store.shoeInfo)
     renderShoeInfo(shoeInfo: gc.GameServiceMessage.ShoeInfo) {
         if (shoeInfo) {
+            console.log("shoeInFo rendering");
             const currentCardIndex = shoeInfo.currentIndex ?? shoeInfo.burnedCards;
             console.log(`currentCardIndex from shoe ======================== `, currentCardIndex);
             if (this.currentCardIndexInGame === -1) {
@@ -93,6 +94,7 @@ export default class Game extends GameComponent {
         if (!firstJoinGameHistory) {
             return;
         }
+        console.log("firstJoinGameHistory rendering");
         await this.baccaratXCardsUi.initCards();
         const lastRound = firstJoinGameHistory.roundHistory as any;
         if (lastRound) {
@@ -105,12 +107,17 @@ export default class Game extends GameComponent {
                 return;
             }
 
-            this.baccaratXCardsUi.currentCardIndex = usedCardIndexes[usedCardIndexes.length - 1] + 1;
+            const currentCardIndex = usedCardIndexes[usedCardIndexes.length - 1] + 1;
+            console.log(`current card index compare ::::::   `, currentCardIndex === this.currentCardIndexInGame);
+            console.log("resume game when first round of shoe, current card index", this.currentCardIndexInGame);
+            this.baccaratXCardsUi.currentCardIndex = this.currentCardIndexInGame;
+            await this.baccaratXCardsUi.draw6Cards(false);
+        } else {
+            if (firstJoinGameHistory.roundTime < settings.durations.placingBet + settings.durations.startRound) {
+                this.baccaratXCardsUi.currentCardIndex = this.currentCardIndexInGame;
+                await this.baccaratXCardsUi.draw6Cards(false);
+            }
         }
-
-        console.log("resume game when first round of shoe, current card index", this.currentCardIndexInGame);
-        this.baccaratXCardsUi.currentCardIndex = this.currentCardIndexInGame;
-        await this.baccaratXCardsUi.draw6Cards(false);
     }
 
     @handle(GameBaccaratX.Multiplier.BaccaratMultipliersHandler, (handler, lastRound) => handler.parseOddsMultiplers(lastRound))

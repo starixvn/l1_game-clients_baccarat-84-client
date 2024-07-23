@@ -9,7 +9,6 @@ import GameComponent from "../../../../extensions/shared-components/assets/game/
 import { WinningResult } from "../../../../extensions/shared-components/assets/shared/common-components/winning-result/scripts/winning-result";
 import { siteConfigs } from "../../../scripts/site-configs";
 import { containerOptions, settings } from "../game-settings";
-import "./../../../resources/i18n";
 
 startGame(settings.name, containerOptions, siteConfigs, settings.tolgeeNamespace);
 const { Rounds, Connection, HideGame, Settlements, FormatUtils, RoundHistories, GameBaccaratX } = gc;
@@ -42,6 +41,8 @@ export default class Game extends GameComponent {
     protected enableFixHandleFinish = true;
     private currentCardIndexInGame = -1;
 
+    private soundWinChoice = ["player", "banker", "tie"];
+
     onLoad() {
         this.baccaratXCardsUi = this.nodeBaccaratCardsUi.getComponent(BaccaratXCardsUI);
         super.onLoad();
@@ -56,6 +57,8 @@ export default class Game extends GameComponent {
             await this.baccaratXCardsUi.openCards(result as any, settlementResult, hasAnimation);
             const winning = this.nodeWinNotice.getComponent(WinningResult);
             winning.setSettlementResult(settlementResult);
+            const winChoice = this.soundWinChoice.find((choice) => settlementResult[choice]);
+            this.playSound(`${winChoice}-${gc.Translator.getLanguageId()}`);
             winning.show();
         }
     }

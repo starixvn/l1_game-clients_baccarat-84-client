@@ -1,44 +1,77 @@
 {
-    "click": {
+    "draw-card": {
         "bundle": "resources"
     },
-    "place_bet": {
-        "bundle": "resources"
-    },
-    "cash_out": {
-        "bundle": "resources"
-    },
-    "show_winning": {
-        "bundle": "resources"
-    },
-    "count_down": {
-        "bundle": "resources"
-    },
-    "walking_man": {
-        "bundle": "resources"
-    },
-    "rocket_fly": {
-        "bundle": "resources"
-    },
-    "receive-finish": {
-        "bundle": "resources"
-    },
-    "bgm-song1": {
+    "player-en": {
         "bundle": "resources",
-        "path": "background-music/bgm-song1",
-        "isMusicGame": true,
-        "isLazyLoad": true
+        "path": "winning/player-en"
     },
-    "bgm-song2": {
+    "banker-en": {
         "bundle": "resources",
-        "path": "background-music/bgm-song2",
-        "isMusicGame": true,
-        "isLazyLoad": true
+        "path": "winning/banker-en"
     },
-    "bgm-song3": {
+    "tie-en": {
         "bundle": "resources",
-        "path": "background-music/bgm-song3",
-        "isMusicGame": true,
-        "isLazyLoad": true
+        "path": "winning/tie-en"
+    },
+    "player-vi": {
+        "bundle": "resources",
+        "path": "winning/player-vi"
+    },
+    "banker-vi": {
+        "bundle": "resources",
+        "path": "winning/banker-vi"
+    },
+    "tie-vi": {
+        "bundle": "resources",
+        "path": "winning/tie-vi"
+    },
+    "player-id": {
+        "bundle": "resources",
+        "path": "winning/player-id"
+    },
+    "banker-id": {
+        "bundle": "resources",
+        "path": "winning/banker-id"
+    },
+    "tie-id": {
+        "bundle": "resources",
+        "path": "winning/tie-id"
+    },
+    "player-th": {
+        "bundle": "resources",
+        "path": "winning/player-th"
+    },
+    "banker-th": {
+        "bundle": "resources",
+        "path": "winning/banker-th"
+    },
+    "tie-th": {
+        "bundle": "resources",
+        "path": "winning/tie-th"
+    },
+    "player-zh_cn": {
+        "bundle": "resources",
+        "path": "winning/player-zh_cn"
+    },
+    "banker-zh_cn": {
+        "bundle": "resources",
+        "path": "winning/banker-zh_cn"
+    },
+    "tie-zh_cn": {
+        "bundle": "resources",
+        "path": "winning/tie-zh_cn"
+    },
+    "player-zh_tw": {
+        "bundle": "resources",
+        "path": "winning/player-zh_tw"
+    },
+    "banker-zh_tw": {
+        "bundle": "resources",
+        "path": "winning/banker-zh_tw"
+    },
+    "tie-zh_tw": {
+        "bundle": "resources",
+        "path": "winning/tie-zh_tw"
     }
 }

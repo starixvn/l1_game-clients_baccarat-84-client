@@ -205,6 +205,7 @@ export const languages = {
         "show_cut_card_index": "Indeks cut-card adalah %{cut_card_index}",
         "shuffling_cards": "Mengacak",
         "submission_fail": "Pengiriman gagal, silakan coba lagi.",
+        "submission_failed_time_expired": "Pengiriman gagal!",
         "submission_sucessful": "Pengiriman Berhasil!",
         "submit_button": "KIRIMKAN",
         "submit_notes": "(Harap dicatat bahwa hanya nilai yang dikirimkan yang digunakan untuk menghitung indeks Cut-card akhir)",

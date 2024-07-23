@@ -205,6 +205,7 @@ export const languages = {
         "show_cut_card_index": "ดัชนีตัดไพ่คือ %{cut_card_index}",
         "shuffling_cards": "cut_card_index",
         "submission_fail": "การส่งล้มเหลว กรุณาลองอีกครั้ง",
+        "submission_failed_time_expired": "การส่งล้มเหลว.",
         "submission_sucessful": "ส่งผลเรียบร้อยแล้ว!",
         "submit_button": "ตกลง",
         "submit_notes": "(โปรดทราบว่าจะใช้เฉพาะค่าที่ส่งมาเท่านั้นในการคำนวณดัชนีไพ่ตัดขั้นสุดท้าย)",

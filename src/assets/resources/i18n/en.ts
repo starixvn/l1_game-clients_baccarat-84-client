@@ -205,6 +205,7 @@ export const languages = {
         "show_cut_card_index": "The cut-card index is %{cut_card_index}",
         "shuffling_cards": "Shuffling",
         "submission_fail": "Submission failed, please try again.",
+        "submission_failed_time_expired": "Submission Failed!",
         "submission_sucessful": "Submission Successful!",
         "submit_button": "Submit",
         "submit_notes": "(Please note that only the submitted value is used to calculate the final Cut-card index) ",

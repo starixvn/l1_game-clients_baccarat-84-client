@@ -171,7 +171,7 @@ export const languages = {
         "you_reach_max_win": "Bạn Đã Đạt Mức Tiền Thắng Tối Đa"
     },
     "BaccaratX": {
-        "Header_fairness_settings": "Cài Đặt Công Bằng",
+        "Header_fairness_settings": "Cài Đặt Tính Minh Bạch",
         "average": "Trung bình cộng",
         "banker_win": "NHÀ CÁI THẮNG",
         "calculate_final_cut-card_index": "Tính toán chỉ số Cut-card cuối cùng",
@@ -190,7 +190,7 @@ export const languages = {
         "glossary_player_pair": "Con Đôi",
         "glossary_tie": "Hòa",
         "header_cut-card_index": "Chỉ Số Cut-card",
-        "header_fairness_verification": "Xác Minh Công Bằng",
+        "header_fairness_verification": "Xác Minh Tính Minh Bạch",
         "input_cut-card_button": "Nhập Chỉ Số Cut-card",
         "multiplierpayouts_extra_fee": "Phụ Phí",
         "multiplierpayouts_fee": "Phụ Phí",
@@ -204,6 +204,7 @@ export const languages = {
         "show_cut_card_index": "Chỉ Số Cut-card là %{cut_card_index}",
         "shuffling_cards": "Xào Bài",
         "submission_fail": "Gửi không thành công, vui lòng thử lại.",
+        "submission_failed_time_expired": "Gửi không thành công!",
         "submission_sucessful": "Gửi Thành Công!",
         "submit_button": "XÁC NHẬN",
         "submit_notes": "(Xin lưu ý rằng chỉ những giá trị được xác nhận mới được sử dụng để tính toán chỉ số Cut-card)",
@@ -211,7 +212,7 @@ export const languages = {
         "tie_win": "HÒA",
         "title_cut-card_index": "Chỉ Số Cut-card",
         "title_cut-card_index_settings": "Cài Đặt Chỉ Số Cut-card",
-        "title_fairness_guides": "Hướng Dẫn Kiểm Tra Công Bằng",
+        "title_fairness_guides": "Hướng Dẫn Kiểm Tra Tính Minh Bạch",
         "waiting screen_para_2": "Nhấn vào nút bên dưới nếu bạn muốn tham gia vào quá trình tạo chỉ số Cut-card",
         "waiting_screen_para_1": "Tạo Chỉ Số Cut-card"
     }

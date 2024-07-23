@@ -205,6 +205,7 @@ export const languages = {
         "show_cut_card_index": "切牌指數為 %{cut_card_index}",
         "shuffling_cards": "洗牌",
         "submission_fail": "提交失敗，請重試。",
+        "submission_failed_time_expired": "提交失敗。",
         "submission_sucessful": "提交成功！",
         "submit_button": "提交",
         "submit_notes": "（請注意，只有提交的值才會用於計算最終的切牌指數）",

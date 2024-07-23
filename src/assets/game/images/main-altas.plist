@@ -184,6 +184,21 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
+            <key>score-blue.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{63,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{63,34}</string>
+                <key>textureRect</key>
+                <string>{{413,508},{63,34}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
             <key>score-board-bg-expand.png</key>
             <dict>
                 <key>aliases</key>
@@ -229,35 +244,20 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>score_blue.png</key>
+            <key>score-red.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
-                <string>{0,-5}</string>
+                <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{107,56}</string>
+                <string>{63,34}</string>
                 <key>spriteSourceSize</key>
-                <string>{125,66}</string>
+                <string>{63,34}</string>
                 <key>textureRect</key>
-                <string>{{413,508},{107,56}}</string>
+                <string>{{413,544},{63,34}}</string>
                 <key>textureRotated</key>
-                <true/>
-            </dict>
-            <key>score_red.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,-5}</string>
-                <key>spriteSize</key>
-                <string>{107,56}</string>
-                <key>spriteSourceSize</key>
-                <string>{125,66}</string>
-                <key>textureRect</key>
-                <string>{{413,617},{107,56}}</string>
-                <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>text-banker-kv-chia-bai.png</key>
             <dict>
@@ -303,7 +303,7 @@
             <key>size</key>
             <string>{512,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:8ad60ad8bae9758fa9a335acdaa60f76:e4eae42f03c599ba13e71f9f689a36ea:c267e8d10c0bc09dc57664e81b0ef2af$</string>
+            <string>$TexturePacker:SmartUpdate:ac62ddfe09352034b9ff1e362bbb30e9:34a2a6ded553029919561a7fbf1b7fc5:c267e8d10c0bc09dc57664e81b0ef2af$</string>
             <key>textureFileName</key>
             <string>main-altas.png</string>
         </dict>

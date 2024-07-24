@@ -1078,12 +1078,12 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 202.8000030517578,
+      "width": 128.08999633789062,
       "height": 256.8999938964844
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.48540434398456483,
+      "x": 0.5209618648196809,
       "y": 0.1848968514150285
     },
     "_id": "cacPttDbdP767QU5EjxoVA"

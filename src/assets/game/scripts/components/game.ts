@@ -40,6 +40,7 @@ export default class Game extends GameComponent {
 
     protected enableFixHandleFinish = true;
     private currentCardIndexInGame = -1;
+    private cutCardIndexInGame = 0;
 
     private soundWinChoice = ["player", "banker", "tie"];
 
@@ -88,8 +89,14 @@ export default class Game extends GameComponent {
             console.log(`currentCardIndex from shoe ======================== `, currentCardIndex);
             if (this.currentCardIndexInGame === -1) {
                 this.currentCardIndexInGame = currentCardIndex;
+                this.updateCutCardIndex(shoeInfo?.cutCardIndex);
             }
         }
+    }
+
+    updateCutCardIndex(cutCardIndex: number) {
+        this.cutCardIndexInGame = cutCardIndex;
+        this.baccaratXCardsUi && (this.baccaratXCardsUi.cutCardIndex = cutCardIndex);
     }
 
     @render(RoundHistories.RoundHistoryStore, (store) => store.firstJoinGameHistory)
@@ -99,6 +106,7 @@ export default class Game extends GameComponent {
         }
         console.log("firstJoinGameHistory rendering");
         await this.baccaratXCardsUi.initCards();
+        this.baccaratXCardsUi?.updateStacksCardBox(this?.currentCardIndexInGame, this?.cutCardIndexInGame);
         const lastRound = firstJoinGameHistory.roundHistory as any;
         if (lastRound) {
             const { result, settlementResult, usedCardIndexes } = lastRound;

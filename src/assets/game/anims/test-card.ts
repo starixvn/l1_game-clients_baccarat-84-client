@@ -7,6 +7,9 @@ export class TestCard extends Component {
     @property(sp.Skeleton)
     skeleton: sp.Skeleton = null;
 
+    @property(sp.Skeleton)
+    skeletonHightLight: sp.Skeleton = null;
+
     current = false;
 
     start() {}
@@ -35,6 +38,23 @@ export class TestCard extends Component {
     onTestRotate() {
         // const socketLargeSuit = sockets[1];
         // socketLargeSuit.target.setRotationFromEuler(new Vec3(0, 90, 0));
+    }
+
+    async onClickClose() {
+        this.skeletonHightLight.node.active = false;
+        await AnimationUtils.playSpine(this.skeleton, "close-card", false);
+    }
+    async onClickCloseGold() {
+        await AnimationUtils.playSpine(this.skeleton, "close-card-gold", false);
+    }
+
+    async onClickBackCard() {
+        await AnimationUtils.playSpine(this.skeleton, "default-back", false);
+    }
+
+    async onClickHightLight() {
+        this.skeletonHightLight.node.active = true;
+        await AnimationUtils.playSpine(this.skeletonHightLight, "hightlight", true);
     }
 }
 

@@ -1,0 +1,13 @@
+
+highlight.png
+size: 204,264
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win_card_outer_chain
+  rotate: false
+  xy: 2, 2
+  size: 200, 260
+  orig: 210, 270
+  offset: 5, 5
+  index: -1

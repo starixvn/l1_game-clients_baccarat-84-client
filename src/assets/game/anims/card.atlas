@@ -18,6 +18,13 @@ boder
   orig: 80, 110
   offset: 3, 2
   index: -1
+dot light
+  rotate: false
+  xy: 352, 337
+  size: 20, 20
+  orig: 23, 24
+  offset: 2, 2
+  index: -1
 empty
   rotate: false
   xy: 377, 508

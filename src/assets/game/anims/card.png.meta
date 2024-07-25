@@ -23,7 +23,7 @@
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
-        "anisotropy": 0
+        "anisotropy": -0.6
       },
       "ver": "1.0.22",
       "imported": true,

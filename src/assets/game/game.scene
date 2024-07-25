@@ -10129,7 +10129,9 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "nodeCardsUI": null,
+    "nodeCardsUI": {
+      "__id__": 292
+    },
     "nodeMultiplierCards": {
       "__id__": 272
     },

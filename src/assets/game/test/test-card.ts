@@ -1,4 +1,4 @@
-import { _decorator, Component, sp } from "cc";
+import { _decorator, Component, Node, sp } from "cc";
 import { AnimationUtils } from "../../../extensions/shared-components/assets/shared/utils";
 const { ccclass, property } = _decorator;
 
@@ -9,6 +9,9 @@ export class TestCard extends Component {
 
     @property(sp.Skeleton)
     skeletonHightLight: sp.Skeleton = null;
+
+    @property(Node)
+    hightLight: Node = null;
 
     current = false;
 
@@ -24,24 +27,20 @@ export class TestCard extends Component {
         await AnimationUtils.playSpine(this.skeleton, "lucky-card", false);
     }
 
-    async onClickOpenCard() {
-        const { spine } = sp;
-        const { BoneData } = spine;
-        const sockets = this.skeleton.sockets;
-
-        await AnimationUtils.playSpine(this.skeleton, "open-card", false);
-
-        console.log("socketNodes", this.skeleton.socketNodes);
-        console.log("sockets", this.skeleton.sockets);
+    async onClickStaticLucky() {
+        await AnimationUtils.playSpine(this.skeleton, "default-front-gold", false);
     }
 
-    onTestRotate() {
-        // const socketLargeSuit = sockets[1];
-        // socketLargeSuit.target.setRotationFromEuler(new Vec3(0, 90, 0));
+    async onClickOpenCard() {
+        await AnimationUtils.playSpine(this.skeleton, "open-card", false);
+    }
+
+    async onClickOpenStaticCard() {
+        await AnimationUtils.playSpine(this.skeleton, "default-front", false);
     }
 
     async onClickClose() {
-        this.skeletonHightLight.node.active = false;
+        this.hightLight.active = false;
         await AnimationUtils.playSpine(this.skeleton, "close-card", false);
     }
     async onClickCloseGold() {
@@ -53,15 +52,12 @@ export class TestCard extends Component {
     }
 
     async onClickHightLight() {
-        this.skeletonHightLight.node.active = true;
-        await AnimationUtils.playSpine(this.skeletonHightLight, "hightlight", true);
+        // this.skeletonHightLight.node.active = true;
+        // await AnimationUtils.playSpine(this.skeletonHightLight, "hightlight", true);
+        this.hightLight.active = true;
+    }
+
+    async onClickResetAnim() {
+        this.skeleton.clearAnimation();
     }
 }
-
-// Node.prototype.shear = () => {
-//     console.log("test shear------------");
-// };
-
-// Node.prototype.scale = () => {
-//     console.log("test scale------------");
-// };

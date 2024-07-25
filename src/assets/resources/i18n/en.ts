@@ -193,7 +193,6 @@ export const languages = {
         "header_cut-card_index": "Cut-Card Index",
         "header_fairness_verification": "Fairness Verification",
         "input_cut-card_button": "Input Cut-card Index",
-        "multiplierpayouts_extra_fee": "Extra Fee",
         "multiplierpayouts_fee": "Extra Fee",
         "multiplierpayouts_lucky_card": "Lucky Cards",
         "multiplierpayouts_multiplier": "Multiplier",

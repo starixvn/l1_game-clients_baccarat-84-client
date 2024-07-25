@@ -192,7 +192,6 @@ export const languages = {
         "header_cut-card_index": "Chỉ Số Cut-card",
         "header_fairness_verification": "Xác Minh Tính Minh Bạch",
         "input_cut-card_button": "Nhập Chỉ Số Cut-card",
-        "multiplierpayouts_extra_fee": "Phụ Phí",
         "multiplierpayouts_fee": "Phụ Phí",
         "multiplierpayouts_lucky_card": "Lá Bài May Mắn",
         "multiplierpayouts_multiplier": "Số Nhân",

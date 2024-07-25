@@ -193,7 +193,6 @@ export const languages = {
         "header_cut-card_index": "切牌 指數",
         "header_fairness_verification": "公平性驗證",
         "input_cut-card_button": "輸入切牌指數",
-        "multiplierpayouts_extra_fee": "附加費",
         "multiplierpayouts_fee": "附加費",
         "multiplierpayouts_lucky_card": "幸運卡",
         "multiplierpayouts_multiplier": "乘數",

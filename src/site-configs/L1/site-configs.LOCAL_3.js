@@ -8,5 +8,5 @@ window.envConfig = {
     enableMsgpackParserOnNotification: false,
     enableMsgpackParserAllGames: false,
     SGConnectSubDomain: "l1-connectsite3",
-    storagePrefixKey: "spaceflight",
+    storagePrefixKey: "bac81",
 };

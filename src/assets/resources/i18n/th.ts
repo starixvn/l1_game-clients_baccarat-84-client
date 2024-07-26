@@ -184,7 +184,6 @@ export const languages = {
         "final_shoe_result": "ผลลัพธ์การแจกไพ่",
         "game_icon_name": "BaccaratX",
         "game_name": "BaccaratX",
-        "game_name_bac81": "Bac81",
         "glossary_banker": "เจ้ามือ",
         "glossary_banker_pair": "คู่เจ้ามือ",
         "glossary_player": "ผู้เล่น",
@@ -215,6 +214,9 @@ export const languages = {
         "title_fairness_guides": "คู่มือความเป็นธรรม",
         "waiting screen_para_2": "คลิกปุ่มด้านล่างหากคุณต้องการมีส่วนร่วมในการตัดไพ่",
         "waiting_screen_para_1": "การสร้างดัชนีตัดไพ่"
+    },
+    "Bac81": {
+        "game_name": "Bac81"
     }
 };
 

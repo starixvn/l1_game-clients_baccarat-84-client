@@ -1541,7 +1541,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 231.19140625,
+      "x": 194.9951171875,
       "y": 79.403,
       "z": 0
     },
@@ -1660,7 +1660,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -98.310546875,
+      "x": -62.1142578125,
       "y": 0,
       "z": 0
     },
@@ -1820,7 +1820,7 @@
     "__prefab": {
       "__id__": 109
     },
-    "key": "BaccaratX.game_name_bac81",
+    "key": "Bac81.game_name",
     "format": 0,
     "prefix": "",
     "suffix": "",
@@ -1933,7 +1933,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 130.30078125,
+      "width": 57.908203125,
       "height": 27.2
     },
     "_anchorPoint": {
@@ -1969,7 +1969,7 @@
       "b": 127,
       "a": 255
     },
-    "_string": "$ 100 - 10,000",
+    "_string": "20000",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 20,
@@ -2067,7 +2067,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196.62109375,
+      "width": 124.228515625,
       "height": 27.2
     },
     "_anchorPoint": {
@@ -2162,7 +2162,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 104.310546875,
+      "x": 68.1142578125,
       "y": 0,
       "z": 0
     },
@@ -2533,7 +2533,7 @@
       "b": 127,
       "a": 255
     },
-    "_string": "10,000",
+    "_string": "",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
     "_actualFontSize": 20,
@@ -2710,7 +2710,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 462.3828125,
+      "width": 389.990234375,
       "height": 30
     },
     "_anchorPoint": {

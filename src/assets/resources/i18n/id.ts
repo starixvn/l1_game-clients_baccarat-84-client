@@ -184,7 +184,6 @@ export const languages = {
         "final_shoe_result": "Hasil Akhir Shoe",
         "game_icon_name": "BaccaratX",
         "game_name": "BaccaratX",
-        "game_name_bac81": "Bac81",
         "glossary_banker": "Banker",
         "glossary_banker_pair": "Banker pair",
         "glossary_player": "Player",
@@ -215,6 +214,9 @@ export const languages = {
         "title_fairness_guides": "Panduan Keadilan",
         "waiting screen_para_2": "Klik tombol di bawah jika Anda ingin berkontribusi pada pembuatan indeks Cut-card",
         "waiting_screen_para_1": "Menghasilkan Indeks Cut-card"
+    },
+    "Bac81": {
+        "game_name": "Bac81"
     }
 };
 

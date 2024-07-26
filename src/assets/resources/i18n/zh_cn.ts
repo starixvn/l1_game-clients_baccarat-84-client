@@ -184,7 +184,6 @@ export const languages = {
         "final_shoe_result": "最终牌盒结果",
         "game_icon_name": "BaccaratX",
         "game_name": "BaccaratX",
-        "game_name_bac81": "Bac81",
         "glossary_banker": "庄家",
         "glossary_banker_pair": "庄家一对",
         "glossary_player": "闲家",
@@ -215,6 +214,9 @@ export const languages = {
         "title_fairness_guides": "公平指南",
         "waiting screen_para_2": "如果您想为切牌指数产生做出贡献，请点击下面的按钮",
         "waiting_screen_para_1": "产生切牌指数"
+    },
+    "Bac81": {
+        "game_name": "Bac81"
     }
 };
 

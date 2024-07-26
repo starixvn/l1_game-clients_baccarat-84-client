@@ -10,7 +10,7 @@ import { siteConfigs } from "../../../scripts/site-configs";
 import { containerOptions, settings } from "../game-settings";
 import "./../../../resources/i18n";
 
-startGame(settings.name, containerOptions, siteConfigs, settings.tolgeeNamespace);
+startGame(settings.name, containerOptions, siteConfigs, settings.namespaces);
 const { Rounds, Connection, HideGame, Settlements, FormatUtils, RoundHistories, GameBaccaratX } = gc;
 
 const { ccclass, property } = _decorator;

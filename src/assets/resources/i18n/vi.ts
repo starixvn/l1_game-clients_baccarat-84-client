@@ -184,7 +184,6 @@ export const languages = {
         "final_shoe_result": "Kết Quả Hộp Bài Cuối Cùng",
         "game_icon_name": "BaccaratX",
         "game_name": "BaccaratX",
-        "game_name_bac81": "Bac81",
         "glossary_banker": "Nhà Cái",
         "glossary_banker_pair": "Cái Đôi",
         "glossary_player": "Nhà Con",
@@ -215,6 +214,9 @@ export const languages = {
         "title_fairness_guides": "Hướng Dẫn Kiểm Tra Tính Minh Bạch",
         "waiting screen_para_2": "Nhấn vào nút bên dưới nếu bạn muốn tham gia vào quá trình tạo vị trí Cut-card",
         "waiting_screen_para_1": "Tạo Vị Trí Cut-card"
+    },
+    "Bac81": {
+        "game_name": "Bac81"
     }
 };
 

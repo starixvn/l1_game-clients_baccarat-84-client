@@ -1,11 +1,18 @@
 {
-    "lobbyNames": {},
+    "lobbyNames": {
+        "en": "BaccaratX",
+        "id": "BaccaratX",
+        "th": "BaccaratX",
+        "vi": "BaccaratX",
+        "zh_cn": "BaccaratX",
+        "zh_tw": "BaccaratX"
+    },
     "gameNames": {
-        "en": "Baccarat Multi-X",
-        "id": "Baccarat Multi-X",
-        "th": "Baccarat Multi-X",
-        "vi": "Baccarat Multi-X",
-        "zh_cn": "百家乐Multi-X",
-        "zh_tw": "百家樂Multi-X"
+        "en": "Bac81",
+        "id": "Bac81",
+        "th": "Bac81",
+        "vi": "Bac81",
+        "zh_cn": "Bac81",
+        "zh_tw": "Bac81"
     }
 }

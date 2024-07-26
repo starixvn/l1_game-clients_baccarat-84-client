@@ -184,7 +184,6 @@ export const languages = {
         "final_shoe_result": "Final Shoe Result",
         "game_icon_name": "BaccaratX",
         "game_name": "BaccaratX",
-        "game_name_bac81": "Bac81",
         "glossary_banker": "Banker",
         "glossary_banker_pair": "Banker pair",
         "glossary_player": "Player",
@@ -215,6 +214,9 @@ export const languages = {
         "title_fairness_guides": "Fairness Guides",
         "waiting screen_para_2": "Click the button below if you would like to contribute to the cut-card index generation",
         "waiting_screen_para_1": "Generating the Cut-card Index"
+    },
+    "Bac81": {
+        "game_name": "Bac81"
     }
 };
 

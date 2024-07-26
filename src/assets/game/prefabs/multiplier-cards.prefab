@@ -28,20 +28,20 @@
         "__id__": 97
       },
       {
-        "__id__": 164
+        "__id__": 166
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 170
+        "__id__": 172
       },
       {
-        "__id__": 172
+        "__id__": 174
       }
     ],
     "_prefab": {
-      "__id__": 174
+      "__id__": 176
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -1376,11 +1376,11 @@
       }
     ],
     "_prefab": {
-      "__id__": 163
+      "__id__": 165
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": 216.207,
       "y": 79.403,
       "z": 0
     },
@@ -1426,7 +1426,7 @@
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 0.5,
       "y": 0.5
     },
     "_id": ""
@@ -1497,10 +1497,10 @@
     },
     "syncWidth": true,
     "syncHeight": false,
-    "syncPosition": false,
+    "syncPosition": true,
     "ratioWidth": 1,
     "ratioHeight": 1,
-    "widthPadding": 0,
+    "widthPadding": 60,
     "heightPadding": 0,
     "_id": ""
   },
@@ -1531,14 +1531,17 @@
       },
       {
         "__id__": 160
+      },
+      {
+        "__id__": 162
       }
     ],
     "_prefab": {
-      "__id__": 162
+      "__id__": 164
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": 231.19140625,
       "y": 79.403,
       "z": 0
     },
@@ -1595,7 +1598,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 153.7548828125,
+      "x": -132.880859375,
       "y": 0,
       "z": 0
     },
@@ -1657,7 +1660,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -153.7548828125,
+      "x": -98.310546875,
       "y": 0,
       "z": 0
     },
@@ -1698,7 +1701,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 171.208984375,
+      "width": 60.3203125,
       "height": 27.2
     },
     "_anchorPoint": {
@@ -1734,7 +1737,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "Baccarat Multi-X",
+    "_string": "Bac81",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 20,
@@ -1817,7 +1820,7 @@
     "__prefab": {
       "__id__": 109
     },
-    "key": "BaccaratX.game_name",
+    "key": "BaccaratX.game_name_bac81",
     "format": 0,
     "prefix": "",
     "suffix": "",
@@ -1889,7 +1892,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 88.6044921875,
+      "x": 33.16015625,
       "y": 0,
       "z": 0
     },
@@ -2064,7 +2067,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 307.509765625,
+      "width": 196.62109375,
       "height": 27.2
     },
     "_anchorPoint": {
@@ -2159,7 +2162,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 471.390625,
+      "x": 104.310546875,
       "y": 0,
       "z": 0
     },
@@ -2221,7 +2224,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -103,
+      "x": -78,
       "y": 0,
       "z": 0
     },
@@ -2453,7 +2456,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -48.119140625,
+      "x": -23.119140625,
       "y": 0,
       "z": 0
     },
@@ -2494,8 +2497,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 50
+      "width": 150,
+      "height": 27.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2628,7 +2631,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 303.76171875,
+      "width": 253.76171875,
       "height": 100
     },
     "_anchorPoint": {
@@ -2707,12 +2710,12 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 623.271484375,
+      "width": 462.3828125,
       "height": 30
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 0.5,
       "y": 0.5
     },
     "_id": ""
@@ -2760,6 +2763,42 @@
     "fileId": "19b+wfg0VLq73+3d2pEINu"
   },
   {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 97
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 163
+    },
+    "_alignFlags": 8,
+    "_target": null,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_horizontalCenter": 0,
+    "_verticalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 0,
+    "_originalHeight": 0,
+    "_alignMode": 1,
+    "_lockFlags": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "55VjQxKYdH7Z+CBbqzFCpb"
+  },
+  {
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 1
@@ -2797,14 +2836,14 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 165
+        "__id__": 167
       },
       {
-        "__id__": 167
+        "__id__": 169
       }
     ],
     "_prefab": {
-      "__id__": 169
+      "__id__": 171
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -2841,11 +2880,11 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 164
+      "__id__": 166
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 166
+      "__id__": 168
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -2869,11 +2908,11 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 164
+      "__id__": 166
     },
     "_enabled": false,
     "__prefab": {
-      "__id__": 168
+      "__id__": 170
     },
     "_resizeMode": 1,
     "_layoutType": 1,
@@ -2924,7 +2963,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 171
+      "__id__": 173
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -2952,14 +2991,14 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 173
+      "__id__": 175
     },
     "prfMultiplierCard": {
       "__uuid__": "3ad7b880-905b-44c1-8daa-37f6cc72ba6f",
       "__expectedType__": "cc.Prefab"
     },
     "content": {
-      "__id__": 164
+      "__id__": 166
     },
     "lblRangeBetLimit": {
       "__id__": 116

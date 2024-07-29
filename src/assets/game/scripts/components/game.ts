@@ -34,9 +34,6 @@ export default class Game extends GameComponent {
     nodeBaccaratCardsUi: Node = null;
 
     @property(Node)
-    nodeMultiplierCards: Node = null;
-
-    @property(Node)
     nodeWinNotice: Node = null;
 
     baccaratXCardsUi: BaccaratXCardsUI = null;

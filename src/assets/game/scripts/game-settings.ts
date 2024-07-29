@@ -17,7 +17,6 @@ export const settings = {
         startRound: 5,
     },
     numberOfRoundHistory: 100,
-    validateBalanceWhenBet: true,
 };
 
 export const containerOptions: gc.IContainerOptions = {

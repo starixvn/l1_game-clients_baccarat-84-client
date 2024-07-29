@@ -2498,7 +2498,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 150,
-      "height": 27.2
+      "height": 40
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2533,7 +2533,7 @@
       "b": 127,
       "a": 255
     },
-    "_string": "",
+    "_string": "20%",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
     "_actualFontSize": 20,

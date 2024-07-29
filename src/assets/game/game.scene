@@ -10628,6 +10628,7 @@
     "nodeBetItems": {
       "__id__": 55
     },
+    "usingDelayPayChips": false,
     "delayAnimPayChips": 5,
     "_id": "a9notS7qBFnaE7WcvCvMyO"
   },
@@ -19198,6 +19199,9 @@
     },
     "lblMinBet": null,
     "lblMaxBet": null,
+    "chipFlying": {
+      "__id__": 341
+    },
     "nodeBaccaratCardsUi": {
       "__id__": 282
     },

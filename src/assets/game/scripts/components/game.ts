@@ -3,6 +3,7 @@ import { _decorator, Node } from "cc";
 import { startGame } from "db://shared-components/shared/scripts/startup";
 import Observer from "observer";
 import { BaccaratXCardsUI } from "../../../../extensions/shared-components/assets/game-baccarat/cards/baccarat-x-cards-ui";
+import { ChipFlying } from "../../../../extensions/shared-components/assets/game/chip-flying/scripts/components/chip-flying";
 import { CardModel } from "../../../../extensions/shared-components/assets/game/poker-cards/scripts/poker-card";
 import GameComponent from "../../../../extensions/shared-components/assets/game/scripts/components/game-component";
 import { WinningResult } from "../../../../extensions/shared-components/assets/shared/common-components/winning-result/scripts/winning-result";
@@ -24,6 +25,8 @@ export interface TeamInfo {
 @ccclass
 @observer(settings.name)
 export default class Game extends GameComponent {
+    @property(ChipFlying)
+    chipFlying: ChipFlying = null;
     override namespace = settings.name;
     override containerOptions = containerOptions;
 
@@ -77,6 +80,7 @@ export default class Game extends GameComponent {
         this.baccaratXCardsUi.currentCardIndex = usedCardIndexes[0];
         this.showResult(result, true, settlementResult).then(() => {
             this.finishShowResult(result, settlementResult);
+            this.chipFlying.callActionPayChips();
         });
         this.playSound(gc.Audios.AudioIds.RECEIVE_FINISH);
     }

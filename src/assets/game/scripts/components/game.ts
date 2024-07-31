@@ -3,6 +3,7 @@ import { _decorator, Node } from "cc";
 import { startGame } from "db://shared-components/shared/scripts/startup";
 import Observer from "observer";
 import { BaccaratXCardsUI } from "../../../../extensions/shared-components/assets/game-baccarat/cards/baccarat-x-cards-ui";
+import { AudioContainer } from "../../../../extensions/shared-components/assets/game/audios/scripts/component/audio-container";
 import { ChipFlying } from "../../../../extensions/shared-components/assets/game/chip-flying/scripts/components/chip-flying";
 import { CardModel } from "../../../../extensions/shared-components/assets/game/poker-cards/scripts/poker-card";
 import GameComponent from "../../../../extensions/shared-components/assets/game/scripts/components/game-component";
@@ -36,15 +37,20 @@ export default class Game extends GameComponent {
     @property(Node)
     nodeWinNotice: Node = null;
 
+    @property(Node)
+    nodeAudioContainer: Node = null;
+
     baccaratXCardsUi: BaccaratXCardsUI = null;
 
     protected enableFixHandleFinish = true;
     private currentCardIndexInGame = -1;
     private cutCardIndexInGame = 0;
+    private audioContainer: AudioContainer = null;
 
     private soundWinChoice = ["player", "banker", "tie"];
 
     onLoad() {
+        this.audioContainer = this.nodeAudioContainer.getComponent(AudioContainer);
         this.baccaratXCardsUi = this.nodeBaccaratCardsUi.getComponent(BaccaratXCardsUI);
         super.onLoad();
     }
@@ -145,5 +151,14 @@ export default class Game extends GameComponent {
     @render(GameBaccaratX.Shoe.ShoeStore, (store) => store.newShoePhase)
     disableWinNotice1(newShoePhase: boolean) {
         newShoePhase && this.nodeWinNotice.getComponent(WinningResult).hideQuickly();
+    }
+
+    @render(Rounds.RoundTimeStore, (store) => store.roundState)
+    fadeVolumeBgMusic(roundState: string) {
+        if (roundState === Rounds.ROUND_STATE.LOCKING_BET) {
+            this.audioContainer.updateVolumeMusicSource(0.3, 3);
+        } else if (roundState === Rounds.ROUND_STATE.SHOW_RESULT) {
+            this.audioContainer.updateVolumeMusicSource(1, 3);
+        }
     }
 }

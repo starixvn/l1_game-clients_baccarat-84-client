@@ -8,13 +8,13 @@ export const settings = {
     name: "Bac81",
     namespaces: ["Bac81", "BaccaratX"],
     durations: {
-        wholeRound: 48,
-        wholeShoe: 68,
+        wholeRound: 47,
+        wholeShoe: 65,
         lockingBet: 3,
         placingBet: 30,
         generatingResult: 7,
         showingResult: 5,
-        startRound: 5,
+        startRound: 4,
     },
     numberOfRoundHistory: 100,
 };

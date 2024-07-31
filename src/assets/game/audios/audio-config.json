@@ -1,7 +1,4 @@
 {
-    "draw-card": {
-        "bundle": "resources"
-    },
     "player-en": {
         "bundle": "resources",
         "path": "winning/player-en",

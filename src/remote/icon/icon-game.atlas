@@ -1,61 +1,68 @@
 
 icon-game.png
-size: 587,224
+size: 606,222
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 100x
   rotate: true
-  xy: 522, 4
+  xy: 525, 107
   size: 113, 55
   orig: 113, 55
   offset: 0, 0
   index: -1
 bg
-  rotate: false
-  xy: 2, 6
+  rotate: true
+  xy: 2, 5
   size: 215, 216
   orig: 215, 221
   offset: 0, 0
   index: -1
+icon-pf
+  rotate: true
+  xy: 346, 2
+  size: 44, 46
+  orig: 46, 49
+  offset: 1, 1
+  index: -1
 labai8
   rotate: true
-  xy: 459, 119
+  xy: 478, 2
   size: 103, 126
   orig: 103, 126
   offset: 0, 0
   index: -1
 labaiA
   rotate: true
-  xy: 396, 9
+  xy: 220, 3
   size: 107, 124
   orig: 114, 128
   offset: 6, 3
   index: -1
 label
   rotate: false
-  xy: 219, 28
+  xy: 348, 154
   size: 175, 66
   orig: 175, 66
   offset: 0, 0
   index: -1
 light
   rotate: false
-  xy: 219, 2
+  xy: 478, 128
   size: 22, 24
   orig: 24, 24
   offset: 1, 0
   index: -1
 sangA
-  rotate: false
-  xy: 219, 96
+  rotate: true
+  xy: 220, 112
   size: 108, 126
   orig: 114, 129
   offset: 5, 3
   index: -1
 sangb
   rotate: true
-  xy: 329, 118
+  xy: 348, 48
   size: 104, 128
   orig: 105, 129
   offset: 1, 0

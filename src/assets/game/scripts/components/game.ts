@@ -61,13 +61,19 @@ export default class Game extends GameComponent {
         settlementResult: gc.GameServiceMessage.TSettlementResult
     ) {
         if (result) {
+            const winning = this.getWinningResult();
+            winning.hideQuickly();
+
             await this.baccaratXCardsUi.openCards(result as any, settlementResult, hasAnimation);
-            const winning = this.nodeWinNotice.getComponent(WinningResult);
-            winning.setSettlementResult(settlementResult);
             const winChoice = this.soundWinChoice.find((choice) => settlementResult[choice]);
             this.playSound(`${winChoice}-${gc.Translator.getLanguageId()}`);
-            winning.show();
+            winning?.setSettlementResult(settlementResult);
+            winning?.show();
         }
+    }
+
+    getWinningResult() {
+        return this.nodeWinNotice.getComponent(WinningResult);
     }
 
     renderCurrentFinish(currentFinish: gc.GameServiceMessage.Finish) {
@@ -145,12 +151,12 @@ export default class Game extends GameComponent {
 
     @render(Rounds.RoundTimeStore, (store) => store.isStartingRound)
     disableWinNotice(isStartingRound: boolean) {
-        isStartingRound && this.nodeWinNotice.getComponent(WinningResult).hideQuickly();
+        isStartingRound && this.getWinningResult()?.hideQuickly();
     }
 
     @render(GameBaccaratX.Shoe.ShoeStore, (store) => store.newShoePhase)
     disableWinNotice1(newShoePhase: boolean) {
-        newShoePhase && this.nodeWinNotice.getComponent(WinningResult).hideQuickly();
+        newShoePhase && this.getWinningResult()?.hideQuickly();
     }
 
     @render(Rounds.RoundTimeStore, (store) => store.roundState)

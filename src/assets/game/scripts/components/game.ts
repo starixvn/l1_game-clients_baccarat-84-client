@@ -63,8 +63,11 @@ export default class Game extends GameComponent {
         if (result) {
             const winning = this.getWinningResult();
             winning.hideQuickly();
-
-            await this.baccaratXCardsUi.openCards(result as any, settlementResult, hasAnimation);
+            if (hasAnimation) {
+                await this.baccaratXCardsUi.openCards(result as any, settlementResult, hasAnimation);
+            } else {
+                this.baccaratXCardsUi.openCards(result as any, settlementResult, hasAnimation);
+            }
             const winChoice = this.soundWinChoice.find((choice) => settlementResult[choice]);
             this.playSound(`${winChoice}-${gc.Translator.getLanguageId()}`);
             winning?.setSettlementResult(settlementResult);

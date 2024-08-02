@@ -1,11 +1,11 @@
 {
 "skeleton": {
-	"hash": "CkFO4CgZY3/DmNnCySLL17+jAOY",
+	"hash": "5jTX9hOyHDH7z4nUrOYGel2aMB8",
 	"spine": "3.8.99",
-	"x": -111.5,
-	"y": -111.5,
-	"width": 215,
-	"height": 221,
+	"x": -101,
+	"y": -101.5,
+	"width": 202,
+	"height": 203,
 	"images": "",
 	"audio": ""
 },
@@ -27,10 +27,11 @@
 		"y": -3.92,
 		"scaleX": 1.07,
 		"scaleY": 1.2
-	}
+	},
+	{ "name": "bg", "parent": "icon-game" }
 ],
 "slots": [
-	{ "name": "bg", "bone": "icon-game", "attachment": "bg" },
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
 	{ "name": "labaiA", "bone": "labaiA", "attachment": "labaiA" },
 	{ "name": "sangA", "bone": "sangA", "attachment": "sangA" },
 	{ "name": "labai8", "bone": "labai8", "attachment": "labai8" },
@@ -49,10 +50,10 @@
 				"100x": { "x": 1.5, "y": -1.5, "width": 113, "height": 55 }
 			},
 			"bg": {
-				"bg": { "x": -4, "y": -1, "width": 215, "height": 221 }
+				"bg": { "width": 202, "height": 203 }
 			},
 			"icon-pf": {
-				"icon-pf": { "x": -78.12, "y": 66.69, "width": 46, "height": 49 }
+				"icon-pf": { "x": -72.9, "y": 66.69, "width": 46, "height": 49 }
 			},
 			"labai8": {
 				"labai8": { "x": 10.48, "y": 41.98, "width": 103, "height": 126 }

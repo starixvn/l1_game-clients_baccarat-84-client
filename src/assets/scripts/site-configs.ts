@@ -26,6 +26,7 @@ const defaultConfig: gc.Configs.SiteConfigs = {
     mainObserverNamespace: "Bac81",
     tolgeeUrl: "",
     storagePrefixKey: "bac81",
+    backgroundNoTranslate: true,
 };
 
 let configDev = {

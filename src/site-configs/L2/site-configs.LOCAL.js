@@ -9,4 +9,5 @@ window.envConfig = {
     enableMsgpackParserOnNotification: false,
     SGConnectSubDomain: "l2-connect",
     storagePrefixKey: "bac81",
+    backgroundNoTranslate: true,
 };

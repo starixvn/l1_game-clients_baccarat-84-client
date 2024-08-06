@@ -9,4 +9,5 @@ window.envConfig = {
     enableMsgpackParserAllGames: false,
     SGConnectSubDomain: "l1-connectsite1",
     storagePrefixKey: "bac81",
+    backgroundNoTranslate: true,
 };

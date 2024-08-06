@@ -182,8 +182,8 @@ export const languages = {
         "fairness_settings_para_1": "玩家可以输入自己的客户种子值，并在牌盒结束时从投注历史记录中验证游戏的公平性。",
         "final_cut-card_index": "最终切牌指数",
         "final_shoe_result": "最终牌盒结果",
-        "game_icon_name": "BaccaratX",
-        "game_name": "BaccaratX",
+        "game_icon_name": "幸运百家乐",
+        "game_name": "幸运百家乐",
         "glossary_banker": "庄家",
         "glossary_banker_pair": "庄家一对",
         "glossary_player": "闲家",
@@ -216,7 +216,7 @@ export const languages = {
         "waiting_screen_para_1": "产生切牌指数"
     },
     "Bac81": {
-        "game_name": "Bac81"
+        "game_name": "幸运百家乐"
     }
 };
 

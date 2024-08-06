@@ -182,8 +182,8 @@ export const languages = {
         "fairness_settings_para_1": "Người chơi có thể thay đổi giá trị Client seed và kiểm tra tính minh bạch của kết quả trong mục Lịch sử cược.",
         "final_cut-card_index": "Vị trí Cut-card Cuối Cùng",
         "final_shoe_result": "Kết Quả Hộp Bài Cuối Cùng",
-        "game_icon_name": "BaccaratX",
-        "game_name": "BaccaratX",
+        "game_icon_name": "Lucky Baccarat",
+        "game_name": "Lucky Baccarat",
         "glossary_banker": "Nhà Cái",
         "glossary_banker_pair": "Cái Đôi",
         "glossary_player": "Nhà Con",
@@ -216,7 +216,7 @@ export const languages = {
         "waiting_screen_para_1": "Tạo Vị Trí Cut-card"
     },
     "Bac81": {
-        "game_name": "Bac81"
+        "game_name": "Lucky Baccarat"
     }
 };
 

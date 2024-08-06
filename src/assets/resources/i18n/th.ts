@@ -182,8 +182,8 @@ export const languages = {
         "fairness_settings_para_1": "ผู้เล่นสามารถป้อนมูลค่า Client Seed เองได้ และตรวจสอบความถูกต้องของเกมจากประวัติการเดิมพันเมื่อจบเกมไพ่ใบสุดท้าย",
         "final_cut-card_index": "ดัชนีตัดไพ่ขั้นสุดท้าย",
         "final_shoe_result": "ผลลัพธ์การแจกไพ่",
-        "game_icon_name": "BaccaratX",
-        "game_name": "BaccaratX",
+        "game_icon_name": "บาคาร่านำโชค",
+        "game_name": "บาคาร่านำโชค",
         "glossary_banker": "เจ้ามือ",
         "glossary_banker_pair": "คู่เจ้ามือ",
         "glossary_player": "ผู้เล่น",
@@ -216,7 +216,7 @@ export const languages = {
         "waiting_screen_para_1": "การสร้างดัชนีตัดไพ่"
     },
     "Bac81": {
-        "game_name": "Bac81"
+        "game_name": "บาคาร่านำโชค"
     }
 };
 

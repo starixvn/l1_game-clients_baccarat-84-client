@@ -182,8 +182,8 @@ export const languages = {
         "fairness_settings_para_1": "Pemain dapat memasukkan nilai Seed Klien mereka dan memverifikasi keadilan permainan dari Riwayat Taruhan ketika kartu shoe berakhir.",
         "final_cut-card_index": "Indeks Cut-card Akhir",
         "final_shoe_result": "Hasil Akhir Shoe",
-        "game_icon_name": "BaccaratX",
-        "game_name": "BaccaratX",
+        "game_icon_name": "Bakarat Keberuntungan",
+        "game_name": "Bakarat Keberuntungan",
         "glossary_banker": "Banker",
         "glossary_banker_pair": "Banker pair",
         "glossary_player": "Player",
@@ -216,7 +216,7 @@ export const languages = {
         "waiting_screen_para_1": "Menghasilkan Indeks Cut-card"
     },
     "Bac81": {
-        "game_name": "Bac81"
+        "game_name": "Bakarat Keberuntungan"
     }
 };
 

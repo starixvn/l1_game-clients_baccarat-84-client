@@ -182,8 +182,8 @@ export const languages = {
         "fairness_settings_para_1": "Players can input their Client Seed value and verify the game's fairness from the Bet History when the card shoe ends.",
         "final_cut-card_index": "Final Cut-card Index",
         "final_shoe_result": "Final Shoe Result",
-        "game_icon_name": "BaccaratX",
-        "game_name": "BaccaratX",
+        "game_icon_name": "Lucky Baccarat",
+        "game_name": "Lucky Baccarat",
         "glossary_banker": "Banker",
         "glossary_banker_pair": "Banker pair",
         "glossary_player": "Player",
@@ -216,7 +216,7 @@ export const languages = {
         "waiting_screen_para_1": "Generating the Cut-card Index"
     },
     "Bac81": {
-        "game_name": "Bac81"
+        "game_name": "Lucky Baccarat"
     }
 };
 

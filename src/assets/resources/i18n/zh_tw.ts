@@ -182,8 +182,8 @@ export const languages = {
         "fairness_settings_para_1": "玩家可以輸入自己的客戶種子值，並在牌盒結束時從投注歷史記錄中驗證遊戲的公平性。",
         "final_cut-card_index": "最終切牌指數",
         "final_shoe_result": "最終牌盒結果",
-        "game_icon_name": "BaccaratX",
-        "game_name": "BaccaratX",
+        "game_icon_name": "幸運百家樂",
+        "game_name": "幸運百家樂",
         "glossary_banker": "莊家",
         "glossary_banker_pair": "莊家一對",
         "glossary_player": "閒家",
@@ -216,7 +216,7 @@ export const languages = {
         "waiting_screen_para_1": "產生切牌指數"
     },
     "Bac81": {
-        "game_name": "Bac81"
+        "game_name": "幸運百家樂"
     }
 };
 

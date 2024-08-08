@@ -96,5 +96,10 @@
     "multiplier": {
         "bundle": "resources",
         "isLazyLoad": true
+    },
+    "opening-card": {
+        "bundle": "shared-bundle",
+        "path": "opening-card",
+        "isLazyLoad": true
     }
 }

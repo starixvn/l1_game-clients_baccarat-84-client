@@ -121,7 +121,7 @@ export default class Game extends GameComponent {
             return;
         }
         console.log("firstJoinGameHistory rendering");
-        await this.baccaratXCardsUi.initCards();
+        this.baccaratXCardsUi.initCards();
         this.baccaratXCardsUi?.updateStacksCardBox(this?.currentCardIndexInGame, this?.cutCardIndexInGame);
         const lastRound = firstJoinGameHistory.roundHistory as any;
         if (lastRound) {
@@ -130,7 +130,7 @@ export default class Game extends GameComponent {
             if (animated) {
                 this.parseOddsMultipliers(lastRound);
                 this.baccaratXCardsUi.currentCardIndex = usedCardIndexes[0];
-                await this.showResult(result, false, settlementResult);
+                this.showResult(result, false, settlementResult);
                 return;
             }
 

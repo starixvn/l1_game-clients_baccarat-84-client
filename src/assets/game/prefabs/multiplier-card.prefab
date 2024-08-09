@@ -311,7 +311,7 @@
     ],
     "value": {
       "__type__": "cc.Size",
-      "width": 150,
+      "width": 148,
       "height": 206
     }
   },
@@ -329,7 +329,7 @@
     "propertyPath": [
       "_left"
     ],
-    "value": 0.924500000000009
+    "value": 1.924500000000009
   },
   {
     "__type__": "cc.TargetInfo",
@@ -345,7 +345,7 @@
     "propertyPath": [
       "_right"
     ],
-    "value": 0.924500000000009
+    "value": 1.924500000000009
   },
   {
     "__type__": "CCPropertyOverrideInfo",

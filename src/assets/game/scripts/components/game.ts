@@ -101,9 +101,7 @@ export default class Game extends GameComponent {
     @render(GameBaccaratX.Shoe.ShoeStore, (store) => store.shoeInfo)
     renderShoeInfo(shoeInfo: gc.GameServiceMessage.ShoeInfo) {
         if (shoeInfo) {
-            console.log("shoeInFo rendering");
             const currentCardIndex = shoeInfo.currentIndex ?? shoeInfo.burnedCards;
-            console.log(`currentCardIndex from shoe ======================== `, currentCardIndex);
             if (this.currentCardIndexInGame === -1) {
                 this.currentCardIndexInGame = currentCardIndex;
                 this.updateCutCardIndex(shoeInfo?.cutCardIndex);
@@ -121,7 +119,6 @@ export default class Game extends GameComponent {
         if (!firstJoinGameHistory) {
             return;
         }
-        console.log("firstJoinGameHistory rendering");
         this.baccaratXCardsUi.initCards();
         this.baccaratXCardsUi?.updateStacksCardBox(this?.currentCardIndexInGame, this?.cutCardIndexInGame);
         const lastRound = firstJoinGameHistory.roundHistory as any;
@@ -135,9 +132,6 @@ export default class Game extends GameComponent {
                 return;
             }
 
-            const currentCardIndex = usedCardIndexes[usedCardIndexes.length - 1] + 1;
-            console.log(`current card index compare ::::::   `, currentCardIndex === this.currentCardIndexInGame);
-            console.log("resume game when first round of shoe, current card index", this.currentCardIndexInGame);
             this.baccaratXCardsUi.currentCardIndex = this.currentCardIndexInGame;
             await this.baccaratXCardsUi.draw6Cards(false);
         } else {

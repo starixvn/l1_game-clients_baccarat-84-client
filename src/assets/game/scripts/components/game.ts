@@ -119,6 +119,13 @@ export default class Game extends GameComponent {
         if (!firstJoinGameHistory) {
             return;
         }
+        await FunctionUtils.waitUntil(
+            () => {
+                return this.currentCardIndexInGame !== -1;
+            },
+            50,
+            1000
+        );
         this.baccaratXCardsUi.initCards();
         this.baccaratXCardsUi?.updateStacksCardBox(this?.currentCardIndexInGame, this?.cutCardIndexInGame);
         const lastRound = firstJoinGameHistory.roundHistory as any;
@@ -131,18 +138,10 @@ export default class Game extends GameComponent {
                 this.showResult(result, false, settlementResult);
                 return;
             }
-
             this.baccaratXCardsUi.currentCardIndex = this.currentCardIndexInGame;
             await this.baccaratXCardsUi.draw6Cards(false);
         } else {
-            if (firstJoinGameHistory.roundTime < settings.durations.placingBet + settings.durations.startRound) {
-                await FunctionUtils.waitUntil(
-                    () => {
-                        return this.currentCardIndexInGame !== -1;
-                    },
-                    100,
-                    1000
-                );
+            if (firstJoinGameHistory.roundTime <= settings.durations.placingBet + settings.durations.startRound) {
                 this.baccaratXCardsUi.currentCardIndex = this.currentCardIndexInGame;
                 await this.baccaratXCardsUi.draw6Cards(false);
             }

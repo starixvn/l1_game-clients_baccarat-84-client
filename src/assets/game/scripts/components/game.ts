@@ -8,6 +8,7 @@ import { ChipFlying } from "../../../../extensions/shared-components/assets/game
 import { CardModel } from "../../../../extensions/shared-components/assets/game/poker-cards/scripts/poker-card";
 import GameComponent from "../../../../extensions/shared-components/assets/game/scripts/components/game-component";
 import { WinningResult } from "../../../../extensions/shared-components/assets/shared/common-components/winning-result/scripts/winning-result";
+import { FunctionUtils } from "../../../../extensions/shared-components/assets/shared/utils";
 import { siteConfigs } from "../../../scripts/site-configs";
 import { containerOptions, settings } from "../game-settings";
 import "./../../../resources/i18n";
@@ -141,6 +142,13 @@ export default class Game extends GameComponent {
             await this.baccaratXCardsUi.draw6Cards(false);
         } else {
             if (firstJoinGameHistory.roundTime < settings.durations.placingBet + settings.durations.startRound) {
+                await FunctionUtils.waitUntil(
+                    () => {
+                        return this.currentCardIndexInGame !== -1;
+                    },
+                    100,
+                    1000
+                );
                 this.baccaratXCardsUi.currentCardIndex = this.currentCardIndexInGame;
                 await this.baccaratXCardsUi.draw6Cards(false);
             }

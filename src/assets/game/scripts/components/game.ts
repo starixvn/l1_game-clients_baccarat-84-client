@@ -49,6 +49,7 @@ export default class Game extends GameComponent {
     private audioContainer: AudioContainer = null;
 
     private soundWinChoice = ["player", "banker", "tie"];
+    private isAnimatingResult = false;
 
     onLoad() {
         this.audioContainer = this.nodeAudioContainer.getComponent(AudioContainer);
@@ -62,6 +63,10 @@ export default class Game extends GameComponent {
         settlementResult: gc.GameServiceMessage.TSettlementResult
     ) {
         if (result) {
+            if (this.isAnimatingResult) {
+                return;
+            }
+            this.isAnimatingResult = true;
             const winning = this.getWinningResult();
             winning.hideQuickly();
             if (hasAnimation) {
@@ -73,6 +78,7 @@ export default class Game extends GameComponent {
             this.playSound(`${winChoice}-${gc.Translator.getLanguageId()}`);
             winning?.setSettlementResult(settlementResult);
             winning?.show();
+            this.isAnimatingResult = false;
         }
     }
 

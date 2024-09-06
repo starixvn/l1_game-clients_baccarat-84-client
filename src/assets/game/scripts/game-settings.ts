@@ -1,11 +1,12 @@
 import gc from "@sg/game-client-base";
 import { LogStore } from "db://shared-components/game/scripts/stores/log-store";
 
+import { GAME_ID, GAME_NAME } from "../../scripts/game-configs";
 import { sharedContainer } from "../../scripts/shared-container";
 
 export const settings = {
-    id: 81,
-    name: "Bac81",
+    id: GAME_ID,
+    name: GAME_NAME,
     namespaces: ["Bac81", "BaccaratX"],
     durations: {
         wholeRound: 47,

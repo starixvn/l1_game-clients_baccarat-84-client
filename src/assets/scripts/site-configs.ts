@@ -1,4 +1,5 @@
 import gc from "@sg/game-client-base";
+import { GAME_NAME, GAME_SERVICE_ROUTE } from "./game-configs";
 
 declare global {
     interface Window {
@@ -20,12 +21,12 @@ const defaultConfig: gc.Configs.SiteConfigs = {
     enableMsgpackParserAllGames: false,
     enableMsgpackParserOnNotification: false,
     websocket: {
-        proxyPath: "bac81",
-        route: "baccaratx",
+        proxyPath: GAME_NAME.toLowerCase(),
+        route: GAME_SERVICE_ROUTE,
     },
-    mainObserverNamespace: "Bac81",
+    mainObserverNamespace: GAME_NAME,
     tolgeeUrl: "",
-    storagePrefixKey: "bac81",
+    storagePrefixKey: GAME_NAME,
     backgroundNoTranslate: true,
 };
 

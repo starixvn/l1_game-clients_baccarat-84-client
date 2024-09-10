@@ -46,7 +46,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 0,
+      "y": -25,
       "z": 0
     },
     "_lrot": {
@@ -167,9 +167,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
+      "r": 4,
+      "g": 61,
+      "b": 113,
       "a": 255
     },
     "_spriteFrame": {
@@ -751,7 +751,6 @@
       "__id__": 0
     },
     "fileId": "e5NfEEVI5LIK7lLEjw33XT",
-    "instance": null,
     "targetOverrides": null
   }
 ]

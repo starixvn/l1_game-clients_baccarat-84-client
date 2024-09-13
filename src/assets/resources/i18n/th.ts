@@ -6,7 +6,6 @@ export const languages = {
         "bet_amount_of_any_choice_incorrect": "จำนวนเงินเดิมพันไม่ถูกต้อง",
         "bet_choice": "ตัวเลือกการเดิมพัน",
         "bet_detail": "รายละเอียดการเดิมพัน",
-        "bet_details_classic_slot_non_winning_payline": "ช่องจ่ายเงินที่ไม่ชนะ",
         "bet_history": "ประวัติการเดิมพัน",
         "bet_limit": "จำกัดการเดิมพัน",
         "bet_option_even": "คู่",
@@ -106,6 +105,7 @@ export const languages = {
         "min_bet_hand": "เดิมพันขั้นต่ำสำหรับมือนี้คือ %{minBet}",
         "name_invalid": "กรอกชื่อเล่นไม่ถูกต้อง กรุณาลองกรอกใหม่อีกครั้ง",
         "nickname_requirement": "หมายเหตุ:\n+ ชื่อเล่นต้องมีความยาวระหว่าง 3 ถึง 14 ตัวอักษร\n+ ต้องไม่มีช่องว่าง อักขระพิเศษ และอักขระที่ไม่ใช่ภาษาอังกฤษ\n+ ไม่สามารถเปลี่ยนชื่อเล่นหลังจากทำการยืนยัน",
+        "non_winning_payline": "ช่องจ่ายเงินที่ไม่ชนะ",
         "not_enough_money": "บัญชีของคุณมีเงินไม่เพียงพอ",
         "notice": "ประกาศ",
         "odds": "อัตราต่อรอง",
@@ -215,8 +215,8 @@ export const languages = {
         "waiting screen_para_2": "คลิกปุ่มด้านล่างหากคุณต้องการมีส่วนร่วมในการตัดไพ่",
         "waiting_screen_para_1": "การสร้างดัชนีตัดไพ่"
     },
-    "Bac81": {
-        "game_name": "บาคาร่านำโชค"
+    "Bac84": {
+        "game_name": "บาคาร่า 2"
     }
 };
 

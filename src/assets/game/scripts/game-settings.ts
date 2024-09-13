@@ -7,7 +7,7 @@ import { sharedContainer } from "../../scripts/shared-container";
 export const settings = {
     id: GAME_ID,
     name: GAME_NAME,
-    namespaces: ["Bac81", "BaccaratX"],
+    namespaces: [GAME_NAME, "BaccaratX"],
     durations: {
         wholeRound: 47,
         wholeShoe: 65,

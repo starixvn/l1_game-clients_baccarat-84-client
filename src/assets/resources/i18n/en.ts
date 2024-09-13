@@ -6,7 +6,6 @@ export const languages = {
         "bet_amount_of_any_choice_incorrect": "Invalid Bet Amount",
         "bet_choice": "Bet Choice",
         "bet_detail": "Bet Details",
-        "bet_details_classic_slot_non_winning_payline": "Non-winning Paylines",
         "bet_history": "Bet History",
         "bet_limit": "Bet Limit",
         "bet_option_even": "Even",
@@ -106,6 +105,7 @@ export const languages = {
         "min_bet_hand": "Min bet for this hand is %{minBet}",
         "name_invalid": "The entered nickname is invalid, please try again",
         "nickname_requirement": "Note:\n      + Nickname must be between 3 and 14 characters long.\n      + Cannot contain spaces, special characters, and non-English characters. \n      + Cannot change the nickname after submitting.",
+        "non_winning_payline": "Non-winning Paylines",
         "not_enough_money": "Your account has insufficient funds.",
         "notice": "notice",
         "odds": "Odds",
@@ -191,13 +191,17 @@ export const languages = {
         "glossary_tie": "Tie",
         "header_cut-card_index": "Cut-Card Index",
         "header_fairness_verification": "Fairness Verification",
+        "home_button": "Home",
         "input_cut-card_button": "Input Cut-card Index",
         "multiplierpayouts_fee": "Extra Fee",
         "multiplierpayouts_lucky_card": "Lucky Cards",
         "multiplierpayouts_multiplier": "Multiplier",
+        "music_button": "Music",
         "player_win": "PLAYER WIN",
         "scoreboard_banker_pair": "B. Pair",
         "scoreboard_player_pair": "P. Pair",
+        "settings_button": "Settings",
+        "sfx_button": "SFX",
         "shoe_result": "Shoe Result",
         "shoe_result SHA256": "Shoe Result SHA256",
         "show_cut_card_index": "The cut-card index is %{cut_card_index}",
@@ -208,6 +212,9 @@ export const languages = {
         "submit_button": "Submit",
         "submit_notes": "(Please note that only the submitted value is used to calculate the final Cut-card index) ",
         "table": "Table",
+        "tag_classic": "Classic",
+        "tag_lucky": "Lucky",
+        "tag_speed": "Speed",
         "tie_win": "TIE",
         "title_cut-card_index": "Cut-card Index",
         "title_cut-card_index_settings": "Cut-card Index Settings",
@@ -215,8 +222,8 @@ export const languages = {
         "waiting screen_para_2": "Click the button below if you would like to contribute to the cut-card index generation",
         "waiting_screen_para_1": "Generating the Cut-card Index"
     },
-    "Bac81": {
-        "game_name": "Lucky Baccarat"
+    "Bac84": {
+        "game_name": "Baccarat 2"
     }
 };
 

@@ -1660,7 +1660,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -62.1142578125,
+      "x": -110.48828125,
       "y": 0,
       "z": 0
     },
@@ -1701,7 +1701,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 60.3203125,
+      "width": 157.068359375,
       "height": 27.2
     },
     "_anchorPoint": {
@@ -1737,7 +1737,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "Bac81",
+    "_string": "Lucky Baccarat",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 20,
@@ -1809,7 +1809,7 @@
     "fileId": "bbYe+Alc1CjYiTLHThp6NJ"
   },
   {
-    "__type__": "d79a8JOa2JHfr/hBtgYdLqO",
+    "__type__": "6c12eWZ3I5D5rOwWyjWmS36",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -1820,18 +1820,16 @@
     "__prefab": {
       "__id__": 109
     },
-    "key": "Bac81.game_name",
-    "format": 0,
-    "prefix": "",
-    "suffix": "",
+    "overrideFonts": [],
+    "enableCacheMode": false,
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "783HqNpDtChK87HFzUwP5V"
+    "fileId": "78q0DgfvtH8otS6s/y9khk"
   },
   {
-    "__type__": "6c12eWZ3I5D5rOwWyjWmS36",
+    "__type__": "2a8f2cbTpdOGahxiXLW530G",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -1842,13 +1840,11 @@
     "__prefab": {
       "__id__": 111
     },
-    "overrideFonts": [],
-    "enableCacheMode": false,
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "78q0DgfvtH8otS6s/y9khk"
+    "fileId": "53pEefH9pHMp1dGP2RqmvG"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1892,7 +1888,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 33.16015625,
+      "x": 81.5341796875,
       "y": 0,
       "z": 0
     },
@@ -2067,7 +2063,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 124.228515625,
+      "width": 220.9765625,
       "height": 27.2
     },
     "_anchorPoint": {
@@ -2162,7 +2158,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 68.1142578125,
+      "x": 116.48828125,
       "y": 0,
       "z": 0
     },
@@ -2710,7 +2706,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 389.990234375,
+      "width": 486.73828125,
       "height": 30
     },
     "_anchorPoint": {
@@ -2776,7 +2772,7 @@
     },
     "_alignFlags": 8,
     "_target": null,
-    "_left": 0,
+    "_left": -48.3740234375,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,

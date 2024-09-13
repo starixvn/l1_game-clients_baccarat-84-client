@@ -6,7 +6,6 @@ export const languages = {
         "bet_amount_of_any_choice_incorrect": "Tiền cược của một trong các cửa không hợp lệ.",
         "bet_choice": "Lựa Chọn",
         "bet_detail": "Chi Tiết Cược",
-        "bet_details_classic_slot_non_winning_payline": "Không có dòng cược thắng",
         "bet_history": "Lịch Sử",
         "bet_limit": "Giới Hạn Cược",
         "bet_option_even": "Chẵn",
@@ -106,6 +105,7 @@ export const languages = {
         "min_bet_hand": "Tiền cược tối thiểu của tay bài này là %{minBet}",
         "name_invalid": "Tên nhân vật không hợp lệ.",
         "nickname_requirement": "Lưu ý:\n+ Tên nhân vật phải có từ 3 đến 14 ký tự.\n+ Không gõ dấu tiếng việt, không chứa khoảng trắng và các ký tự đặc biệt.\n+ Không thể đổi tên nhân vật sau khi tạo.",
+        "non_winning_payline": "Không có dòng cược thắng",
         "not_enough_money": "Bạn hiện không có đủ tiền để cược.",
         "notice": "THÔNG BÁO",
         "odds": "Tỷ Lệ Cược",
@@ -191,13 +191,17 @@ export const languages = {
         "glossary_tie": "Hòa",
         "header_cut-card_index": "Vị trí Cut-card",
         "header_fairness_verification": "Xác Minh Tính Minh Bạch",
+        "home_button": "Sảnh",
         "input_cut-card_button": "Nhập Vị Trí Cut-card",
         "multiplierpayouts_fee": "Phụ Phí",
         "multiplierpayouts_lucky_card": "Lá Bài May Mắn",
         "multiplierpayouts_multiplier": "Số Nhân",
+        "music_button": "Nhạc nền",
         "player_win": "NHÀ CON THẮNG",
         "scoreboard_banker_pair": "Cái Đôi",
         "scoreboard_player_pair": "Con Đôi",
+        "settings_button": "Cài đặt",
+        "sfx_button": "SFX",
         "shoe_result": "Kết Quả Hộp Bài",
         "shoe_result SHA256": "Kết Quả Hộp Bài SHA256",
         "show_cut_card_index": "Vị trí Cut-card là %{cut_card_index}",
@@ -208,6 +212,9 @@ export const languages = {
         "submit_button": "XÁC NHẬN",
         "submit_notes": "(Xin lưu ý rằng chỉ những giá trị được xác nhận mới được sử dụng để tính toán vị trí Cut-card)",
         "table": "Bàn",
+        "tag_classic": "Classic",
+        "tag_lucky": "Lucky",
+        "tag_speed": "Nhanh",
         "tie_win": "HÒA",
         "title_cut-card_index": "Vị trí Cut-card",
         "title_cut-card_index_settings": "Cài Đặt Vị trí Cut-card",
@@ -215,8 +222,8 @@ export const languages = {
         "waiting screen_para_2": "Nhấn vào nút bên dưới nếu bạn muốn tham gia vào quá trình tạo vị trí Cut-card",
         "waiting_screen_para_1": "Tạo Vị Trí Cut-card"
     },
-    "Bac81": {
-        "game_name": "Lucky Baccarat"
+    "Bac84": {
+        "game_name": "Cào Baccarat 2"
     }
 };
 

@@ -4,6 +4,7 @@ import { GAME_NAME, GAME_SERVICE_ROUTE } from "./game-configs";
 declare global {
     interface Window {
         envConfig: gc.Configs.SiteConfigs;
+        crossConfig: gc.Configs.SiteConfigs;
     }
 }
 
@@ -47,7 +48,9 @@ if (window.envConfig) {
 }
 
 export const siteConfigs: gc.Configs.SiteConfigs =
-    window.envConfig && window.envConfig.isDev ? defaultConfig : { ...defaultConfig, ...configDev, ...window.envConfig };
+    window.envConfig && window.envConfig.isDev
+        ? defaultConfig
+        : { ...defaultConfig, ...configDev, ...window.envConfig, ...window.crossConfig };
 
 window.envConfig = siteConfigs;
 gc.Shared.utils.StorageManager.setPrefixKey(siteConfigs.storagePrefixKey);

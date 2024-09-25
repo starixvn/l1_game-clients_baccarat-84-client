@@ -335,7 +335,7 @@
     "folder": "splash-resources/classic",
     "key": "bg",
     "extension": "jpg",
-    "localization": true,
+    "localization": false,
     "_id": "2arMwF7NpPBp7NDfqPybEx"
   },
   {

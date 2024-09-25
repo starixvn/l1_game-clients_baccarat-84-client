@@ -201,8 +201,8 @@
     "__prefab": {
       "__id__": 8
     },
-    "folder": "splash-resources/classic",
-    "key": "game_background",
+    "folder": "splash-resources",
+    "key": "classic/game_background",
     "extension": "png",
     "localization": true,
     "_id": ""

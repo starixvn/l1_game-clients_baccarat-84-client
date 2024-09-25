@@ -332,8 +332,8 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "folder": "splash-resources/classic",
-    "key": "bg",
+    "folder": "splash-resources",
+    "key": "classic/bg",
     "extension": "jpg",
     "localization": false,
     "_id": "2arMwF7NpPBp7NDfqPybEx"

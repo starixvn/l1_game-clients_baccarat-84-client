@@ -28,7 +28,6 @@ const defaultConfig: gc.Configs.SiteConfigs = {
     mainObserverNamespace: GAME_NAME,
     tolgeeUrl: "",
     storagePrefixKey: GAME_NAME,
-    backgroundNoTranslate: true,
 };
 
 let configDev = {

@@ -190,28 +190,6 @@
     "fileId": "8cHRYwJQVAxKsCjClqa1fk"
   },
   {
-    "__type__": "5d5a9FKzElMhqBiTAZ/NYc6",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 2
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 8
-    },
-    "folder": "splash-resources",
-    "key": "classic/game_background",
-    "extension": "png",
-    "localization": true,
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "940A6tvGhAEr5tJRU7oXXF"
-  },
-  {
     "__type__": "cc.Widget",
     "_name": "",
     "_objFlags": 0,
@@ -221,7 +199,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 10
+      "__id__": 8
     },
     "_alignFlags": 17,
     "_target": null,
@@ -246,6 +224,32 @@
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "bfVR7dsrpHpIkj9FTkHDex"
+  },
+  {
+    "__type__": "b4f4a2QEYFHLrpdr4UToEj8",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 10
+    },
+    "folder": "splash-resources",
+    "key": "game_background",
+    "extension": "png",
+    "localization": true,
+    "config": {
+      "__uuid__": "c5785958-01d4-4dd2-b472-2c7b4c163d34",
+      "__expectedType__": "cc.JsonAsset"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "89fRTqNLpFvL5N8Y6jjkHy"
   },
   {
     "__type__": "cc.PrefabInfo",

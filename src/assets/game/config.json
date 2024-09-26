@@ -1,0 +1,20 @@
+{
+    "type": "classic",
+    "table": "blue",
+    "colors": {
+        "blue": {
+            "bg-timer": "043D71",
+            "percent-icon": "609EBB",
+            "percent-label": "60E9BB",
+            "odds-label": "609EBB",
+            "static-winning": "7278FC"
+        },
+        "purple": {
+            "bg-timer": "490471",
+            "percent-icon": "9F4DB0",
+            "percent-label": "9F4DB0",
+            "odds-label": "9F4DB0",
+            "static-winning": "A23EEE"
+        }
+    }
+}

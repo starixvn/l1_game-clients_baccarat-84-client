@@ -5,7 +5,7 @@
         "blue": {
             "bg-timer": "043D71",
             "percent-icon": "609EBB",
-            "percent-label": "60E9BB",
+            "percent-label": "609EBB",
             "odds-label": "609EBB",
             "static-winning": "7278FC"
         },
@@ -15,6 +15,34 @@
             "percent-label": "9F4DB0",
             "odds-label": "9F4DB0",
             "static-winning": "A23EEE"
+        },
+        "orange": {
+            "bg-timer": "713004",
+            "percent-icon": "eeaa25",
+            "percent-label": "eeaa25",
+            "odds-label": "eeaa25",
+            "static-winning": "ffb638"
+        },
+        "yellow": {
+            "bg-timer": "714904",
+            "percent-icon": "d3c654",
+            "percent-label": "d3c654",
+            "odds-label": "d3c654",
+            "static-winning": "eec73e"
+        },
+        "green": {
+            "bg-timer": "034c3d",
+            "percent-icon": "04c892",
+            "percent-label": "04c892",
+            "odds-label": "04c892",
+            "static-winning": "07c186"
+        },
+        "red": {
+            "bg-timer": "580909",
+            "percent-icon": "bb6260",
+            "percent-label": "bb6260",
+            "odds-label": "bb6260",
+            "static-winning": "077dc1"
         }
     }
 }

@@ -10,6 +10,7 @@ import GameComponent from "../../../../extensions/shared-components/assets/game/
 import { WinningResult } from "../../../../extensions/shared-components/assets/shared/common-components/winning-result/scripts/winning-result";
 import { FunctionUtils } from "../../../../extensions/shared-components/assets/shared/utils";
 import { siteConfigs } from "../../../scripts/site-configs";
+import { ConfigJson } from "../../config-json-interface";
 import { containerOptions, settings } from "../game-settings";
 import "./../../../resources/i18n";
 
@@ -58,7 +59,7 @@ export default class Game extends GameComponent {
         this.audioContainer = this.nodeAudioContainer.getComponent(AudioContainer);
         this.baccaratXCardsUi = this.nodeBaccaratCardsUi.getComponent(BaccaratXCardsUI);
 
-        const info = this.config.json;
+        const info = this.config.json as ConfigJson;
         this.baccaratXCardsUi.modeSpeed = info.type === "speed";
         super.onLoad();
     }

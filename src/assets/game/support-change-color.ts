@@ -1,4 +1,5 @@
 import { _decorator, Color, Component, JsonAsset, Node, UIRenderer } from "cc";
+import { ConfigJson } from "./config-json-interface";
 const { ccclass, property } = _decorator;
 @ccclass("GroupNode")
 export class NodeGroup {
@@ -18,7 +19,7 @@ export class SupportChangeColor extends Component {
     groups: NodeGroup[] = [];
 
     onLoad() {
-        const info = this.config.json;
+        const info = this.config.json as ConfigJson;
         const table = info.table;
         const colorConfig = info.colors[table];
 

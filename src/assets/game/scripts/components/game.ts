@@ -1,5 +1,5 @@
 import gc from "@sg/game-client-base";
-import { _decorator, Node } from "cc";
+import { _decorator, JsonAsset, Node } from "cc";
 import { startGame } from "db://shared-components/shared/scripts/startup";
 import Observer from "observer";
 import { BaccaratXCardsUI } from "../../../../extensions/shared-components/assets/game-baccarat/cards/baccarat-x-cards-ui";
@@ -41,6 +41,9 @@ export default class Game extends GameComponent {
     @property(Node)
     nodeAudioContainer: Node = null;
 
+    @property(JsonAsset)
+    config: JsonAsset = null;
+
     baccaratXCardsUi: BaccaratXCardsUI = null;
 
     protected enableFixHandleFinish = true;
@@ -54,6 +57,9 @@ export default class Game extends GameComponent {
     onLoad() {
         this.audioContainer = this.nodeAudioContainer.getComponent(AudioContainer);
         this.baccaratXCardsUi = this.nodeBaccaratCardsUi.getComponent(BaccaratXCardsUI);
+
+        const info = this.config.json;
+        this.baccaratXCardsUi.modeSpeed = info.type === "speed";
         super.onLoad();
     }
 

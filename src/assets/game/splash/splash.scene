@@ -366,7 +366,7 @@
     "key": "bg",
     "extension": "jpg",
     "localization": false,
-    "originalSize": true,
+    "originalSize": false,
     "config": {
       "__uuid__": "c5785958-01d4-4dd2-b472-2c7b4c163d34",
       "__expectedType__": "cc.JsonAsset"

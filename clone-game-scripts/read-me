@@ -1,0 +1,11 @@
+Steps
+- Run comnand
+npm install & node ./main.js
+
+- Open file src/assets/scripts/game-config.ts
+GAME_NAME = "Bac84";
+GAME_ID = 84;
+Find all and replace "Bac84" with "Bac[new id]"
+Change GAME_ID
+
+- Run tolgee-generator

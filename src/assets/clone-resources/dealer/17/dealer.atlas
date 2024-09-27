@@ -1,97 +1,97 @@
 
 dealer.png
-size: 245,142
+size: 221,266
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 body a
   rotate: false
-  xy: 122, 69
-  size: 59, 71
-  orig: 59, 71
+  xy: 2, 33
+  size: 79, 95
+  orig: 79, 95
   offset: 0, 0
   index: -1
 body b
   rotate: false
-  xy: 29, 39
-  size: 67, 101
-  orig: 67, 101
+  xy: 2, 130
+  size: 89, 134
+  orig: 89, 134
   offset: 0, 0
   index: -1
 ear L
-  rotate: true
-  xy: 12, 2
-  size: 5, 14
-  orig: 5, 14
+  rotate: false
+  xy: 126, 130
+  size: 6, 19
+  orig: 6, 19
   offset: 0, 0
   index: -1
 ear R
-  rotate: true
-  xy: 28, 2
-  size: 5, 14
-  orig: 5, 14
+  rotate: false
+  xy: 134, 130
+  size: 6, 19
+  orig: 6, 19
   offset: 0, 0
   index: -1
 eye close
   rotate: true
-  xy: 2, 4
-  size: 32, 8
-  orig: 32, 8
+  xy: 146, 107
+  size: 42, 11
+  orig: 42, 11
   offset: 0, 0
   index: -1
 hair back
-  rotate: true
-  xy: 226, 89
-  size: 51, 17
-  orig: 51, 17
+  rotate: false
+  xy: 146, 17
+  size: 68, 23
+  orig: 68, 23
   offset: 0, 0
   index: -1
 hair top
   rotate: true
-  xy: 195, 20
-  size: 54, 41
-  orig: 54, 41
+  xy: 164, 105
+  size: 72, 55
+  orig: 72, 55
   offset: 0, 0
   index: -1
 hand L a
   rotate: true
-  xy: 183, 76
-  size: 64, 41
-  orig: 64, 41
+  xy: 164, 179
+  size: 85, 55
+  orig: 85, 55
   offset: 0, 0
   index: -1
 hand L b
-  rotate: false
-  xy: 98, 56
-  size: 22, 84
-  orig: 22, 84
+  rotate: true
+  xy: 2, 2
+  size: 29, 112
+  orig: 29, 112
   offset: 0, 0
   index: -1
 hand R a
   rotate: true
-  xy: 147, 2
-  size: 65, 46
-  orig: 65, 46
+  xy: 83, 40
+  size: 87, 61
+  orig: 87, 61
   offset: 0, 0
   index: -1
 hand R b
-  rotate: true
-  xy: 12, 9
-  size: 27, 85
-  orig: 27, 85
+  rotate: false
+  xy: 126, 151
+  size: 36, 113
+  orig: 36, 113
   offset: 0, 0
   index: -1
 head
-  rotate: false
-  xy: 99, 3
-  size: 46, 51
-  orig: 46, 51
+  rotate: true
+  xy: 146, 42
+  size: 61, 68
+  orig: 61, 68
   offset: 0, 0
   index: -1
 shadow
   rotate: true
-  xy: 2, 38
-  size: 102, 25
-  orig: 104, 25
-  offset: 1, 0
+  xy: 93, 129
+  size: 135, 31
+  orig: 139, 33
+  offset: 2, 1
   index: -1

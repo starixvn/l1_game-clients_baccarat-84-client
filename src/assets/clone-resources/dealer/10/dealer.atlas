@@ -1,0 +1,188 @@
+
+dealer.png
+size: 601,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm-L
+  rotate: false
+  xy: 339, 31
+  size: 51, 109
+  orig: 51, 109
+  offset: 0, 0
+  index: -1
+arm-R
+  rotate: false
+  xy: 279, 30
+  size: 58, 110
+  orig: 58, 110
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 2
+  size: 138, 158
+  orig: 138, 165
+  offset: 0, 7
+  index: -1
+bracelet L
+  rotate: false
+  xy: 162, 2
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+bracelet R
+  rotate: true
+  xy: 567, 7
+  size: 16, 22
+  orig: 16, 22
+  offset: 0, 0
+  index: -1
+earring-L
+  rotate: false
+  xy: 392, 31
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: -1
+earring-R
+  rotate: true
+  xy: 515, 2
+  size: 5, 8
+  orig: 5, 8
+  offset: 0, 0
+  index: -1
+eye-close
+  rotate: true
+  xy: 526, 71
+  size: 52, 16
+  orig: 57, 19
+  offset: 4, 1
+  index: -1
+face
+  rotate: false
+  xy: 457, 67
+  size: 67, 73
+  orig: 67, 73
+  offset: 0, 0
+  index: -1
+finger-R
+  rotate: false
+  xy: 400, 33
+  size: 29, 8
+  orig: 29, 8
+  offset: 0, 0
+  index: -1
+hair side R 1
+  rotate: true
+  xy: 305, 3
+  size: 25, 80
+  orig: 25, 80
+  offset: 0, 0
+  index: -1
+hair side R 2
+  rotate: true
+  xy: 457, 47
+  size: 18, 72
+  orig: 18, 72
+  offset: 0, 0
+  index: -1
+hair-back
+  rotate: false
+  xy: 205, 27
+  size: 72, 113
+  orig: 72, 113
+  offset: 0, 0
+  index: -1
+hair-top-1
+  rotate: true
+  xy: 182, 3
+  size: 19, 42
+  orig: 19, 42
+  offset: 0, 0
+  index: -1
+hair-top-2
+  rotate: true
+  xy: 387, 4
+  size: 25, 46
+  orig: 25, 46
+  offset: 0, 0
+  index: -1
+hair-top-3
+  rotate: true
+  xy: 544, 72
+  size: 17, 44
+  orig: 17, 44
+  offset: 0, 0
+  index: -1
+hair-top-4
+  rotate: false
+  xy: 567, 25
+  size: 25, 45
+  orig: 25, 45
+  offset: 0, 0
+  index: -1
+hair-top-5
+  rotate: true
+  xy: 435, 2
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+hair-top-6
+  rotate: false
+  xy: 484, 4
+  size: 29, 41
+  orig: 29, 41
+  offset: 0, 0
+  index: -1
+hand L 1
+  rotate: false
+  xy: 544, 91
+  size: 51, 32
+  orig: 51, 32
+  offset: 0, 0
+  index: -1
+hand-L
+  rotate: true
+  xy: 531, 9
+  size: 60, 34
+  orig: 60, 34
+  offset: 0, 0
+  index: -1
+hand-R
+  rotate: true
+  xy: 162, 24
+  size: 116, 41
+  orig: 116, 41
+  offset: 0, 0
+  index: -1
+hiar side L 1
+  rotate: true
+  xy: 226, 3
+  size: 22, 77
+  orig: 22, 77
+  offset: 0, 0
+  index: -1
+hiar side L 2
+  rotate: true
+  xy: 531, 125
+  size: 15, 68
+  orig: 15, 68
+  offset: 0, 0
+  index: -1
+shadow handL
+  rotate: true
+  xy: 423, 45
+  size: 95, 32
+  orig: 104, 35
+  offset: 7, 1
+  index: -1
+shadow handR
+  rotate: true
+  xy: 392, 43
+  size: 97, 29
+  orig: 107, 32
+  offset: 2, 1
+  index: -1

@@ -1,0 +1,83 @@
+
+dealer.png
+size: 567,121
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 152, 2
+  size: 117, 133
+  orig: 117, 133
+  offset: 0, 0
+  index: -1
+ear L
+  rotate: false
+  xy: 458, 19
+  size: 9, 28
+  orig: 9, 28
+  offset: 0, 0
+  index: -1
+ear R
+  rotate: false
+  xy: 558, 29
+  size: 7, 17
+  orig: 7, 17
+  offset: 0, 0
+  index: -1
+eyes close
+  rotate: true
+  xy: 540, 6
+  size: 40, 16
+  orig: 40, 16
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: false
+  xy: 420, 49
+  size: 76, 70
+  orig: 76, 70
+  offset: 0, 0
+  index: -1
+hair top a
+  rotate: true
+  xy: 474, 10
+  size: 36, 64
+  orig: 36, 64
+  offset: 0, 0
+  index: -1
+hair top b
+  rotate: true
+  xy: 420, 19
+  size: 28, 36
+  orig: 28, 36
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 287, 16
+  size: 131, 103
+  orig: 131, 103
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: false
+  xy: 2, 3
+  size: 148, 116
+  orig: 148, 116
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 498, 48
+  size: 66, 71
+  orig: 66, 71
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 287, 4
+  size: 185, 10
+  orig: 189, 12
+  offset: 2, 1
+  index: -1

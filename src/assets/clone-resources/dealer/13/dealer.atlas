@@ -1,0 +1,125 @@
+
+dealer.png
+size: 396,266
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 92
+  size: 118, 172
+  orig: 118, 172
+  offset: 0, 0
+  index: -1
+eye close
+  rotate: false
+  xy: 122, 98
+  size: 56, 16
+  orig: 56, 16
+  offset: 0, 0
+  index: -1
+hair back L a
+  rotate: false
+  xy: 122, 116
+  size: 63, 148
+  orig: 63, 148
+  offset: 0, 0
+  index: -1
+hair back L b
+  rotate: false
+  xy: 361, 91
+  size: 24, 96
+  orig: 24, 96
+  offset: 0, 0
+  index: -1
+hair back L c
+  rotate: false
+  xy: 352, 7
+  size: 42, 82
+  orig: 42, 82
+  offset: 0, 0
+  index: -1
+hair back R a
+  rotate: true
+  xy: 187, 167
+  size: 58, 134
+  orig: 58, 134
+  offset: 0, 0
+  index: -1
+hair back R b
+  rotate: false
+  xy: 329, 127
+  size: 30, 98
+  orig: 30, 98
+  offset: 0, 0
+  index: -1
+hair back R c
+  rotate: false
+  xy: 361, 189
+  size: 33, 75
+  orig: 33, 75
+  offset: 0, 0
+  index: -1
+hair top L a
+  rotate: true
+  xy: 308, 2
+  size: 16, 41
+  orig: 16, 41
+  offset: 0, 0
+  index: -1
+hair top L b
+  rotate: false
+  xy: 331, 84
+  size: 14, 41
+  orig: 15, 41
+  offset: 0, 0
+  index: -1
+hair top L c
+  rotate: false
+  xy: 308, 20
+  size: 42, 55
+  orig: 42, 55
+  offset: 0, 0
+  index: -1
+hand L a
+  rotate: false
+  xy: 117, 3
+  size: 110, 72
+  orig: 110, 72
+  offset: 0, 0
+  index: -1
+hand L b
+  rotate: true
+  xy: 187, 77
+  size: 40, 142
+  orig: 40, 142
+  offset: 0, 0
+  index: -1
+hand R a
+  rotate: false
+  xy: 2, 14
+  size: 113, 76
+  orig: 113, 76
+  offset: 0, 0
+  index: -1
+hand R b
+  rotate: true
+  xy: 187, 119
+  size: 46, 140
+  orig: 46, 140
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 229, 2
+  size: 73, 77
+  orig: 73, 77
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 187, 227
+  size: 172, 37
+  orig: 176, 39
+  offset: 2, 1
+  index: -1

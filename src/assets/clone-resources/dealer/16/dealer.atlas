@@ -1,125 +1,125 @@
 
 dealer.png
-size: 346,287
+size: 209,754
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 body
-  rotate: false
-  xy: 153, 145
-  size: 98, 140
-  orig: 98, 140
+  rotate: true
+  xy: 2, 448
+  size: 120, 172
+  orig: 120, 172
   offset: 0, 0
   index: -1
 eye close
   rotate: true
-  xy: 200, 3
-  size: 63, 70
-  orig: 63, 70
+  xy: 108, 48
+  size: 76, 85
+  orig: 76, 85
   offset: 0, 0
   index: -1
 hair L a
-  rotate: false
-  xy: 2, 128
-  size: 71, 157
-  orig: 71, 157
+  rotate: true
+  xy: 2, 665
+  size: 87, 194
+  orig: 87, 194
   offset: 0, 0
   index: -1
 hair L b
-  rotate: false
-  xy: 2, 2
-  size: 45, 124
-  orig: 45, 124
+  rotate: true
+  xy: 2, 314
+  size: 55, 152
+  orig: 55, 152
   offset: 0, 0
   index: -1
 hair L c
   rotate: true
-  xy: 250, 100
-  size: 26, 71
-  orig: 26, 71
+  xy: 116, 167
+  size: 31, 88
+  orig: 31, 88
   offset: 0, 0
   index: -1
 hair R a
-  rotate: false
-  xy: 75, 134
-  size: 76, 151
-  orig: 76, 151
+  rotate: true
+  xy: 2, 570
+  size: 93, 186
+  orig: 93, 186
   offset: 0, 0
   index: -1
 hair R b
-  rotate: false
-  xy: 49, 5
-  size: 48, 121
-  orig: 48, 121
+  rotate: true
+  xy: 2, 254
+  size: 58, 149
+  orig: 58, 149
   offset: 0, 0
   index: -1
 hair R c
   rotate: true
-  xy: 253, 128
-  size: 33, 71
-  orig: 33, 71
+  xy: 108, 126
+  size: 39, 87
+  orig: 39, 87
   offset: 0, 0
   index: -1
 hair top a
-  rotate: false
-  xy: 326, 119
-  size: 17, 42
-  orig: 17, 42
+  rotate: true
+  xy: 153, 261
+  size: 21, 50
+  orig: 21, 50
   offset: 0, 0
   index: -1
 hair top b
-  rotate: true
-  xy: 200, 107
-  size: 36, 48
-  orig: 36, 48
+  rotate: false
+  xy: 153, 200
+  size: 44, 59
+  orig: 44, 59
   offset: 0, 0
   index: -1
 hair top c
   rotate: true
-  xy: 200, 68
-  size: 37, 47
-  orig: 37, 47
+  xy: 89, 2
+  size: 44, 58
+  orig: 44, 58
   offset: 0, 0
   index: -1
 hand L b
   rotate: false
-  xy: 99, 16
-  size: 25, 116
-  orig: 25, 116
+  xy: 176, 426
+  size: 31, 142
+  orig: 31, 142
   offset: 0, 0
   index: -1
 hand R a
   rotate: false
-  xy: 253, 222
-  size: 91, 63
-  orig: 91, 63
+  xy: 2, 175
+  size: 112, 77
+  orig: 112, 77
   offset: 0, 0
   index: -1
 hand R b
   rotate: false
-  xy: 126, 18
-  size: 33, 114
-  orig: 33, 114
+  xy: 164, 284
+  size: 40, 140
+  orig: 40, 140
   offset: 0, 0
   index: -1
 head
   rotate: true
-  xy: 272, 36
-  size: 62, 69
-  orig: 62, 69
+  xy: 2, 25
+  size: 76, 85
+  orig: 76, 85
   offset: 0, 0
   index: -1
 hsnd L a
   rotate: false
-  xy: 253, 163
-  size: 85, 57
-  orig: 85, 57
+  xy: 2, 103
+  size: 104, 70
+  orig: 104, 70
   offset: 0, 0
   index: -1
 shadow
-  rotate: true
-  xy: 161, 3
-  size: 140, 37
-  orig: 144, 39
-  offset: 2, 1
+  rotate: false
+  xy: 2, 371
+  size: 160, 75
+  orig: 162, 77
+  offset: 1, 1
   index: -1

@@ -27,6 +27,13 @@ async function cloneAndCreateBranch(gameId) {
         const branchName = `main-${gameId}`;
         await runCommand(`git checkout -b ${branchName}`);
 
+        // Commit changes
+        const commitMessage = `chore: update game id ${gameId}`;
+        await runCommand(`git commit -m "${commitMessage}"`);
+
+        // Push to remote repository
+        await runCommand(`git push -u origin ${branchName}`);
+
         console.log(`Successfully cloned and created branch ${branchName} for game ${gameId}`);
     } catch (error) {
         console.error(`Failed to process game ${gameId}:`, error.message);
@@ -34,8 +41,10 @@ async function cloneAndCreateBranch(gameId) {
 }
 
 async function processGames() {
+    const { stdout: currentBranch } = await execPromise("git rev-parse --abbrev-ref HEAD");
     for (const gameId of gameIds) {
         await cloneAndCreateBranch(gameId);
+        await runCommand(`git checkout ${currentBranch.trim()}`);
     }
 }
 

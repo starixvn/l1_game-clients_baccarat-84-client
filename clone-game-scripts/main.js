@@ -109,7 +109,7 @@ async function generate() {
 
     updateConfigJson(type, table);
     updateCrossConfig(gameName);
-    updateGameSettings(gameId, gameName);
+    updateGameSettings(gameId, gameName, type);
     updateTolgeeConfig(gameName);
 
     updateCSS(type);
@@ -142,7 +142,7 @@ function updateCrossConfig(gameName) {
     fs.writeFileSync(configFilePath, config, "utf8");
 }
 
-function updateGameSettings(gameId, gameName) {
+function updateGameSettings(gameId, gameName, type) {
     const configFilePath = "./src/assets/scripts/game-configs.ts";
 
     const normalDurations = {

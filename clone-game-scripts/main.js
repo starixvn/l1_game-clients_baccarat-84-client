@@ -99,7 +99,8 @@ async function generate() {
         },
     };
 
-    const gameId = 84;
+    const gameId = process.argv[2];
+
     const gameName = `Bac${gameId}`;
     const definition = definitions[gameId];
     const { dealer, table, win_notice, type } = definition;
@@ -116,14 +117,14 @@ async function generate() {
 
 generate();
 function updateCSS(type) {
-    const cssFile = "../src/splash-resources/splash-style.css";
+    const cssFile = "./src/splash-resources/splash-style.css";
     const cssData = fs.readFileSync(cssFile, "utf8");
     const data = cssData.replace(/classic|lucky|speed/gi, type);
     fs.writeFileSync(cssFile, data, "utf8");
 }
 
 function updateConfigJson(type, table) {
-    const configFilePath = "../src/assets/game/config.json";
+    const configFilePath = "./src/assets/game/config.json";
     const configData = fs.readFileSync(configFilePath, "utf8");
     const config = JSON.parse(configData);
     config.type = type;
@@ -132,7 +133,7 @@ function updateConfigJson(type, table) {
 }
 
 function updateCrossConfig(gameName) {
-    const configFilePath = "../src/splash-resources/cross-config.js";
+    const configFilePath = "./src/splash-resources/cross-config.js";
     const config = `window.crossConfig = {
     backgroundLocalized: true,
     storagePrefixKey: "${gameName}",
@@ -142,7 +143,7 @@ function updateCrossConfig(gameName) {
 }
 
 function updateGameSettings(gameId, gameName) {
-    const configFilePath = "../src/assets/scripts/game-configs.ts";
+    const configFilePath = "./src/assets/scripts/game-configs.ts";
     const config = `export const GAME_ID = ${gameId};
 export const GAME_NAME = "${gameName}";
 export const GAME_SERVICE_ROUTE = "baccaratx";`;
@@ -150,14 +151,14 @@ export const GAME_SERVICE_ROUTE = "baccaratx";`;
 }
 
 function updateTolgeeConfig(gameName) {
-    const configFilePath = "../tolgee-generator/config.ts";
+    const configFilePath = "./tolgee-generator/config.ts";
     const config = `export const GameNameSpace = "${gameName}";`;
     fs.writeFileSync(configFilePath, config, "utf8");
 }
 
 function copyImages(dealer, table, win_notice) {
-    const sourcesPath = "../src/assets/clone-resources";
-    const destPath = "../src/assets/";
+    const sourcesPath = "./src/assets/clone-resources";
+    const destPath = "./src/assets/";
     const dealerPath = `${sourcesPath}/dealer/${dealer}/dealer`;
 
     ["png", "atlas", "json"].forEach((ext) => {

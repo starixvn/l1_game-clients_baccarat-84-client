@@ -3,9 +3,7 @@
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
-    "scripts": {
-        "clone-game": "npm install && node main.js"
-    },
+    "scripts": {},
     "dependencies": {
         "fs-extra": "^11.1.1"
     }

@@ -34,6 +34,14 @@ async function cloneAndCreateBranch(gameId) {
         // Push to remote repository
         await runCommand(`git push -f origin ${branchName}`);
 
+        // Delete local branch
+        try {
+            await runCommand(`git branch -D ${branchName}`);
+            console.log(`Deleted local branch ${branchName}`);
+        } catch (error) {
+            console.error(`Failed to delete local branch ${branchName}:`, error.message);
+        }
+
         console.log(`Successfully cloned and created branch ${branchName} for game ${gameId}`);
     } catch (error) {
         console.error(`Failed to process game ${gameId}:`, error.message);

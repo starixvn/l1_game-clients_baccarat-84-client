@@ -2,7 +2,7 @@ const { exec } = require("child_process");
 const util = require("util");
 const execPromise = util.promisify(exec);
 
-const gameIds = [84, 85, 86, 87, 91, 92, 97, 98, 100, 101]; // Danh sách no lucky
+const gameIds = [84, 85, 86, 87, 90, 91, 92, 97, 98, 100, 101]; // Danh sách no lucky
 // const gameIds = [81,82,83,88, 89]; // Danh sách lucky
 async function runCommand(command) {
     try {

@@ -144,9 +144,41 @@ function updateCrossConfig(gameName) {
 
 function updateGameSettings(gameId, gameName) {
     const configFilePath = "./src/assets/scripts/game-configs.ts";
+
+    const normalDurations = {
+        wholeRound: 47,
+        wholeShoe: 65,
+        lockingBet: 3,
+        placingBet: 30,
+        generatingResult: 7,
+        showingResult: 5,
+        startRound: 4,
+    };
+
+    const speedDurations = {
+        wholeRound: 33,
+        wholeShoe: 51,
+        lockingBet: 3,
+        placingBet: 20,
+        generatingResult: 4,
+        showingResult: 5,
+        startRound: 3,
+    };
+
+    const durations = type === "speed" ? speedDurations : normalDurations;
+
     const config = `export const GAME_ID = ${gameId};
 export const GAME_NAME = "${gameName}";
-export const GAME_SERVICE_ROUTE = "baccaratx";`;
+export const GAME_SERVICE_ROUTE = "baccaratx";
+export const GAME_DURATIONS = {
+    wholeRound: ${durations.wholeRound},
+    wholeShoe: ${durations.wholeShoe},
+    lockingBet: ${durations.lockingBet},
+    placingBet: ${durations.placingBet},
+    generatingResult: ${durations.generatingResult},
+    showingResult: ${durations.showingResult},
+    startRound: ${durations.startRound},
+}`;
     fs.writeFileSync(configFilePath, config, "utf8");
 }
 

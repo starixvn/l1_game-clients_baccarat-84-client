@@ -19,20 +19,28 @@ async function cloneAndCreateBranch(gameId) {
     console.log(`Cloning and creating branch for game with ID: ${gameId}`);
 
     try {
-        // Clone game
-        await runCommand(`node ./clone-game-scripts/main.js ${gameId}`);
-        await runCommand(`ts-node ./tolgee-generator/index.ts`);
-
         // Create and switch to new branch
         const branchName = `main-${gameId}`;
         await runCommand(`git checkout -b ${branchName}`);
 
-        // Commit changes
-        const commitMessage = `chore: update game id ${gameId}`;
-        await runCommand(`git commit -m "${commitMessage}"`);
+        // Clone game
+        await runCommand(`node ./clone-game-scripts/main.js ${gameId}`);
+        await runCommand(`ts-node ./tolgee-generator/index.ts`);
 
-        // Push to remote repository
-        await runCommand(`git push -f origin ${branchName}`);
+        // Kiểm tra thay đổi và commit
+        const { stdout: status } = await execPromise("git status --porcelain");
+
+        if (status) {
+            await runCommand("git add .");
+            // Commit changes
+            const commitMessage = `chore: update game id ${gameId}`;
+            await runCommand(`git commit -m "${commitMessage}"`);
+
+            // Push to remote repository
+            await runCommand(`git push -f origin ${branchName}`);
+        } else {
+            console.log(`No changes to commit for game ${gameId}`);
+        }
 
         // Delete local branch
         try {

@@ -32,7 +32,7 @@ async function cloneAndCreateBranch(gameId) {
         await runCommand(`git commit -m "${commitMessage}"`);
 
         // Push to remote repository
-        await runCommand(`git push -u origin ${branchName}`);
+        await runCommand(`git push -f origin ${branchName}`);
 
         console.log(`Successfully cloned and created branch ${branchName} for game ${gameId}`);
     } catch (error) {

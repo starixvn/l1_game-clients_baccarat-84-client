@@ -1,5 +1,6 @@
 import { DevTools, Tolgee } from "@tolgee/web";
 import fs from "fs";
+import { GameNameSpace } from "./config";
 
 function writeFile(fileName: string, content: string, extension = "ts") {
     fs.writeFileSync(`${fileName}.${extension}`, content, {
@@ -10,7 +11,7 @@ function writeFile(fileName: string, content: string, extension = "ts") {
 
 const languageFolder = "./src/assets/resources/i18n/";
 const languageCodes = ["en", "id", "th", "vi", "zh_cn", "zh_tw"];
-const namespaces = ["Common", "BaccaratX", "Bac84"];
+const namespaces = ["Common", "BaccaratX", GameNameSpace];
 const tg = Tolgee().use(DevTools()).init({
     defaultLanguage: "en",
     availableLanguages: languageCodes,

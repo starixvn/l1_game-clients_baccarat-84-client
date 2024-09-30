@@ -99,13 +99,17 @@ async function generate() {
         },
     };
 
-    const gameId = 98;
+    const gameId = 84;
+    const gameName = `Bac${gameId}`;
     const definition = definitions[gameId];
     const { dealer, table, win_notice, type } = definition;
 
     copyImages(dealer, table, win_notice);
 
     updateConfigJson(type, table);
+    updateCrossConfig(gameName);
+    updateGameSettings(gameId, gameName);
+    updateTolgeeConfig(gameName);
 
     updateCSS(type);
 }
@@ -125,6 +129,30 @@ function updateConfigJson(type, table) {
     config.type = type;
     config.table = table;
     fs.writeFileSync(configFilePath, JSON.stringify(config, null, 2), "utf8");
+}
+
+function updateCrossConfig(gameName) {
+    const configFilePath = "../src/splash-resources/cross-config.js";
+    const config = `window.crossConfig = {
+    backgroundLocalized: true,
+    storagePrefixKey: "${gameName}",
+};
+`;
+    fs.writeFileSync(configFilePath, config, "utf8");
+}
+
+function updateGameSettings(gameId, gameName) {
+    const configFilePath = "../src/assets/scripts/game-configs.ts";
+    const config = `export const GAME_ID = ${gameId};
+export const GAME_NAME = "${gameName}";
+export const GAME_SERVICE_ROUTE = "baccaratx";`;
+    fs.writeFileSync(configFilePath, config, "utf8");
+}
+
+function updateTolgeeConfig(gameName) {
+    const configFilePath = "../tolgee-generator/config.ts";
+    const config = `export const GameNameSpace = "${gameName}";`;
+    fs.writeFileSync(configFilePath, config, "utf8");
 }
 
 function copyImages(dealer, table, win_notice) {

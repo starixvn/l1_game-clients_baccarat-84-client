@@ -49,6 +49,8 @@ async function cloneAndCreateBranch(gameId) {
 }
 
 async function processGames() {
+    await runCommand('git config user.name "Eros Pham"');
+    await runCommand('git config user.email "eros.pham@sabawork.com"');
     const { stdout: currentBranch } = await execPromise("git rev-parse --abbrev-ref HEAD");
     for (const gameId of gameIds) {
         await cloneAndCreateBranch(gameId);

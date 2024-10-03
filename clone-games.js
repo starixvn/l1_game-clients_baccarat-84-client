@@ -15,12 +15,12 @@ async function runCommand(command) {
     }
 }
 
-async function cloneAndCreateBranch(gameId) {
+async function cloneAndCreateBranch(branchName, gameId) {
     console.log(`Cloning and creating branch for game with ID: ${gameId}`);
 
     try {
         // Create and switch to new branch
-        const branchName = `main-${gameId}`;
+
         await runCommand(`git checkout -b ${branchName}`);
 
         // Clone game
@@ -42,14 +42,6 @@ async function cloneAndCreateBranch(gameId) {
             console.log(`No changes to commit for game ${gameId}`);
         }
 
-        // Delete local branch
-        try {
-            await runCommand(`git branch -D ${branchName}`);
-            console.log(`Deleted local branch ${branchName}`);
-        } catch (error) {
-            console.error(`Failed to delete local branch ${branchName}:`, error.message);
-        }
-
         console.log(`Successfully cloned and created branch ${branchName} for game ${gameId}`);
     } catch (error) {
         console.error(`Failed to process game ${gameId}:`, error.message);
@@ -59,8 +51,16 @@ async function cloneAndCreateBranch(gameId) {
 async function processGames() {
     const { stdout: currentBranch } = await execPromise("git rev-parse --abbrev-ref HEAD");
     for (const gameId of gameIds) {
-        await cloneAndCreateBranch(gameId);
+        const branchName = `main-${gameId}`;
+        await cloneAndCreateBranch(branchName, gameId);
         await runCommand(`git checkout ${currentBranch.trim()}`);
+        // Delete local branch
+        try {
+            await runCommand(`git branch -D ${branchName}`);
+            console.log(`Deleted local branch ${branchName}`);
+        } catch (error) {
+            console.error(`Failed to delete local branch ${branchName}:`, error.message);
+        }
     }
 }
 

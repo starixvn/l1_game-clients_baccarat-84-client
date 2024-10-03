@@ -2,8 +2,8 @@ const { exec } = require("child_process");
 const util = require("util");
 const execPromise = util.promisify(exec);
 
-const gameIds = [84, 85, 86, 87, 90, 91, 92, 97, 98, 100, 101]; // Danh sách no lucky
-// const gameIds = [81,82,83,88, 89]; // Danh sách lucky
+const normalGameIds = [84, 85, 86, 87, 90, 91, 92, 97, 98, 100, 101]; // Danh sách no lucky
+const luckyGameIds = [81, 82, 83, 88, 89]; // Danh sách lucky
 async function runCommand(command) {
     try {
         const { stdout, stderr } = await execPromise(command);
@@ -48,7 +48,11 @@ async function cloneAndCreateBranch(branchName, gameId) {
     }
 }
 
-async function processGames() {
+async function processGames(isLucky) {
+    const gameIds = isLucky ? luckyGameIds : normalGameIds;
+    const rootBranch = isLucky ? `main-lucky` : `main`;
+    await runCommand(`git checkout ${rootBranch.trim()}`);
+
     const { stdout: currentBranch } = await execPromise("git rev-parse --abbrev-ref HEAD");
     for (const gameId of gameIds) {
         const branchName = `main-${gameId}`;
@@ -64,6 +68,11 @@ async function processGames() {
     }
 }
 
-processGames()
-    .then(() => console.log("All games processed successfully"))
-    .catch(console.error);
+try {
+    await processGames(false);
+    await processGames(true);
+
+    console.log("All games processed successfully");
+} catch (e) {
+    console.error(e);
+}

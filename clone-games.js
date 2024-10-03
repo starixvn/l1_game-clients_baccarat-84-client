@@ -69,10 +69,15 @@ async function processGames(isLucky) {
 }
 
 try {
-    await processGames(false);
-    await processGames(true);
-
-    console.log("All games processed successfully");
+    processGames(false)
+        .then(() => {
+            processGames(true)
+                .then(() => {
+                    console.log("All games processed successfully");
+                })
+                .catch((e) => console.error(e));
+        })
+        .catch((e) => console.error(e));
 } catch (e) {
     console.error(e);
 }

@@ -2,96 +2,112 @@ const fs = require("fs-extra");
 async function generate() {
     const definitions = {
         81: {
+            background: 4,
             type: "lucky",
             dealer: 1,
             table: "red",
             win_notice: "red",
         },
         82: {
+            background: 5,
             type: "lucky",
             dealer: 7,
             table: "blue",
             win_notice: "orange",
         },
         83: {
+            background: 2,
             type: "lucky",
             dealer: 4,
             table: "green",
             win_notice: "orange",
         },
         84: {
+            background: 3,
             type: "classic",
             dealer: 12,
             table: "blue",
             win_notice: "orange",
         },
         85: {
+            background: 2,
             type: "classic",
             dealer: 3,
             table: "yellow",
             win_notice: "red",
         },
         86: {
+            background: 6,
             type: "classic",
             dealer: 2,
             table: "red",
             win_notice: "red",
         },
         87: {
+            background: 3,
             type: "classic",
             dealer: 17,
             table: "purple",
             win_notice: "orange",
         },
         88: {
+            background: 5,
             type: "lucky",
             dealer: 13,
             table: "red",
             win_notice: "red",
         },
         89: {
+            background: 8,
             type: "lucky",
-            dealer: 13,
+            dealer: 14,
             table: "yellow",
             win_notice: "red",
         },
         90: {
+            background: 9,
             type: "classic",
             dealer: 11,
             table: "orange",
             win_notice: "red",
         },
         91: {
+            background: 11,
             type: "classic",
             dealer: 16,
             table: "green",
             win_notice: "orange",
         },
         92: {
+            background: 10,
             type: "classic",
             dealer: 19,
             table: "blue",
             win_notice: "orange",
         },
         97: {
+            background: 6,
             type: "classic",
             dealer: 10,
             table: "green",
             win_notice: "orange",
         },
         98: {
+            background: 5,
             type: "speed",
             dealer: 18,
             table: "orange",
             win_notice: "red",
         },
         100: {
+            background: 11,
             type: "speed",
             dealer: 15,
             table: "purple",
             win_notice: "orange",
         },
         101: {
+            background: 7,
             type: "speed",
             dealer: 20,
             table: "green",
@@ -103,9 +119,9 @@ async function generate() {
 
     const gameName = `Bac${gameId}`;
     const definition = definitions[gameId];
-    const { dealer, table, win_notice, type } = definition;
+    const { background, dealer, table, win_notice, type } = definition;
 
-    copyImages(dealer, table, win_notice);
+    copyImages(background, dealer, table, win_notice);
 
     updateConfigJson(type, table);
     updateCrossConfig(gameName);
@@ -188,7 +204,7 @@ function updateTolgeeConfig(gameName) {
     fs.writeFileSync(configFilePath, config, "utf8");
 }
 
-function copyImages(dealer, table, win_notice) {
+function copyImages(background, dealer, table, win_notice) {
     const sourcesPath = "./src/assets/clone-resources";
     const destPath = "./src/assets/";
     const dealerPath = `${sourcesPath}/dealer/${dealer}/dealer`;
@@ -197,6 +213,7 @@ function copyImages(dealer, table, win_notice) {
         fs.copySync(`${dealerPath}.${ext}`, `${destPath}/game/dealer/dealer.${ext}`);
     });
 
+    fs.copySync(`${sourcesPath}/background/${background}.jpg`, `${destPath}/game/images/big-images/bg.jpg`);
     fs.copySync(`${sourcesPath}/table/${table}.png`, `${destPath}/game/images/big-images/table-game.png`);
     fs.copySync(`${sourcesPath}/win-notice/${win_notice}.png`, `${destPath}/game/images/big-images/bg-text-win.png`);
 }

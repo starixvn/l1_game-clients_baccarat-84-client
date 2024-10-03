@@ -110,6 +110,7 @@ export const languages = {
         "notice": "ULASAN",
         "odds": "Odds",
         "ok": "OKE",
+        "ok_and_don't_show_again": "OK dan jangan tampilkan lagi.",
         "one_choice_allowed": "Hanya bisa bertaruh pada satu opsi.",
         "pf_ header_merge_client_seed": "Gabungkan Seed Klien",
         "pf_button_clear": "Clear",
@@ -149,6 +150,7 @@ export const languages = {
         "pf_verification_para_2": "Ambil karakter {value} pertama dari SHA512:",
         "pf_verification_para_3": "Konversikan ke Desimal",
         "pf_verification_para_4": "Hitung Hasil Akhir",
+        "play_for_fun_notice": "Game saat ini dimainkan hanya untuk bersenang-senang dan tidak akan memengaruhi saldo Anda. Selamat bersenang-senang dan nikmati permainannya!",
         "powered_by_vgaming": "Dipersembahkan oleh Vgaming",
         "promotion": "Promosi",
         "promotion_terms_and_conditions": "Syarat dan Ketentuan",
@@ -174,6 +176,11 @@ export const languages = {
         "Header_fairness_settings": "Pengaturan keadilan",
         "average": "Rata-rata",
         "banker_win": "BANKER MENANG",
+        "button_home": "Beranda",
+        "button_music": "Musik",
+        "button_reconnect": "Menghubung",
+        "button_settings": "Pengaturan",
+        "button_sfx": "SFX",
         "calculate_final_cut-card_index": "Hitung indeks Cut-card akhir",
         "cut-card_index_note": "Indeks Cut-card merupakan kombinasi dari Server Seed dan Seed Klien dari semua pemain yang diserahkan.",
         "don't_show_again": "Jangan tampilkan lagi",
@@ -183,7 +190,7 @@ export const languages = {
         "final_cut-card_index": "Indeks Cut-card Akhir",
         "final_shoe_result": "Hasil Akhir Shoe",
         "game_icon_name": "Bakarat Beruntung",
-        "game_name": "Bakarat Beruntung",
+        "game_name": "BaccaratX",
         "glossary_banker": "Banker",
         "glossary_banker_pair": "Banker pair",
         "glossary_player": "Player",
@@ -208,15 +215,15 @@ export const languages = {
         "submit_button": "KIRIMKAN",
         "submit_notes": "(Harap dicatat bahwa hanya nilai yang dikirimkan yang digunakan untuk menghitung indeks Cut-card akhir)",
         "table": "Meja",
+        "tag_classic": "Klasik",
+        "tag_lucky": "Beruntung",
+        "tag_speed": "Speed",
         "tie_win": "Seri",
         "title_cut-card_index": "Index Cut-card ",
         "title_cut-card_index_settings": "Pengaturan Index Cut-card",
         "title_fairness_guides": "Panduan Keadilan",
         "waiting screen_para_2": "Klik tombol di bawah jika Anda ingin berkontribusi pada pembuatan indeks Cut-card",
         "waiting_screen_para_1": "Menghasilkan Indeks Cut-card"
-    },
-    "Bac84": {
-        "game_name": "Bakarat 2"
     }
 };
 

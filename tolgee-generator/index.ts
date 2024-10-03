@@ -5,13 +5,16 @@ import { GameNameSpace } from "./config";
 function writeFile(fileName: string, content: string, extension = "ts") {
     fs.writeFileSync(`${fileName}.${extension}`, content, {
         encoding: "utf8",
-        flag: "w",
+        flag: "w+",
     });
 }
 
 const languageFolder = "./src/assets/resources/i18n/";
 const languageCodes = ["en", "id", "th", "vi", "zh_cn", "zh_tw"];
-const namespaces = ["Common", "BaccaratX", GameNameSpace];
+const jsonFolder = "./tolgee-generator/common"; // Thư mục chứa các file JSON
+const createCommonNamespace = false;
+const commonNameSpaces = ["Common", "BaccaratX"];
+const namespaces = createCommonNamespace ? commonNameSpaces : [GameNameSpace];
 const tg = Tolgee().use(DevTools()).init({
     defaultLanguage: "en",
     availableLanguages: languageCodes,
@@ -66,7 +69,46 @@ tg.on("initialLoad", async () => {
             });
         });
 
-        const languageScript = `const win = window as any;
+        createCommonNamespace ? writeFileCommonJson(languageId, languages) : writeFileSourceTs(languageId, languages);
+    }
+
+    if (!createCommonNamespace) {
+        writeFile(
+            languageFolder + "index",
+            `export * as en from "./en";
+        export * as id from "./id";
+        export * as th from "./th";
+        export * as vi from "./vi";
+        export * as zh_cn from "./zh_cn";
+        export * as zh_tw from "./zh_tw";`
+        );
+
+        writeFile("./src/remote/localization", JSON.stringify(remoteNames, null, 4), "json");
+    }
+
+    console.log("Generated done!");
+});
+
+function writeFileCommonJson(languageId: string, languages: { [languageId: string]: { [ns: string]: { [key: string]: string } } }) {
+    writeFile(`${jsonFolder}/${languageId}`, JSON.stringify(languages[languageId], null, 2), "json");
+}
+function writeFileSourceTs(languageId: string, languages: { [languageId: string]: { [ns: string]: { [key: string]: string } } }) {
+    const jsonFilePath = `${jsonFolder}/${languageId}.json`;
+    let jsonData = {};
+
+    // Đọc dữ liệu từ file JSON nếu nó tồn tại
+    if (fs.existsSync(jsonFilePath)) {
+        const jsonContent = fs.readFileSync(jsonFilePath, "utf8");
+        jsonData = JSON.parse(jsonContent);
+    }
+
+    // Kết hợp dữ liệu từ file JSON và tham số languages
+    const combinedData = {
+        ...jsonData,
+        ...languages[languageId],
+    };
+
+    const languageScript = `const win = window as any;
 export const languages = {0};
 
 if (!win.languages) {
@@ -75,20 +117,5 @@ if (!win.languages) {
 
 win.languages.${languageId} = languages;`;
 
-        writeFile(languageFolder + languageId, languageScript.replace("{0}", JSON.stringify(languages[languageId], null, 4)));
-    }
-
-    writeFile(
-        languageFolder + "index",
-        `export * as en from "./en";
-    export * as id from "./id";
-    export * as th from "./th";
-    export * as vi from "./vi";
-    export * as zh_cn from "./zh_cn";
-    export * as zh_tw from "./zh_tw";`
-    );
-
-    writeFile("./src/remote/localization", JSON.stringify(remoteNames, null, 4), "json");
-
-    console.log("Generated done!");
-});
+    writeFile(languageFolder + languageId, languageScript.replace("{0}", JSON.stringify(combinedData, null, 4)));
+}

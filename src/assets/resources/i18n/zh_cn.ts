@@ -110,6 +110,7 @@ export const languages = {
         "notice": "注意",
         "odds": "赔率",
         "ok": "好的",
+        "ok_and_don't_show_again": "好的，不再显示。",
         "one_choice_allowed": "只能押注一种选择。",
         "pf_ header_merge_client_seed": "合并客户种子",
         "pf_button_clear": "清除",
@@ -149,6 +150,7 @@ export const languages = {
         "pf_verification_para_2": "从 SHA512 中获取前 {value} 个字符:",
         "pf_verification_para_3": "转换为十进制",
         "pf_verification_para_4": "计算最终结果",
+        "play_for_fun_notice": "此游戏目前仅供娱乐，不会影响您的余额。玩得开心，享受游戏！",
         "powered_by_vgaming": "由Vgaming提供技术支持",
         "promotion": "促销活动",
         "promotion_terms_and_conditions": "条款和条件",
@@ -174,6 +176,11 @@ export const languages = {
         "Header_fairness_settings": "公平性设置",
         "average": "平均值",
         "banker_win": "庄家赢",
+        "button_home": "主页",
+        "button_music": "音乐",
+        "button_reconnect": "重新连接",
+        "button_settings": "设置",
+        "button_sfx": "SFX",
         "calculate_final_cut-card_index": "计算最终的切牌指数",
         "cut-card_index_note": "切牌指数是所有提交玩家的伺服器种子和客户端种子的组合。",
         "don't_show_again": "不再显示",
@@ -183,7 +190,7 @@ export const languages = {
         "final_cut-card_index": "最终切牌指数",
         "final_shoe_result": "最终牌盒结果",
         "game_icon_name": "幸运百家乐",
-        "game_name": "幸运百家乐",
+        "game_name": "百家乐X",
         "glossary_banker": "庄家",
         "glossary_banker_pair": "庄家一对",
         "glossary_player": "闲家",
@@ -208,15 +215,15 @@ export const languages = {
         "submit_button": "提交",
         "submit_notes": "（请注意，只有提交的值才会用于计算最终的切牌指数）",
         "table": "桌子",
+        "tag_classic": "经典",
+        "tag_lucky": "幸运",
+        "tag_speed": "速度",
         "tie_win": "和",
         "title_cut-card_index": "切牌指数",
         "title_cut-card_index_settings": "切牌指数设置",
         "title_fairness_guides": "公平指南",
         "waiting screen_para_2": "如果您想为切牌指数产生做出贡献，请点击下面的按钮",
         "waiting_screen_para_1": "产生切牌指数"
-    },
-    "Bac84": {
-        "game_name": "百家乐 2"
     }
 };
 

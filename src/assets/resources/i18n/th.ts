@@ -110,6 +110,7 @@ export const languages = {
         "notice": "ประกาศ",
         "odds": "อัตราต่อรอง",
         "ok": "ตกลง",
+        "ok_and_don't_show_again": "ตกลงและไม่ต้องแสดงอีก",
         "one_choice_allowed": "สามารถเดิมพันได้เพียงตัวเลือกเดียวเท่านั้น",
         "pf_ header_merge_client_seed": "ผสาน Client Seed",
         "pf_button_clear": "ล้าง",
@@ -149,6 +150,7 @@ export const languages = {
         "pf_verification_para_2": "ใช้ตัวอักษร {value} ตัวแรกจาก SHA512:",
         "pf_verification_para_3": "แปลงเป็นทศนิยม",
         "pf_verification_para_4": "คำนวณผลลัพธ์สุดท้าย",
+        "play_for_fun_notice": "เกมนี้เล่นเพื่อความสนุกเท่านั้นและจะไม่ส่งผลต่อยอดเงินคงเหลือของคุณ ขอให้สนุกและเพลิดเพลินไปกับเกม!",
         "powered_by_vgaming": "สนับสนุนโดย Vgaming",
         "promotion": "โปรโมชั่น",
         "promotion_terms_and_conditions": "ข้อกำหนด\nและเงื่อนไข",
@@ -174,6 +176,11 @@ export const languages = {
         "Header_fairness_settings": "การตั้งค่าความยุติธรรม",
         "average": "ค่าเฉลี่ย",
         "banker_win": "เจ้ามือชนะ",
+        "button_home": "หน้าแรก",
+        "button_music": "ดนตรี",
+        "button_reconnect": "เชื่อมต่ออีกครั้ง",
+        "button_settings": "ตั้งค่า",
+        "button_sfx": "SFX",
         "calculate_final_cut-card_index": "คำนวณดัชนีตัดไพ่ขั้นสุดท้าย",
         "cut-card_index_note": "ดัชนีตัดไพ่ คือการรวมกันของ Server Seed และ Client Seeds ของผู้เล่นที่ส่งเข้ามาทั้งหมด",
         "don't_show_again": "ไม่ต้องแสดงอีก",
@@ -183,7 +190,7 @@ export const languages = {
         "final_cut-card_index": "ดัชนีตัดไพ่ขั้นสุดท้าย",
         "final_shoe_result": "ผลลัพธ์การแจกไพ่",
         "game_icon_name": "บาคาร่านำโชค",
-        "game_name": "บาคาร่านำโชค",
+        "game_name": "บาคาร่าX",
         "glossary_banker": "เจ้ามือ",
         "glossary_banker_pair": "คู่เจ้ามือ",
         "glossary_player": "ผู้เล่น",
@@ -208,15 +215,15 @@ export const languages = {
         "submit_button": "ตกลง",
         "submit_notes": "(โปรดทราบว่าจะใช้เฉพาะค่าที่ส่งมาเท่านั้นในการคำนวณดัชนีไพ่ตัดขั้นสุดท้าย)",
         "table": "โต๊ะ",
+        "tag_classic": "คลาสสิก",
+        "tag_lucky": "นำโชค",
+        "tag_speed": "สปีด",
         "tie_win": "เสมอ",
         "title_cut-card_index": "ดัชนีการตัดไพ่",
         "title_cut-card_index_settings": "การตั้งค่่าดัชนีการตัดไพ่",
         "title_fairness_guides": "คู่มือความเป็นธรรม",
         "waiting screen_para_2": "คลิกปุ่มด้านล่างหากคุณต้องการมีส่วนร่วมในการตัดไพ่",
         "waiting_screen_para_1": "การสร้างดัชนีตัดไพ่"
-    },
-    "Bac84": {
-        "game_name": "บาคาร่า 2"
     }
 };
 

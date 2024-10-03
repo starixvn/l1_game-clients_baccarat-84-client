@@ -33,7 +33,7 @@ async function generate() {
             background: 2,
             type: "classic",
             dealer: 3,
-            table: "yellow",
+            table: "orange",
             win_notice: "red",
         },
         86: {
@@ -61,14 +61,14 @@ async function generate() {
             background: 8,
             type: "lucky",
             dealer: 14,
-            table: "yellow",
+            table: "orange",
             win_notice: "red",
         },
         90: {
             background: 9,
             type: "classic",
             dealer: 11,
-            table: "orange",
+            table: "red",
             win_notice: "red",
         },
         91: {
@@ -82,14 +82,14 @@ async function generate() {
             background: 10,
             type: "classic",
             dealer: 19,
-            table: "blue",
+            table: "purple",
             win_notice: "orange",
         },
         97: {
             background: 6,
             type: "classic",
             dealer: 10,
-            table: "green",
+            table: "blue",
             win_notice: "orange",
         },
         98: {

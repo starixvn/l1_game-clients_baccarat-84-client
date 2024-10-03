@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "generate-tolgee-data": "ts-node ./tolgee-generator/index.ts"
+        "generate-tolgee-data": "ts-node ./tolgee-generator/index.ts",
+        "clone-games": "node ./clone-games.js"
     },
     "keywords": [],
     "author": "",

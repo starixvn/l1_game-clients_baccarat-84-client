@@ -86,7 +86,7 @@ async function generate() {
             win_notice: "orange",
         },
         97: {
-            background: 6,
+            background: 12,
             type: "classic",
             dealer: 10,
             table: "blue",

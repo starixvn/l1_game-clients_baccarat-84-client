@@ -224,6 +224,51 @@ export const languages = {
         "title_fairness_guides": "Panduan Keadilan",
         "waiting screen_para_2": "Klik tombol di bawah jika Anda ingin berkontribusi pada pembuatan indeks Cut-card",
         "waiting_screen_para_1": "Menghasilkan Indeks Cut-card"
+    },
+    "Bac81": {
+        "game_name": "Bakarat Beruntung"
+    },
+    "Bac82": {
+        "game_name": "Bakarat Beruntung 2"
+    },
+    "Bac83": {
+        "game_name": "Bakarat Beruntung 3"
+    },
+    "Bac84": {
+        "game_name": "Bakarat 2"
+    },
+    "Bac85": {
+        "game_name": "Bakarat 3"
+    },
+    "Bac86": {
+        "game_name": "Bakarat 4"
+    },
+    "Bac87": {
+        "game_name": "Bakarat 5"
+    },
+    "Bac88": {
+        "game_name": "Bakarat Beruntung 4"
+    },
+    "Bac89": {
+        "game_name": "Bakarat Beruntung 5"
+    },
+    "Bac90": {
+        "game_name": "Bakarat 6"
+    },
+    "Bac91": {
+        "game_name": "Bakarat 7"
+    },
+    "Bac97": {
+        "game_name": "Bakarat 9"
+    },
+    "Bac98": {
+        "game_name": "Speed Bakarat"
+    },
+    "Bac100": {
+        "game_name": "Speed Bakarat 2"
+    },
+    "Bac101": {
+        "game_name": "Speed Bakarat 3"
     }
 };
 

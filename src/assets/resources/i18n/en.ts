@@ -227,6 +227,51 @@ export const languages = {
         "title_fairness_guides": "Fairness Guides",
         "waiting screen_para_2": "Click the button below if you would like to contribute to the cut-card index generation",
         "waiting_screen_para_1": "Generating the Cut-card Index"
+    },
+    "Bac81": {
+        "game_name": "Lucky Baccarat"
+    },
+    "Bac82": {
+        "game_name": "Lucky Baccarat 2"
+    },
+    "Bac83": {
+        "game_name": "Lucky Baccarat 3"
+    },
+    "Bac84": {
+        "game_name": "Baccarat 2"
+    },
+    "Bac85": {
+        "game_name": "Baccarat 3"
+    },
+    "Bac86": {
+        "game_name": "Baccarat 4"
+    },
+    "Bac87": {
+        "game_name": "Baccarat 5"
+    },
+    "Bac88": {
+        "game_name": "Lucky Baccarat 4"
+    },
+    "Bac89": {
+        "game_name": "Lucky Baccarat 5"
+    },
+    "Bac90": {
+        "game_name": "Baccarat 6"
+    },
+    "Bac91": {
+        "game_name": "Baccarat 7"
+    },
+    "Bac97": {
+        "game_name": "Baccarat 9"
+    },
+    "Bac98": {
+        "game_name": "Speed Baccarat"
+    },
+    "Bac100": {
+        "game_name": "Speed Baccarat 2"
+    },
+    "Bac101": {
+        "game_name": "Speed Baccarat 3"
     }
 };
 

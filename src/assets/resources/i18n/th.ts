@@ -224,6 +224,51 @@ export const languages = {
         "title_fairness_guides": "คู่มือความเป็นธรรม",
         "waiting screen_para_2": "คลิกปุ่มด้านล่างหากคุณต้องการมีส่วนร่วมในการตัดไพ่",
         "waiting_screen_para_1": "การสร้างดัชนีตัดไพ่"
+    },
+    "Bac81": {
+        "game_name": "บาคาร่านำโชค"
+    },
+    "Bac82": {
+        "game_name": "บาคาร่านำโชค 2"
+    },
+    "Bac83": {
+        "game_name": "บาคาร่านำโชค 3"
+    },
+    "Bac84": {
+        "game_name": "บาคาร่า 2"
+    },
+    "Bac85": {
+        "game_name": "บาคาร่า 3"
+    },
+    "Bac86": {
+        "game_name": "บาคาร่า 4"
+    },
+    "Bac87": {
+        "game_name": "บาคาร่า 5"
+    },
+    "Bac88": {
+        "game_name": "บาคาร่านำโชค 4"
+    },
+    "Bac89": {
+        "game_name": "บาคาร่านำโชค 5"
+    },
+    "Bac90": {
+        "game_name": "บาคาร่า 6"
+    },
+    "Bac91": {
+        "game_name": "บาคาร่า 7"
+    },
+    "Bac97": {
+        "game_name": "บาคาร่า 9"
+    },
+    "Bac98": {
+        "game_name": "สปีดบาคาร่า"
+    },
+    "Bac100": {
+        "game_name": "สปีดบาคาร่า 2"
+    },
+    "Bac101": {
+        "game_name": "สปีดบาคาร่า 3"
     }
 };
 

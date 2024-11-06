@@ -227,6 +227,51 @@ export const languages = {
         "title_fairness_guides": "Hướng Dẫn Kiểm Tra Tính Minh Bạch",
         "waiting screen_para_2": "Nhấn vào nút bên dưới nếu bạn muốn tham gia vào quá trình tạo vị trí Cut-card",
         "waiting_screen_para_1": "Tạo Vị Trí Cut-card"
+    },
+    "Bac81": {
+        "game_name": "Lucky Baccarat"
+    },
+    "Bac82": {
+        "game_name": "Lucky Baccarat 2"
+    },
+    "Bac83": {
+        "game_name": "Lucky Baccarat 3"
+    },
+    "Bac84": {
+        "game_name": "Cào Baccarat 2"
+    },
+    "Bac85": {
+        "game_name": "Cào Baccarat 3"
+    },
+    "Bac86": {
+        "game_name": "Cào Baccarat 4"
+    },
+    "Bac87": {
+        "game_name": "Cào Baccarat 5"
+    },
+    "Bac88": {
+        "game_name": "Lucky Baccarat 4"
+    },
+    "Bac89": {
+        "game_name": "Lucky Baccarat 5"
+    },
+    "Bac90": {
+        "game_name": "Cào Baccarat 6"
+    },
+    "Bac91": {
+        "game_name": "Cào Baccarat 7"
+    },
+    "Bac97": {
+        "game_name": "Cào Baccarat 9"
+    },
+    "Bac98": {
+        "game_name": "Baccarat Tốc Độ"
+    },
+    "Bac100": {
+        "game_name": "Baccarat Tốc Độ 2"
+    },
+    "Bac101": {
+        "game_name": "Baccarat Tốc Độ 3"
     }
 };
 

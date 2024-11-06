@@ -224,6 +224,51 @@ export const languages = {
         "title_fairness_guides": "公平指南",
         "waiting screen_para_2": "如果您想為切牌指數產生做出貢獻，請點擊下面的按鈕",
         "waiting_screen_para_1": "產生切牌指數"
+    },
+    "Bac81": {
+        "game_name": "幸運百家樂"
+    },
+    "Bac82": {
+        "game_name": "幸運百家樂 2"
+    },
+    "Bac83": {
+        "game_name": "幸運百家樂 3"
+    },
+    "Bac84": {
+        "game_name": "百家樂 2"
+    },
+    "Bac85": {
+        "game_name": "百家樂 3"
+    },
+    "Bac86": {
+        "game_name": "百家樂 4"
+    },
+    "Bac87": {
+        "game_name": "百家樂 5"
+    },
+    "Bac88": {
+        "game_name": "幸運百家樂 4"
+    },
+    "Bac89": {
+        "game_name": "幸運百家樂 5"
+    },
+    "Bac90": {
+        "game_name": "百家樂 6"
+    },
+    "Bac91": {
+        "game_name": "百家樂 7"
+    },
+    "Bac97": {
+        "game_name": "百家樂 9"
+    },
+    "Bac98": {
+        "game_name": "極速百家樂"
+    },
+    "Bac100": {
+        "game_name": "極速百家樂 2"
+    },
+    "Bac101": {
+        "game_name": "極速百家樂 3"
     }
 };
 

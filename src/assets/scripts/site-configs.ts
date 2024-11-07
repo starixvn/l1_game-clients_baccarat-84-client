@@ -15,7 +15,7 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         localhost: "lumigame.com",
     },
     ssl: true,
-    subDomain: "l1-proxy",
+    subDomain: "l2-proxy1",
     env: "LOCAL",
     subGuideDomain: "l1-guide",
     SGConnectSubDomain: "connectsite",
@@ -28,6 +28,7 @@ const defaultConfig: gc.Configs.SiteConfigs = {
     mainObserverNamespace: GAME_NAME,
     tolgeeUrl: "",
     storagePrefixKey: GAME_NAME,
+    gatewaySubDomain: "l2-gw1",
 };
 
 let configDev = {

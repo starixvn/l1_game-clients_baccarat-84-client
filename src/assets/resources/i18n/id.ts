@@ -250,6 +250,12 @@ export const languages = {
         "waiting screen_para_2": "Klik tombol di bawah jika Anda ingin berkontribusi pada pembuatan indeks Cut-card",
         "waiting_screen_para_1": "Menghasilkan Indeks Cut-card"
     },
+    "VipBaccarat": {
+        "game_name": "VIP Bakarat",
+    },
+    "BlockchainBaccarat": {
+        "game_name": "Bakarat Blockchain",
+    },
     "Bac81": {
         "game_name": "Bakarat Beruntung"
     },

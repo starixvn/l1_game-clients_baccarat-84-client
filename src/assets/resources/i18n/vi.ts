@@ -253,6 +253,12 @@ export const languages = {
         "waiting screen_para_2": "Nhấn vào nút bên dưới nếu bạn muốn tham gia vào quá trình tạo vị trí Cut-card",
         "waiting_screen_para_1": "Tạo Vị Trí Cut-card"
     },
+    "VipBaccarat": {
+        "game_name": "Cào Baccarat VIP",
+    },
+    "BlockchainBaccarat": {
+        "game_name": "Blockchain Baccarat",
+    },
     "Bac81": {
         "game_name": "Lucky Baccarat"
     },

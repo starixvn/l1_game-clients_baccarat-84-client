@@ -250,6 +250,12 @@ export const languages = {
         "waiting screen_para_2": "คลิกปุ่มด้านล่างหากคุณต้องการมีส่วนร่วมในการตัดไพ่",
         "waiting_screen_para_1": "การสร้างดัชนีตัดไพ่"
     },
+    "VipBaccarat": {
+        "game_name": "VIP บาคาร่า",
+    },
+    "BlockchainBaccarat": {
+        "game_name": "บาคาร่าบล็อกเชน",
+    },
     "Bac81": {
         "game_name": "บาคาร่านำโชค"
     },

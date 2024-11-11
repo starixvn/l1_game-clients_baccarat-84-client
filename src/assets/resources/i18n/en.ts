@@ -254,6 +254,12 @@ export const languages = {
         "waiting screen_para_2": "Click the button below if you would like to contribute to the cut-card index generation",
         "waiting_screen_para_1": "Generating the Cut-card Index"
     },
+    "VipBaccarat": {
+        "game_name": "VIP Baccarat",
+    },
+    "BlockchainBaccarat": {
+        "game_name": "Blockchain Baccarat",
+    },
     "Bac81": {
         "game_name": "Lucky Baccarat"
     },

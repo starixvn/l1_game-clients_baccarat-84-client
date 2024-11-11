@@ -250,6 +250,12 @@ export const languages = {
         "waiting screen_para_2": "如果您想为切牌指数产生做出贡献，请点击下面的按钮",
         "waiting_screen_para_1": "产生切牌指数"
     },
+    "VipBaccarat": {
+        "game_name": "VIP 百家乐",
+    },
+    "BlockchainBaccarat": {
+        "game_name": "区块链百家乐",
+    },
     "Bac81": {
         "game_name": "幸运百家乐"
     },

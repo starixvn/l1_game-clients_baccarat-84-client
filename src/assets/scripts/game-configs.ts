@@ -10,4 +10,6 @@ export const GAME_DURATIONS = {
     generatingResult: 7,
     showingResult: 5,
     startRound: 4,
-}
+};
+
+export const HAS_MULTIPLIER = false;

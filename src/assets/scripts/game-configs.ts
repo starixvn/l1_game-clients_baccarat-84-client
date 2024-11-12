@@ -12,4 +12,4 @@ export const GAME_DURATIONS = {
     startRound: 4,
 };
 
-export const HAS_MULTIPLIER = false;
+export const MULTIPLIER_FEATURE = false;

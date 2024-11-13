@@ -5,13 +5,23 @@ const { ccclass, property } = _decorator;
 @ccclass("SupportEnableMultiplier")
 export class SupportEnableMultiplier extends Component {
     @property
-    destroyNode = false;
+    multipleNode = false;
+
+    @property({
+        visible: function () {
+            return this.multipleNode;
+        },
+    })
+    enableMultiplier = true;
 
     onLoad() {
-        if (this.destroyNode) {
-            !MULTIPLIER_FEATURE && this.node.destroy();
+        if (this.multipleNode) {
+            if (MULTIPLIER_FEATURE !== this.enableMultiplier) {
+                this.node.destroy();
+            }
         } else {
-            this.node.active = MULTIPLIER_FEATURE;
+            const isNodeForMultiplier = MULTIPLIER_FEATURE && this.enableMultiplier;
+            this.node.active = isNodeForMultiplier;
         }
     }
 }

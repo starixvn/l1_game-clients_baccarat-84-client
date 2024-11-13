@@ -289,6 +289,9 @@ export const languages = {
     "Bac91": {
         "game_name": "百家乐 7"
     },
+    "Bac92": {
+        "game_name": "百家乐 8"
+    },
     "Bac97": {
         "game_name": "百家乐 9"
     },

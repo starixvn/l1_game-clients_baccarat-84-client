@@ -292,6 +292,9 @@ export const languages = {
     "Bac91": {
         "game_name": "Cào Baccarat 7"
     },
+    "Bac92": {
+        "game_name": "Cào Baccarat 8"
+    },
     "Bac97": {
         "game_name": "Cào Baccarat 9"
     },

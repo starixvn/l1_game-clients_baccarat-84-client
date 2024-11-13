@@ -1,6 +1,5 @@
 import { DevTools, Tolgee } from "@tolgee/web";
 import fs from "fs";
-import { GameNameSpace } from "./config";
 
 function writeFile(fileName: string, content: string, extension = "ts") {
     fs.writeFileSync(`${fileName}.${extension}`, content, {
@@ -14,7 +13,26 @@ const languageCodes = ["en", "id", "th", "vi", "zh_cn", "zh_tw"];
 const jsonFolder = "./tolgee-generator/common"; // Thư mục chứa các file JSON
 const createCommonNamespace = false;
 const commonNameSpaces = ["Common", "BaccaratX"];
-const namespaces = createCommonNamespace ? commonNameSpaces : [GameNameSpace];
+// const namespaces = createCommonNamespace ? commonNameSpaces : [GameNameSpace];
+const namespaces = [
+    ...commonNameSpaces,
+    "Bac81",
+    "Bac82",
+    "Bac83",
+    "Bac84",
+    "Bac85",
+    "Bac86",
+    "Bac87",
+    "Bac88",
+    "Bac89",
+    "Bac90",
+    "Bac91",
+    "Bac92",
+    "Bac97",
+    "Bac98",
+    "Bac100",
+    "Bac101",
+];
 const tg = Tolgee().use(DevTools()).init({
     defaultLanguage: "en",
     availableLanguages: languageCodes,
@@ -69,18 +87,18 @@ tg.on("initialLoad", async () => {
             });
         });
 
-        createCommonNamespace ? writeFileCommonJson(languageId, languages) : writeFileSourceTs(languageId, languages);
+        // createCommonNamespace ? writeFileCommonJson(languageId, languages) : writeFileSourceTs(languageId, languages);
     }
 
     if (!createCommonNamespace) {
         writeFile(
             languageFolder + "index",
             `export * as en from "./en";
-        export * as id from "./id";
-        export * as th from "./th";
-        export * as vi from "./vi";
-        export * as zh_cn from "./zh_cn";
-        export * as zh_tw from "./zh_tw";`
+export * as id from "./id";
+export * as th from "./th";
+export * as vi from "./vi";
+export * as zh_cn from "./zh_cn";
+export * as zh_tw from "./zh_tw";`
         );
 
         writeFile("./src/remote/localization", JSON.stringify(remoteNames, null, 4), "json");

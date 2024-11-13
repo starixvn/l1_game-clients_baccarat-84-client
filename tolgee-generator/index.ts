@@ -98,7 +98,8 @@ export * as id from "./id";
 export * as th from "./th";
 export * as vi from "./vi";
 export * as zh_cn from "./zh_cn";
-export * as zh_tw from "./zh_tw";`
+export * as zh_tw from "./zh_tw";
+`
         );
 
         writeFile("./src/remote/localization", JSON.stringify(remoteNames, null, 4), "json");

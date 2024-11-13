@@ -126,7 +126,7 @@ async function generate() {
     updateConfigJson(type, table);
     updateCrossConfig(gameName);
     updateGameSettings(gameId, gameName, type);
-    // updateTolgeeConfig(gameName);
+    updateTolgeeConfig(gameName);
 
     updateCSS(type);
 }

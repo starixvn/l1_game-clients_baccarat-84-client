@@ -1,5 +1,6 @@
 import { DevTools, Tolgee } from "@tolgee/web";
 import fs from "fs";
+import { GameNameSpace } from "./config";
 
 function writeFile(fileName: string, content: string, extension = "ts") {
     fs.writeFileSync(`${fileName}.${extension}`, content, {
@@ -12,10 +13,9 @@ const languageFolder = "./src/assets/resources/i18n/";
 const languageCodes = ["en", "id", "th", "vi", "zh_cn", "zh_tw"];
 const jsonFolder = "./tolgee-generator/common"; // Thư mục chứa các file JSON
 const createCommonNamespace = false;
-const commonNameSpaces = ["Common", "BaccaratX"];
-// const namespaces = createCommonNamespace ? commonNameSpaces : [GameNameSpace];
-const namespaces = [
-    ...commonNameSpaces,
+const commonNameSpaces = [
+    "Common",
+    "BaccaratX",
     "Bac81",
     "Bac82",
     "Bac83",
@@ -33,6 +33,7 @@ const namespaces = [
     "Bac100",
     "Bac101",
 ];
+const namespaces = createCommonNamespace ? commonNameSpaces : [GameNameSpace];
 const tg = Tolgee().use(DevTools()).init({
     defaultLanguage: "en",
     availableLanguages: languageCodes,

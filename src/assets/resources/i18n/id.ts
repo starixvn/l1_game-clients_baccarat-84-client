@@ -224,7 +224,7 @@ export const languages = {
         "player_win": "PLAYER MENANG",
         "scoreboard_banker_pair": "B. Pair",
         "scoreboard_player_pair": "P. Pair",
-        "select_all": "Pilih Semua\n",
+        "select_all": "Pilih Semua",
         "settling_status": "Menyelesaikan",
         "shoe_result": "Hasil Shoe",
         "shoe_result SHA256": "Hasil Shoe SHA256",

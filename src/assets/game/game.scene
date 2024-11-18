@@ -1456,8 +1456,8 @@
       "__uuid__": "22e3e429-f26c-4578-8c1c-f15b9dc7db0d",
       "__expectedType__": "sp.SkeletonData"
     },
-    "defaultSkin": "",
-    "defaultAnimation": "",
+    "defaultSkin": "default",
+    "defaultAnimation": "breath",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,

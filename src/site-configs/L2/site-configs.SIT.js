@@ -11,4 +11,5 @@ window.envConfig = {
     SGConnectSubDomain: "l2-connect-sit",
     defaultLanguage: "en",
     gatewaySubDomain: "l2gwsit",
+    clientSubDomain: "l2uatclient",
 };

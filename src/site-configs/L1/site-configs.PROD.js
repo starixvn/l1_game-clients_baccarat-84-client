@@ -8,5 +8,6 @@ window.envConfig = {
     enableMsgpackParserAllGames: true,
     enableMsgpackParserOnNotification: true,
     SGConnectSubDomain: "connect",
-    gatewaySubDomain: "l1-gw",
+    gatewaySubDomain: "gw",
+    clientSubDomain: "client",
 };

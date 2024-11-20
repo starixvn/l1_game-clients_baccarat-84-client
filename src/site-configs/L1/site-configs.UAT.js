@@ -10,4 +10,5 @@ window.envConfig = {
     subDirectory: "uat",
     SGConnectSubDomain: "l1uatconnectsite",
     gatewaySubDomain: "l1gwuat",
+    clientSubDomain: "l1uatclient",
 };

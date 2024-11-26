@@ -9,5 +9,4 @@ window.envConfig = {
     enableMsgpackParserOnNotification: true,
     SGConnectSubDomain: "connect",
     gatewaySubDomain: "gw",
-    clientSubDomain: "client",
 };

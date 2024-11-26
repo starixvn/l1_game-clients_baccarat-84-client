@@ -1,5 +1,6 @@
-export const GAME_ID = 98;
-export const GAME_NAME = "Bac98";
+export const GAME_ID = 84;
+export const LOBBY_ID = 102;
+export const GAME_NAME = "Bac84";
 export const GAME_SERVICE_ROUTE = "baccaratx";
 export const GAME_DURATIONS = {
     wholeRound: 47,
@@ -10,3 +11,5 @@ export const GAME_DURATIONS = {
     showingResult: 5,
     startRound: 4,
 };
+
+export const MULTIPLIER_FEATURE = false;

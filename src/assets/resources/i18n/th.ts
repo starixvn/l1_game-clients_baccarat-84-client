@@ -17,6 +17,12 @@ export const languages = {
         "create_nick_name": "ตั้งชื่อเล่น",
         "details": "รายละเอียด",
         "enter_your_name": "กรอกชื่อเล่น",
+        "game_category_ph_1": "เกมทั้งหมด",
+        "game_category_ph_2": "ปินอยพิเศษ",
+        "game_category_ph_3": "เกมสล็อต",
+        "game_category_ph_4": "เกมไพ่",
+        "game_category_ph_5": "เกมทั่วไป",
+        "game_category_ph_6": "ลอตเตอรี",
         "game_excluded": "%{gameName}\n\nบัญชีของคุณไม่ได้รับอนุญาตให้เล่นเกมนี้อีกต่อไป โปรดลองเกมอื่น",
         "game_guide": "คู่มือเกม",
         "hand_not_active": "มือที่ไม่ใช้งาน",
@@ -156,6 +162,7 @@ export const languages = {
         "promotion_terms_and_conditions": "ข้อกำหนด\nและเงื่อนไข",
         "result": "ผลลัพธ์",
         "round": "รอบ",
+        "sha256": "SHA-256",
         "splash_check_downloading": "กำลังตรวจสอบและกำลังดาวน์โหลดเกมของการอัพเดทล่าสุด",
         "splash_connection_lost": "การเชื่อมต่อขัดข้อง กรุณาตรวจสอบอีกครั้ง",
         "splash_login_failed": "การดาวน์โหลดล้มเหลว กรุณาลองปิดหน้าต่างแล้วลองใหม่อีกครั้ง",
@@ -174,6 +181,7 @@ export const languages = {
     },
     "BaccaratX": {
         "Header_fairness_settings": "การตั้งค่าความยุติธรรม",
+        "all_tables": "ตารางทั้งหมด",
         "average": "ค่าเฉลี่ย",
         "banker_win": "เจ้ามือชนะ",
         "button_home": "หน้าแรก",
@@ -191,29 +199,46 @@ export const languages = {
         "final_shoe_result": "ผลลัพธ์การแจกไพ่",
         "game_icon_name": "บาคาร่านำโชค",
         "game_name": "บาคาร่าX",
+        "general": "ทั่วไป",
         "glossary_banker": "เจ้ามือ",
         "glossary_banker_pair": "คู่เจ้ามือ",
         "glossary_player": "ผู้เล่น",
         "glossary_player_pair": "คู่ผู้เล่น",
         "glossary_tie": "เสมอ",
+        "good_road": "ทางที่ดี",
         "header_cut-card_index": "ดัชนีการตัดไพ่",
         "header_fairness_verification": "การตรวจสอบความเป็นธรรม",
         "input_cut-card_button": "ป้อนดัชนีการตัดไพ่",
         "multiplierpayouts_fee": "Extra Fee",
         "multiplierpayouts_lucky_card": "ไพ่นำโชค",
         "multiplierpayouts_multiplier": "ตัวคูณ",
+        "no_good_road_header": "ค้นหาทางที่ดีของคุณที่นี่",
+        "no_good_road_para1": "เราจะแจ้งให้คุณทราบทันทีเมื่อมีทางที่ดีที่ตรงกับรูปแบบที่คุณชื่นชอบ",
+        "no_good_road_para2": "คุณสามารถเลือกรูปแบบเพิ่มเติมตามความชอบของคุณได้ในเมนูการตั้งค่า",
+        "one_lounge_two_bedrooms_banker": "1 ห้องนั่งเล่น  2 ห้องนอน เจ้ามือ",
+        "one_lounge_two_bedrooms_player": "1 ห้องนั่งเล่น  2 ห้องนอน ผู้เล่น",
+        "patted_eat_banker": "เจ้ามือตบกิน",
+        "patted_eat_player": "ผู้เล่นตบกิน",
+        "ping_pong_banker": "ปิงปองเจ้ามือ",
+        "ping_pong_player": "ปิงปองผู้เล่น",
         "player_win": "ผู้้เล่นชนะ",
         "scoreboard_banker_pair": "เจ้ามือคู่",
         "scoreboard_player_pair": "ผู้เล่นคู่",
+        "select_all": "เลือกทั้งหมด",
+        "settling_status": "การชำระเงิน",
         "shoe_result": "ผลลัพธ์การแจกไพ่",
         "shoe_result SHA256": "ผลลัพธ์การแจกไพ่ SHA256",
         "show_cut_card_index": "ดัชนีตัดไพ่คือ %{cut_card_index}",
-        "shuffling_cards": "cut_card_index",
+        "shuffling_cards": "การสับเปลี่ยน",
+        "stop_bet_status": "หยุดการเดิมพัน",
+        "streak_banker": "เจ้ามือสตรีค",
+        "streak_player": "ผู้เล่นสตรีค",
         "submission_fail": "การส่งล้มเหลว กรุณาลองอีกครั้ง",
         "submission_failed_time_expired": "การส่งล้มเหลว.",
         "submission_sucessful": "ส่งผลเรียบร้อยแล้ว!",
         "submit_button": "ตกลง",
         "submit_notes": "(โปรดทราบว่าจะใช้เฉพาะค่าที่ส่งมาเท่านั้นในการคำนวณดัชนีไพ่ตัดขั้นสุดท้าย)",
+        "switch_table": "เปลี่ยนตาราง",
         "table": "โต๊ะ",
         "tag_classic": "คลาสสิก",
         "tag_lucky": "นำโชค",
@@ -224,6 +249,60 @@ export const languages = {
         "title_fairness_guides": "คู่มือความเป็นธรรม",
         "waiting screen_para_2": "คลิกปุ่มด้านล่างหากคุณต้องการมีส่วนร่วมในการตัดไพ่",
         "waiting_screen_para_1": "การสร้างดัชนีตัดไพ่"
+    },
+    "VipBaccarat": {
+        "game_name": "VIP บาคาร่า",
+    },
+    "BlockchainBaccarat": {
+        "game_name": "บาคาร่าบล็อกเชน",
+    },
+    "Bac81": {
+        "game_name": "บาคาร่านำโชค"
+    },
+    "Bac82": {
+        "game_name": "บาคาร่านำโชค 2"
+    },
+    "Bac83": {
+        "game_name": "บาคาร่านำโชค 3"
+    },
+    "Bac84": {
+        "game_name": "บาคาร่า 2"
+    },
+    "Bac85": {
+        "game_name": "บาคาร่า 3"
+    },
+    "Bac86": {
+        "game_name": "บาคาร่า 4"
+    },
+    "Bac87": {
+        "game_name": "บาคาร่า 5"
+    },
+    "Bac88": {
+        "game_name": "บาคาร่านำโชค 4"
+    },
+    "Bac89": {
+        "game_name": "บาคาร่านำโชค 5"
+    },
+    "Bac90": {
+        "game_name": "บาคาร่า 6"
+    },
+    "Bac91": {
+        "game_name": "บาคาร่า 7"
+    },
+    "Bac92": {
+        "game_name": "บาคาร่า 8"
+    },
+    "Bac97": {
+        "game_name": "บาคาร่า 9"
+    },
+    "Bac98": {
+        "game_name": "สปีดบาคาร่า"
+    },
+    "Bac100": {
+        "game_name": "สปีดบาคาร่า 2"
+    },
+    "Bac101": {
+        "game_name": "สปีดบาคาร่า 3"
     }
 };
 

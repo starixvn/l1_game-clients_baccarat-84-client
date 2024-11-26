@@ -184,6 +184,7 @@ function updateGameSettings(gameId, gameName, type) {
     const durations = type === "speed" ? speedDurations : normalDurations;
 
     const config = `export const GAME_ID = ${gameId};
+export const LOBBY_ID = 102;
 export const GAME_NAME = "${gameName}";
 export const GAME_SERVICE_ROUTE = "baccaratx";
 export const GAME_DURATIONS = {
@@ -194,7 +195,8 @@ export const GAME_DURATIONS = {
     generatingResult: ${durations.generatingResult},
     showingResult: ${durations.showingResult},
     startRound: ${durations.startRound},
-}`;
+};
+export const MULTIPLIER_FEATURE = ${type === "lucky" ? "true" : "false"};`;
     fs.writeFileSync(configFilePath, config, "utf8");
 }
 

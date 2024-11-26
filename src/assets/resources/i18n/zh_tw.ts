@@ -17,6 +17,12 @@ export const languages = {
         "create_nick_name": "創建您的暱稱",
         "details": "詳情",
         "enter_your_name": "輸入你的暱稱。",
+        "game_category_ph_1": "所有遊戲",
+        "game_category_ph_2": "菲律賓特色遊戲",
+        "game_category_ph_3": "老虎機遊戲",
+        "game_category_ph_4": "紙牌遊戲",
+        "game_category_ph_5": "休閒遊戲",
+        "game_category_ph_6": "樂透遊戲",
         "game_excluded": "%{gameName}\n\n您的帳戶不再允許玩此遊戲。請嘗試其他遊戲。",
         "game_guide": "遊戲指南",
         "hand_not_active": "不活躍手牌",
@@ -156,6 +162,7 @@ export const languages = {
         "promotion_terms_and_conditions": "條款和條件",
         "result": "結果",
         "round": "回合",
+        "sha256": "SHA-256",
         "splash_check_downloading": "正在檢查和下載最新的更新包...",
         "splash_connection_lost": "連接不穩定，請檢查。",
         "splash_login_failed": "無法加載遊戲數據。請關閉當前窗口並重試。",
@@ -174,6 +181,7 @@ export const languages = {
     },
     "BaccaratX": {
         "Header_fairness_settings": "公平性設置",
+        "all_tables": "所有桌",
         "average": "平均值",
         "banker_win": "莊家贏",
         "button_home": "主頁",
@@ -191,29 +199,46 @@ export const languages = {
         "final_shoe_result": "最終牌盒結果",
         "game_icon_name": "幸運百家樂",
         "game_name": "百家乐X",
+        "general": "一般",
         "glossary_banker": "莊家",
         "glossary_banker_pair": "莊家一對",
         "glossary_player": "閒家",
         "glossary_player_pair": "閒家一對",
         "glossary_tie": "和",
+        "good_road": "好路",
         "header_cut-card_index": "切牌 指數",
         "header_fairness_verification": "公平性驗證",
         "input_cut-card_button": "輸入切牌指數",
         "multiplierpayouts_fee": "附加費",
         "multiplierpayouts_lucky_card": "幸運卡",
         "multiplierpayouts_multiplier": "乘數",
+        "no_good_road_header": "在此找到您的好路",
+        "no_good_road_para1": "當有符合您喜歡的模式的好路時，我們會立即通知您。",
+        "no_good_road_para2": "您可以在設定選單中選擇更多您喜歡的模式。",
+        "one_lounge_two_bedrooms_banker": "一廳兩房莊家",
+        "one_lounge_two_bedrooms_player": "一廳兩房閒家",
+        "patted_eat_banker": "拍拍吃莊家",
+        "patted_eat_player": "拍拍吃閒家",
+        "ping_pong_banker": "乒乓莊家",
+        "ping_pong_player": "乒乓閒家",
         "player_win": "閒家獲勝",
         "scoreboard_banker_pair": "莊對子",
         "scoreboard_player_pair": "閒對子",
+        "select_all": "全選",
+        "settling_status": "結算",
         "shoe_result": "牌盒結果",
         "shoe_result SHA256": "牌盒結果 SHA256",
         "show_cut_card_index": "切牌指數為 %{cut_card_index}",
         "shuffling_cards": "洗牌",
+        "stop_bet_status": "停止投注",
+        "streak_banker": "連勝莊家",
+        "streak_player": "連勝閒家",
         "submission_fail": "提交失敗，請重試。",
         "submission_failed_time_expired": "提交失敗。",
         "submission_sucessful": "提交成功！",
         "submit_button": "提交",
         "submit_notes": "（請注意，只有提交的值才會用於計算最終的切牌指數）",
+        "switch_table": "切換桌",
         "table": "桌子",
         "tag_classic": "經典",
         "tag_lucky": "幸運",
@@ -224,6 +249,60 @@ export const languages = {
         "title_fairness_guides": "公平指南",
         "waiting screen_para_2": "如果您想為切牌指數產生做出貢獻，請點擊下面的按鈕",
         "waiting_screen_para_1": "產生切牌指數"
+    },
+    "VipBaccarat": {
+        "game_name": "VIP 百家樂",
+    },
+    "BlockchainBaccarat": {
+        "game_name": "區塊鏈百家樂",
+    },
+    "Bac81": {
+        "game_name": "幸運百家樂"
+    },
+    "Bac82": {
+        "game_name": "幸運百家樂 2"
+    },
+    "Bac83": {
+        "game_name": "幸運百家樂 3"
+    },
+    "Bac84": {
+        "game_name": "百家樂 2"
+    },
+    "Bac85": {
+        "game_name": "百家樂 3"
+    },
+    "Bac86": {
+        "game_name": "百家樂 4"
+    },
+    "Bac87": {
+        "game_name": "百家樂 5"
+    },
+    "Bac88": {
+        "game_name": "幸運百家樂 4"
+    },
+    "Bac89": {
+        "game_name": "幸運百家樂 5"
+    },
+    "Bac90": {
+        "game_name": "百家樂 6"
+    },
+    "Bac91": {
+        "game_name": "百家樂 7"
+    },
+    "Bac92": {
+        "game_name": "百家樂 8"
+    },
+    "Bac97": {
+        "game_name": "百家樂 9"
+    },
+    "Bac98": {
+        "game_name": "極速百家樂"
+    },
+    "Bac100": {
+        "game_name": "極速百家樂 2"
+    },
+    "Bac101": {
+        "game_name": "極速百家樂 3"
     }
 };
 

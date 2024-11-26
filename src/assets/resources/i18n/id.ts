@@ -17,6 +17,12 @@ export const languages = {
         "create_nick_name": "Buat Nama Panggilan Anda",
         "details": "Details",
         "enter_your_name": "Masukkan nama panggilan Anda.",
+        "game_category_ph_1": "Semua Permainan",
+        "game_category_ph_2": "Spesial Pinoy",
+        "game_category_ph_3": "Permainan Slot",
+        "game_category_ph_4": "Permainan Kartu",
+        "game_category_ph_5": "Permainan Santai",
+        "game_category_ph_6": "Loto",
         "game_excluded": "%{gameName}\n\nAkun Anda tidak lagi diizinkan untuk memainkan game ini. Silakan coba game lain.",
         "game_guide": "Panduan Permainan",
         "hand_not_active": "Tangan Tidak Aktif",
@@ -156,6 +162,7 @@ export const languages = {
         "promotion_terms_and_conditions": "Syarat dan Ketentuan",
         "result": "Hasil",
         "round": "Babak",
+        "sha256": "SHA-256",
         "splash_check_downloading": "Memeriksa dan mengunduh paket pembaruan terbaru...",
         "splash_connection_lost": "Koneksi tidak stabil, silakan periksa.",
         "splash_login_failed": "Gagal memuat data game. Harap tutup jendela saat ini dan coba lagi.",
@@ -174,6 +181,7 @@ export const languages = {
     },
     "BaccaratX": {
         "Header_fairness_settings": "Pengaturan keadilan",
+        "all_tables": "Semua Meja",
         "average": "Rata-rata",
         "banker_win": "BANKER MENANG",
         "button_home": "Beranda",
@@ -191,29 +199,46 @@ export const languages = {
         "final_shoe_result": "Hasil Akhir Shoe",
         "game_icon_name": "Bakarat Beruntung",
         "game_name": "BaccaratX",
+        "general": "Umum",
         "glossary_banker": "Banker",
         "glossary_banker_pair": "Banker pair",
         "glossary_player": "Player",
         "glossary_player_pair": "Player Pair",
         "glossary_tie": "Seri",
+        "good_road": "Jalan Bagus",
         "header_cut-card_index": "Index Cut-card ",
         "header_fairness_verification": "Verifikasi keadilan",
         "input_cut-card_button": "Masukkan Indeks Cut-card",
         "multiplierpayouts_fee": "Extra Fee",
         "multiplierpayouts_lucky_card": "Kartu Keberuntungan",
         "multiplierpayouts_multiplier": "Pengali",
+        "no_good_road_header": "Temukan Jalan Bagus Anda Di Sini",
+        "no_good_road_para1": "Kami akan segera memberi tahu Anda bila ada Jalan Bagus yang sesuai dengan pola favorit Anda.",
+        "no_good_road_para2": "Anda dapat memilih lebih banyak pola sesuai keinginan Anda di menu Pengaturan.",
+        "one_lounge_two_bedrooms_banker": "Satu lounge dua bedrooms Banker",
+        "one_lounge_two_bedrooms_player": "Satu lounge dua bedrooms Player",
+        "patted_eat_banker": "Patted Eat Banker",
+        "patted_eat_player": "Patted Eat Player",
+        "ping_pong_banker": "Ping Pong Banker",
+        "ping_pong_player": "Ping Pong Player",
         "player_win": "PLAYER MENANG",
         "scoreboard_banker_pair": "B. Pair",
         "scoreboard_player_pair": "P. Pair",
+        "select_all": "Pilih Semua",
+        "settling_status": "Menyelesaikan",
         "shoe_result": "Hasil Shoe",
         "shoe_result SHA256": "Hasil Shoe SHA256",
         "show_cut_card_index": "Indeks cut-card adalah %{cut_card_index}",
         "shuffling_cards": "Mengacak",
+        "stop_bet_status": "Hentikan Taruhan",
+        "streak_banker": "Banker Beruntun ",
+        "streak_player": "Player Beruntun",
         "submission_fail": "Pengiriman gagal, silakan coba lagi.",
         "submission_failed_time_expired": "Pengiriman gagal!",
         "submission_sucessful": "Pengiriman Berhasil!",
         "submit_button": "KIRIMKAN",
         "submit_notes": "(Harap dicatat bahwa hanya nilai yang dikirimkan yang digunakan untuk menghitung indeks Cut-card akhir)",
+        "switch_table": "Ganti Meja",
         "table": "Meja",
         "tag_classic": "Klasik",
         "tag_lucky": "Beruntung",
@@ -224,6 +249,60 @@ export const languages = {
         "title_fairness_guides": "Panduan Keadilan",
         "waiting screen_para_2": "Klik tombol di bawah jika Anda ingin berkontribusi pada pembuatan indeks Cut-card",
         "waiting_screen_para_1": "Menghasilkan Indeks Cut-card"
+    },
+    "VipBaccarat": {
+        "game_name": "VIP Bakarat",
+    },
+    "BlockchainBaccarat": {
+        "game_name": "Bakarat Blockchain",
+    },
+    "Bac81": {
+        "game_name": "Bakarat Beruntung"
+    },
+    "Bac82": {
+        "game_name": "Bakarat Beruntung 2"
+    },
+    "Bac83": {
+        "game_name": "Bakarat Beruntung 3"
+    },
+    "Bac84": {
+        "game_name": "Bakarat 2"
+    },
+    "Bac85": {
+        "game_name": "Bakarat 3"
+    },
+    "Bac86": {
+        "game_name": "Bakarat 4"
+    },
+    "Bac87": {
+        "game_name": "Bakarat 5"
+    },
+    "Bac88": {
+        "game_name": "Bakarat Beruntung 4"
+    },
+    "Bac89": {
+        "game_name": "Bakarat Beruntung 5"
+    },
+    "Bac90": {
+        "game_name": "Bakarat 6"
+    },
+    "Bac91": {
+        "game_name": "Bakarat 7"
+    },
+    "Bac92": {
+        "game_name": "Bakarat 8"
+    },
+    "Bac97": {
+        "game_name": "Bakarat 9"
+    },
+    "Bac98": {
+        "game_name": "Speed Bakarat"
+    },
+    "Bac100": {
+        "game_name": "Speed Bakarat 2"
+    },
+    "Bac101": {
+        "game_name": "Speed Bakarat 3"
     }
 };
 

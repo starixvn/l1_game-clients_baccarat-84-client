@@ -17,6 +17,11 @@ export const languages = {
         "create_nick_name": "Tạo tên nhân vật",
         "details": "Chi tiết",
         "enter_your_name": "Nhập tên nhân vật",
+        "game_category_ph_2": "Pinoy Games",
+        "game_category_ph_3": "Slot Games",
+        "game_category_ph_4": "Game Bài",
+        "game_category_ph_5": "Casual Games",
+        "game_category_ph_6": "Keno Lottery",
         "game_excluded": "%{gameName}\n\nTài khoản của bạn hiện đang bị giới hạn, vui lòng thử các trò chơi khác.",
         "game_guide": "Hướng Dẫn",
         "hand_not_active": "Tay bài chưa tới lượt",
@@ -104,6 +109,7 @@ export const languages = {
         "message_void_running_ticket": "Cược của bạn đã bị hủy vì lý do kỹ thuật. Vui lòng thử lại game.",
         "message_win_limit_hit": "Game %{gameName} (#%{gameRoundId})\n\nĐã đạt giới hạn thắng cược! Vui lòng liên hệ với cấp trên, cảm ơn bạn. Đặt cược thất bại! (%{errorCode})",
         "min_bet_hand": "Tiền cược tối thiểu của tay bài này là %{minBet}",
+        "multiplier_time": "Multiplier",
         "name_invalid": "Tên nhân vật không hợp lệ.",
         "nickname_requirement": "Lưu ý:\n+ Tên nhân vật phải có từ 3 đến 14 ký tự.\n+ Không gõ dấu tiếng việt, không chứa khoảng trắng và các ký tự đặc biệt.\n+ Không thể đổi tên nhân vật sau khi tạo.",
         "non_winning_payline": "Không có dòng cược thắng",
@@ -159,6 +165,7 @@ export const languages = {
         "result": "Kết Quả",
         "round": "Phiên",
         "searching_for_players": "Đang tìm thêm người chơi...",
+        "sha256": "SHA-256",
         "splash_check_downloading": "Đang kiểm tra và tải gói cập nhật game mới nhất...",
         "splash_connection_lost": "Mất kết nối hoặc kết nối không ổn định. Vui lòng kiểm tra và thử lại.",
         "splash_login_failed": "Đăng nhập thất bại, bạn hãy làm lại thao tác đăng nhập từ đầu.",
@@ -177,6 +184,7 @@ export const languages = {
     },
     "BaccaratX": {
         "Header_fairness_settings": "Cài Đặt Tính Minh Bạch",
+        "all_tables": "Tất Cả",
         "average": "Trung bình cộng",
         "banker_win": "NHÀ CÁI THẮNG",
         "button_home": "Sảnh",
@@ -194,29 +202,46 @@ export const languages = {
         "final_shoe_result": "Kết Quả Hộp Bài Cuối Cùng",
         "game_icon_name": "Lucky Baccarat",
         "game_name": "BaccaratX",
+        "general": "Cài Đặt Chung",
         "glossary_banker": "Nhà Cái",
         "glossary_banker_pair": "Cái Đôi",
         "glossary_player": "Nhà Con",
         "glossary_player_pair": "Con Đôi",
         "glossary_tie": "Hòa",
+        "good_road": "Soi Cầu",
         "header_cut-card_index": "Vị trí Cut-card",
         "header_fairness_verification": "Xác Minh Tính Minh Bạch",
         "input_cut-card_button": "Nhập Vị Trí Cut-card",
         "multiplierpayouts_fee": "Phụ Phí",
         "multiplierpayouts_lucky_card": "Lá Bài May Mắn",
         "multiplierpayouts_multiplier": "Số Nhân",
+        "no_good_road_header": "Soi Cầu Ở Đây Nhé",
+        "no_good_road_para1": "Chúng tôi sẽ thông báo ngay cho bạn khi soi được cầu ngon mà bạn thích.",
+        "no_good_road_para2": "Bạn cũng có thể lựa thêm cầu bạn thích trong menu Cài Đặt.",
+        "one_lounge_two_bedrooms_banker": "Cầu Đảo Cái",
+        "one_lounge_two_bedrooms_player": "Cầu Đảo Con",
+        "patted_eat_banker": "Cầu 2-2 Cái",
+        "patted_eat_player": "Cầu 2-2 Con",
+        "ping_pong_banker": "Cầu 1-1 Cái",
+        "ping_pong_player": "Cầu 1-1 Con",
         "player_win": "NHÀ CON THẮNG",
         "scoreboard_banker_pair": "Cái Đôi",
         "scoreboard_player_pair": "Con Đôi",
+        "select_all": "Chọn Hết",
+        "settling_status": "Chốt Thưởng",
         "shoe_result": "Kết Quả Hộp Bài",
         "shoe_result SHA256": "Kết Quả Hộp Bài SHA256",
         "show_cut_card_index": "Vị trí Cut-card là %{cut_card_index}",
         "shuffling_cards": "Xào Bài",
+        "stop_bet_status": "Ngừng Cược",
+        "streak_banker": "Cầu Bệt Cái",
+        "streak_player": "Cầu Bệt Con",
         "submission_fail": "Gửi không thành công, vui lòng thử lại.",
         "submission_failed_time_expired": "Gửi không thành công!",
         "submission_sucessful": "Gửi Thành Công!",
         "submit_button": "XÁC NHẬN",
         "submit_notes": "(Xin lưu ý rằng chỉ những giá trị được xác nhận mới được sử dụng để tính toán vị trí Cut-card)",
+        "switch_table": "Đổi Bàn",
         "table": "Bàn",
         "tag_classic": "Classic",
         "tag_lucky": "Lucky",
@@ -227,6 +252,60 @@ export const languages = {
         "title_fairness_guides": "Hướng Dẫn Kiểm Tra Tính Minh Bạch",
         "waiting screen_para_2": "Nhấn vào nút bên dưới nếu bạn muốn tham gia vào quá trình tạo vị trí Cut-card",
         "waiting_screen_para_1": "Tạo Vị Trí Cut-card"
+    },
+    "VipBaccarat": {
+        "game_name": "Cào Baccarat VIP",
+    },
+    "BlockchainBaccarat": {
+        "game_name": "Blockchain Baccarat",
+    },
+    "Bac81": {
+        "game_name": "Lucky Baccarat"
+    },
+    "Bac82": {
+        "game_name": "Lucky Baccarat 2"
+    },
+    "Bac83": {
+        "game_name": "Lucky Baccarat 3"
+    },
+    "Bac84": {
+        "game_name": "Cào Baccarat 2"
+    },
+    "Bac85": {
+        "game_name": "Cào Baccarat 3"
+    },
+    "Bac86": {
+        "game_name": "Cào Baccarat 4"
+    },
+    "Bac87": {
+        "game_name": "Cào Baccarat 5"
+    },
+    "Bac88": {
+        "game_name": "Lucky Baccarat 4"
+    },
+    "Bac89": {
+        "game_name": "Lucky Baccarat 5"
+    },
+    "Bac90": {
+        "game_name": "Cào Baccarat 6"
+    },
+    "Bac91": {
+        "game_name": "Cào Baccarat 7"
+    },
+    "Bac92": {
+        "game_name": "Cào Baccarat 8"
+    },
+    "Bac97": {
+        "game_name": "Cào Baccarat 9"
+    },
+    "Bac98": {
+        "game_name": "Baccarat Tốc Độ"
+    },
+    "Bac100": {
+        "game_name": "Baccarat Tốc Độ 2"
+    },
+    "Bac101": {
+        "game_name": "Baccarat Tốc Độ 3"
     }
 };
 

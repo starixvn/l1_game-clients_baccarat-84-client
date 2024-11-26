@@ -1,4 +1,4 @@
 window.crossConfig = {
     backgroundLocalized: true,
-    storagePrefixKey: "Bac84",
+    storagePrefixKey: "Bac81",
 };

@@ -15,7 +15,7 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         localhost: "lumigame.com",
     },
     ssl: true,
-    subDomain: "l2-proxy1",
+    subDomain: "l2-proxy",
     env: "LOCAL",
     subGuideDomain: "l1-guide",
     SGConnectSubDomain: "connectsite",
@@ -29,6 +29,7 @@ const defaultConfig: gc.Configs.SiteConfigs = {
     tolgeeUrl: "",
     storagePrefixKey: GAME_NAME,
     gatewaySubDomain: "l2-gw1",
+    boostedOddsDelayTimeByMinutes: 1,
 };
 
 let configDev = {
@@ -36,6 +37,7 @@ let configDev = {
     userServiceUrlDev: defaultConfig.userServiceUrlDev,
     serverDomainMapper: defaultConfig.serverDomainMapper,
     notificationServiceUrlDev: defaultConfig.notificationServiceUrlDev,
+    boostedOddsDelayTimeByMinutes: defaultConfig.boostedOddsDelayTimeByMinutes,
 };
 
 if (window.envConfig) {
@@ -44,6 +46,7 @@ if (window.envConfig) {
         userServiceUrlDev: undefined,
         serverDomainMapper: undefined,
         notificationServiceUrlDev: undefined,
+        boostedOddsDelayTimeByMinutes: undefined,
     };
 }
 

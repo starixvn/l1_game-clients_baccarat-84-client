@@ -10,4 +10,5 @@ window.envConfig = {
     SGConnectSubDomain: "connectsite",
     gatewaySubDomain: "l1-gw",
     clientSubDomain: "l1-client",
+    boostedOddsDelayTimeByMinutes: 1,
 };

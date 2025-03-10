@@ -9,4 +9,5 @@ window.envConfig = {
     enableMsgpackParserAllGames: false,
     SGConnectSubDomain: "l1-connectsite1",
     gatewaySubDomain: "l1-gw1",
+    boostedOddsDelayTimeByMinutes: 1,
 };

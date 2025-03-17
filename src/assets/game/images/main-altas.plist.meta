@@ -20,7 +20,7 @@
         "offsetX": 0,
         "offsetY": 0,
         "trimX": 413,
-        "trimY": 350,
+        "trimY": 143,
         "width": 78,
         "height": 78,
         "rawWidth": 78,
@@ -43,7 +43,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -89,7 +89,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -112,7 +112,7 @@
         "offsetX": 0,
         "offsetY": 0,
         "trimX": 236,
-        "trimY": 81,
+        "trimY": 32,
         "width": 536,
         "height": 175,
         "rawWidth": 536,
@@ -135,7 +135,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -181,7 +181,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -227,7 +227,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -250,7 +250,7 @@
         "offsetX": 0,
         "offsetY": 0,
         "trimX": 413,
-        "trimY": 430,
+        "trimY": 223,
         "width": 76,
         "height": 35,
         "rawWidth": 76,
@@ -273,7 +273,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -319,53 +319,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
-        "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
-      },
-      "ver": "1.0.12",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
-    "b2d76": {
-      "importer": "sprite-frame",
-      "uuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc@b2d76",
-      "displayName": "",
-      "id": "b2d76",
-      "name": "bg-text-win",
-      "userData": {
-        "trimType": "auto",
-        "trimThreshold": 1,
-        "rotated": false,
-        "offsetX": 0,
-        "offsetY": 0,
-        "trimX": 236,
-        "trimY": 32,
-        "width": 199,
-        "height": 47,
-        "rawWidth": 199,
-        "rawHeight": 47,
-        "borderTop": 0,
-        "borderBottom": 0,
-        "borderLeft": 0,
-        "borderRight": 0,
-        "packable": true,
-        "pixelsToUnit": 100,
-        "pivotX": 0.5,
-        "pivotY": 0.5,
-        "meshType": 0,
-        "vertices": {
-          "rawPosition": [],
-          "indexes": [],
-          "uv": [],
-          "nuv": [],
-          "minPos": [],
-          "maxPos": []
-        },
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -387,8 +341,8 @@
         "rotated": true,
         "offsetX": 0,
         "offsetY": 0,
-        "trimX": 434,
-        "trimY": 193,
+        "trimX": 413,
+        "trimY": 412,
         "width": 64,
         "height": 72,
         "rawWidth": 64,
@@ -411,7 +365,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -433,8 +387,8 @@
         "rotated": true,
         "offsetX": 0,
         "offsetY": 0,
-        "trimX": 437,
-        "trimY": 41,
+        "trimX": 413,
+        "trimY": 260,
         "width": 150,
         "height": 72,
         "rawWidth": 150,
@@ -457,7 +411,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -479,8 +433,8 @@
         "rotated": true,
         "offsetX": 0,
         "offsetY": 0,
-        "trimX": 413,
-        "trimY": 114,
+        "trimX": 487,
+        "trimY": 293,
         "width": 24,
         "height": 21,
         "rawWidth": 24,
@@ -503,7 +457,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -525,8 +479,8 @@
         "rotated": false,
         "offsetX": 0,
         "offsetY": 0,
-        "trimX": 454,
-        "trimY": 467,
+        "trimX": 478,
+        "trimY": 478,
         "width": 27,
         "height": 27,
         "rawWidth": 27,
@@ -549,7 +503,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -568,11 +522,11 @@
       "userData": {
         "trimType": "auto",
         "trimThreshold": 1,
-        "rotated": false,
+        "rotated": true,
         "offsetX": 0,
         "offsetY": 0,
-        "trimX": 434,
-        "trimY": 259,
+        "trimX": 475,
+        "trimY": 41,
         "width": 63,
         "height": 34,
         "rawWidth": 63,
@@ -595,7 +549,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -618,7 +572,7 @@
         "offsetX": 0,
         "offsetY": 0,
         "trimX": 413,
-        "trimY": 467,
+        "trimY": 32,
         "width": 109,
         "height": 39,
         "rawWidth": 109,
@@ -641,7 +595,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -664,7 +618,7 @@
         "offsetX": 0,
         "offsetY": 0,
         "trimX": 493,
-        "trimY": 331,
+        "trimY": 106,
         "width": 16,
         "height": 24,
         "rawWidth": 16,
@@ -687,7 +641,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -709,8 +663,8 @@
         "rotated": true,
         "offsetX": 0,
         "offsetY": 0,
-        "trimX": 413,
-        "trimY": 81,
+        "trimX": 487,
+        "trimY": 260,
         "width": 31,
         "height": 22,
         "rawWidth": 31,
@@ -733,7 +687,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -755,8 +709,8 @@
         "rotated": false,
         "offsetX": 0,
         "offsetY": 0,
-        "trimX": 434,
-        "trimY": 295,
+        "trimX": 413,
+        "trimY": 478,
         "width": 63,
         "height": 34,
         "rawWidth": 63,
@@ -779,7 +733,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -825,7 +779,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -847,8 +801,8 @@
         "rotated": true,
         "offsetX": 0,
         "offsetY": 0,
-        "trimX": 413,
-        "trimY": 140,
+        "trimX": 487,
+        "trimY": 319,
         "width": 106,
         "height": 19,
         "rawWidth": 106,
@@ -871,7 +825,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -893,8 +847,8 @@
         "rotated": true,
         "offsetX": 0,
         "offsetY": 0,
-        "trimX": 413,
-        "trimY": 248,
+        "trimX": 454,
+        "trimY": 41,
         "width": 100,
         "height": 19,
         "rawWidth": 100,
@@ -917,7 +871,7 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a",
+        "imageUuidOrDatabaseUri": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a",
         "atlasUuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc"
       },
       "ver": "1.0.12",
@@ -929,9 +883,9 @@
     }
   },
   "userData": {
-    "atlasTextureName": "main-altas.png",
+    "atlasTextureName": "main-altas.webp",
     "format": 3,
     "uuid": "2d67d332-0b65-4c26-aacf-03f54c9217cc",
-    "textureUuid": "b15b3960-ae0d-4754-a9ef-95a5fd26d618@6c48a"
+    "textureUuid": "35cf5e96-5639-4629-88bf-cad2d0adc0c2@6c48a"
   }
 }

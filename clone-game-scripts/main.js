@@ -215,7 +215,7 @@ function copyImages(background, dealer, table, win_notice) {
         fs.copySync(`${dealerPath}.${ext}`, `${destPath}/game/dealer/dealer.${ext}`);
     });
 
-    fs.copySync(`${sourcesPath}/background/${background}.jpg`, `${destPath}/game/images/big-images/bg.jpg`);
-    fs.copySync(`${sourcesPath}/table/${table}.png`, `${destPath}/game/images/big-images/table-game.png`);
-    fs.copySync(`${sourcesPath}/win-notice/${win_notice}.png`, `${destPath}/game/images/big-images/bg-text-win.png`);
+    fs.copySync(`${sourcesPath}/background/${background}.webp`, `${destPath}/game/images/big-images/bg.webp`);
+    fs.copySync(`${sourcesPath}/table/${table}.webp`, `${destPath}/game/images/big-images/table-game.webp`);
+    fs.copySync(`${sourcesPath}/win-notice/${win_notice}.webp`, `${destPath}/game/images/big-images/bg-text-win.webp`);
 }

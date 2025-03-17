@@ -1,5 +1,7 @@
 import gc from "@sg/game-client-base";
 import { _decorator, JsonAsset, Node } from "cc";
+import { OpenSidePanelEvent } from "db://shared-components/game-baccarat/gateway-panel/scripts/models/definitions";
+import { InGameMenuHandlers } from "db://shared-components/game/in-game-menu/scripts/handlers/in-game-menu-handlers";
 import { startGame } from "db://shared-components/shared/scripts/startup";
 import Observer from "observer";
 import { BaccaratXCardsUI } from "../../../../extensions/shared-components/assets/game-baccarat/cards/baccarat-x-cards-ui";
@@ -183,5 +185,10 @@ export default class Game extends GameComponent {
         } else if (roundState === Rounds.ROUND_STATE.SHOW_RESULT) {
             this.audioContainer.updateVolumeMusicSource(1, 3);
         }
+    }
+
+    @handle(InGameMenuHandlers)
+    protected onOpenSidePanel() {
+        return OpenSidePanelEvent;
     }
 }

@@ -53,7 +53,7 @@ export default class Game extends GameComponent {
     private cutCardIndexInGame = 0;
     private audioContainer: AudioContainer = null;
 
-    private soundWinChoice = ["player", "banker", "tie"];
+    private readonly soundWinChoice = ["player", "banker", "tie"];
     private isAnimatingResult = false;
 
     onLoad() {

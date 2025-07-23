@@ -5,7 +5,9 @@
         "th": "บาคาร่านำโชค",
         "vi": "Lucky Baccarat",
         "zh_cn": "幸运百家乐",
-        "zh_tw": "幸運百家樂"
+        "zh_tw": "幸運百家樂",
+        "ja": "ラッキーバカラ",
+        "es": "Baccarat Suerte"
     },
     "gameNames": {
         "en": "Baccarat 2",
@@ -13,6 +15,8 @@
         "th": "บาคาร่า 2",
         "vi": "Cào Baccarat 2",
         "zh_cn": "百家乐 2",
-        "zh_tw": "百家樂 2"
+        "zh_tw": "百家樂 2",
+        "ja": "バカラ2",
+        "es": "Baccarat 2"
     }
 }

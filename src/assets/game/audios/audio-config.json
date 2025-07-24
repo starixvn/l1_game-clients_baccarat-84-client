@@ -89,6 +89,21 @@
         "path": "winning/tie-zh_tw",
         "isLazyLoad": true
     },
+    "player-ja": {
+        "bundle": "resources",
+        "path": "winning/player-ja",
+        "isLazyLoad": true
+    },
+    "banker-ja": {
+        "bundle": "resources",
+        "path": "winning/banker-ja",
+        "isLazyLoad": true
+    },
+    "tie-ja": {
+        "bundle": "resources",
+        "path": "winning/tie-ja",
+        "isLazyLoad": true
+    },
     "lightning": {
         "bundle": "resources",
         "isLazyLoad": true

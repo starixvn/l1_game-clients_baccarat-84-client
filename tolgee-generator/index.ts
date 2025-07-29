@@ -13,6 +13,7 @@ const languageFolder = "./src/assets/resources/i18n/";
 const languageCodes = ["en", "id", "th", "vi", "zh_cn", "zh_tw", "ja", "es"];
 const jsonFolder = "./tolgee-generator/common"; // Thư mục chứa các file JSON
 const createCommonNamespace = false;
+const updateFileSourceTs = false;
 const commonNameSpaces = [
     "Common",
     "BaccaratX",
@@ -88,7 +89,8 @@ tg.on("initialLoad", async () => {
             });
         });
 
-        createCommonNamespace ? writeFileCommonJson(languageId, languages) : writeFileSourceTs(languageId, languages);
+        createCommonNamespace && writeFileCommonJson(languageId, languages);
+        updateFileSourceTs && writeFileSourceTs(languageId, languages);
     }
 
     if (!createCommonNamespace) {

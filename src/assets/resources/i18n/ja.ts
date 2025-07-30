@@ -299,6 +299,12 @@ export const languages = {
         "waiting_screen_para_1": "カットカードインデックスの算出",
         "waiting screen_para_2": "カットカードインデックス生成にご協力頂ける場合は、以下のボタンをクリックしてください。"
     },
+    "VipBaccarat": {
+        "game_name": "VIPバカラ",
+    },
+    "BlockchainBaccarat": {
+        "game_name": "ブロックチェーンバカラ",
+    },
     "Bac81": {
         "game_name": "ラッキーバカラ"
     },

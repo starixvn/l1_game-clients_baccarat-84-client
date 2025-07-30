@@ -299,6 +299,12 @@ export const languages = {
         "waiting_screen_para_1": "Generando el Índice de la Carta de Corte",
         "waiting screen_para_2": "Haz clic en el botón de abajo si deseas contribuir a la generación del índice de cartas cortadas"
     },
+    "VipBaccarat": {
+        "game_name": "Baccarat VIP",
+    },
+    "BlockchainBaccarat": {
+        "game_name": "Baccarat Blockchain",
+    },
     "Bac81": {
         "game_name": "Baccarat Suerte"
     },

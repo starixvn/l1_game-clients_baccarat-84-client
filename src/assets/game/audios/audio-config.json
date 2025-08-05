@@ -14,6 +14,21 @@
         "path": "winning/tie-en",
         "isLazyLoad": true
     },
+    "player-es": {
+        "bundle": "resources",
+        "path": "winning/player-es",
+        "isLazyLoad": true
+    },
+    "banker-es": {
+        "bundle": "resources",
+        "path": "winning/banker-es",
+        "isLazyLoad": true
+    },
+    "tie-es": {
+        "bundle": "resources",
+        "path": "winning/tie-es",
+        "isLazyLoad": true
+    },
     "player-vi": {
         "bundle": "resources",
         "path": "winning/player-vi",

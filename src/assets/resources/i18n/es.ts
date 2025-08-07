@@ -233,7 +233,7 @@ export const languages = {
   },
   "BaccaratX": {
     "multiplierpayouts_lucky_card": "Cartas de la Suerte",
-    "shoe_result SHA256": "Resultado de la baraja SHA256",
+    "shoe_result SHA256": "SHA256 Resultado Zapato",
     "fairness_settings_client_seed_note": "(Posición donde deseas insertar la carta de corte)",
     "Header_fairness_settings": "Configuración de Justicia",
     "fairness_settings_para_1": "Los jugadores pueden introducir su valor de Semilla de Cliente y verificar la justicia del juego desde el Historial de Apuestas al finalizar la baraja.",
@@ -246,7 +246,7 @@ export const languages = {
     "waiting screen_para_2": "Haz clic en el botón de abajo si deseas contribuir a la generación del índice de cartas cortadas",
     "table": "Mesa",
     "header_fairness_verification": "Verificación de Juego Limpio",
-    "shoe_result": "Resultado de la Zapato",
+    "shoe_result": "Resultado Zapato",
     "title_cut-card_index": "Índice de corte",
     "final_shoe_result": "Resultado Final del Zapato",
     "header_cut-card_index": "Índice de Carta de Corte",

@@ -229,7 +229,9 @@ export const languages = {
     "sabaplay_tagline": "Oyunun Ötesinde",
     "message_loading": "Yükleniyor",
     "message_place_bets": "Bahislerinizi Yapın",
-    "copy_successfully_md5": "Kopyalama başarılı!"
+    "copy_successfully_md5": "Kopyalama başarılı!",
+    "pf_header_server_seed_sha256_single": "Sunucu Tohumu SHA256",
+    "pf_ header_merge_client_seed_single": "Müşteri Tohumunu Birleştir"
   },
   "BaccaratX": {
     "multiplierpayouts_lucky_card": "Şanslı Kartlar",
@@ -303,6 +305,12 @@ export const languages = {
     "settling_status": "Sonuçlanıyor",
     "short_player": "P",
     "short_banker": "Büyük"
+  },
+  "VipBaccarat": {
+    "game_name": "VIP Bakarat"
+  },
+  "BlockchainBaccarat": {
+    "game_name": "Blockchain Bakara"
   },
   "Bac81": {
     "game_name": "Şanslı Bakara"

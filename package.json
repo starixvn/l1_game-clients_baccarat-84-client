@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "generate-tolgee-data": "ts-node ./tolgee-generator/index.ts",
-        "clone-games": "node ./clone-games.js"
+        "clone-games": "node ./clone-games.js",
+        "get-new-tolgee-data": "npx tolgee-generator ./tolgee.json"
     },
     "keywords": [],
     "author": "",

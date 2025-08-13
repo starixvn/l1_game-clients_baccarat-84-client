@@ -196,7 +196,7 @@ export const languages = {
     "to": "para",
     "reconnect": "Reconectar",
     "invalid_stake_level": "Nivel de apuesta inválido",
-    "betChoice_shorten": "Selección de Apuesta",
+    "betChoice_shorten": "Selección\nde Apuesta",
     "total_stake_shorten": "Apuesta Total",
     "text_big_wins": "Big Wins!",
     "text_small_win": "¡Pequeños Premios!",
@@ -229,7 +229,9 @@ export const languages = {
     "sabaplay_tagline": "Juega a otro nivel",
     "message_loading": "Cargando",
     "message_place_bets": "Haga sus apuestas",
-    "copy_successfully_md5": "Copiado con éxito."
+    "copy_successfully_md5": "Copiado con éxito.",
+    "pf_header_server_seed_sha256_single": "SHA256 de la semilla del servidor",
+    "pf_ header_merge_client_seed_single": "Combinar la semilla del cliente"
   },
   "BaccaratX": {
     "multiplierpayouts_lucky_card": "Cartas de la Suerte",
@@ -246,7 +248,7 @@ export const languages = {
     "waiting screen_para_2": "Haz clic en el botón de abajo si deseas contribuir a la generación del índice de cartas cortadas",
     "table": "Mesa",
     "header_fairness_verification": "Verificación de Juego Limpio",
-    "shoe_result": "Resultado Zapato",
+    "shoe_result": "Resultado Zapato ",
     "title_cut-card_index": "Índice de corte",
     "final_shoe_result": "Resultado Final del Zapato",
     "header_cut-card_index": "Índice de Carta de Corte",
@@ -254,7 +256,7 @@ export const languages = {
     "final_cut-card_index": "Índice de cartas de corte final",
     "calculate_final_cut-card_index": "Calcular índice final de carta de corte",
     "multiplierpayouts_multiplier": "Multiplicador",
-    "multiplierpayouts_fee": "Tarifa Adicional",
+    "multiplierpayouts_fee": "Tarifa Extra",
     "shuffling_cards": "Barajando",
     "scoreboard_banker_pair": "Pareja B.",
     "scoreboard_player_pair": "Pareja J.",
@@ -263,7 +265,7 @@ export const languages = {
     "glossary_player": "Jugador",
     "glossary_player_pair": "Pareja J.",
     "glossary_tie": "Empate",
-    "game_icon_name": "Lucky Baccarat",
+    "game_icon_name": "Baccarat Suerte",
     "game_name": "BaccaratX",
     "show_cut_card_index": "El índice de la carta de corte es %{cut_card_index}",
     "input_cut-card_button": "Índice de carta de corte de entrada",
@@ -276,7 +278,7 @@ export const languages = {
     "average": "Promedio",
     "submission_failed_time_expired": "¡Envío fallido!",
     "tag_lucky": "Suerte",
-    "tag_speed": "Velocidad",
+    "tag_speed": "Rápido",
     "tag_classic": "Clásico",
     "button_home": "Local",
     "button_settings": "Configuración",
@@ -301,23 +303,23 @@ export const languages = {
     "general": "General",
     "stop_bet_status": "Detener apuesta",
     "settling_status": "Liquidando",
-    "short_player": "P",
+    "short_player": "J",
     "short_banker": "B"
   },
   "VipBaccarat": {
         "game_name": "Baccarat VIP",
     },
-    "BlockchainBaccarat": {
-        "game_name": "Baccarat Blockchain",
-    },
+  "BlockchainBaccarat": {
+      "game_name": "Baccarat Blockchain",
+  },
   "Bac81": {
-    "game_name": "Lucky Baccarat"
+    "game_name": "Baccarat Suerte"
   },
   "Bac82": {
-    "game_name": "Lucky Baccarat 2"
+    "game_name": "Baccarat Suerte 2"
   },
   "Bac83": {
-    "game_name": "Lucky Baccarat 3"
+    "game_name": "Baccarat Suerte 3"
   },
   "Bac84": {
     "game_name": "Baccarat 2"
@@ -332,10 +334,10 @@ export const languages = {
     "game_name": "Baccarat 5"
   },
   "Bac88": {
-    "game_name": "Lucky Baccarat 4"
+    "game_name": "Baccarat Suerte 4"
   },
   "Bac89": {
-    "game_name": "Lucky Baccarat 5"
+    "game_name": "Baccarat Suerte 5"
   },
   "Bac90": {
     "game_name": "Baccarat 6"

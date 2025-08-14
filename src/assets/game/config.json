@@ -1,6 +1,6 @@
 {
-  "type": "classic",
-  "table": "blue",
+  "type": "speed",
+  "table": "purple",
   "colors": {
     "blue": {
       "bg-timer": "043D71",

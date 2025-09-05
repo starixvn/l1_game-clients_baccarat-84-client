@@ -11,5 +11,4 @@ export const GAME_DURATIONS = {
     showingResult: 5,
     startRound: 4,
 };
-
 export const MULTIPLIER_FEATURE = false;

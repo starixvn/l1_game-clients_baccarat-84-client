@@ -1,17 +1,13 @@
 {
-  "lobbyNames": {},
-  "gameNames": {
-    "en": "Baccarat 2",
-    "es": "Baccarat 2",
-    "fil_ph": "Baccarat 2",
-    "id": "Bakarat 2",
-    "ja": "バカラ2",
-    "ko": "바카라 2",
-    "pt_br": "Baccarat 2",
-    "th": "บาคาร่า 2",
-    "tr": "Bakara 2",
-    "vi": "Cào Baccarat 2",
-    "zh_cn": "百家乐 2",
-    "zh_tw": "百家樂 2"
-  }
+    "lobbyNames": {},
+    "gameNames": {
+        "en": "Baccarat 9",
+        "id": "Bakarat 9",
+        "th": "บาคาร่า 9",
+        "vi": "Cào Baccarat 9",
+        "zh_cn": "百家乐 9",
+        "zh_tw": "百家樂 9",
+        "ja": "バカラ9",
+        "es": "Baccarat 9"
+    }
 }

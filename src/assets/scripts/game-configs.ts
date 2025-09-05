@@ -1,15 +1,14 @@
-export const GAME_ID = 84;
+export const GAME_ID = 98;
 export const LOBBY_ID = 102;
-export const GAME_NAME = "Bac84";
+export const GAME_NAME = "Bac98";
 export const GAME_SERVICE_ROUTE = "baccaratx";
 export const GAME_DURATIONS = {
-    wholeRound: 47,
-    wholeShoe: 65,
+    wholeRound: 33,
+    wholeShoe: 51,
     lockingBet: 3,
-    placingBet: 30,
-    generatingResult: 7,
+    placingBet: 20,
+    generatingResult: 4,
     showingResult: 5,
-    startRound: 4,
+    startRound: 3,
 };
-
 export const MULTIPLIER_FEATURE = false;

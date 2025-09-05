@@ -1,17 +1,13 @@
 {
-  "lobbyNames": {},
-  "gameNames": {
-    "en": "Baccarat 2",
-    "es": "Baccarat 2",
-    "fil_ph": "Baccarat 2",
-    "id": "Bakarat 2",
-    "ja": "バカラ2",
-    "ko": "바카라 2",
-    "pt_br": "Baccarat 2",
-    "th": "บาคาร่า 2",
-    "tr": "Bakara 2",
-    "vi": "Cào Baccarat 2",
-    "zh_cn": "百家乐 2",
-    "zh_tw": "百家樂 2"
-  }
+    "lobbyNames": {},
+    "gameNames": {
+        "en": "Lucky Baccarat 4",
+        "id": "Bakarat Beruntung 4",
+        "th": "บาคาร่านำโชค 4",
+        "vi": "Lucky Baccarat 4",
+        "zh_cn": "幸运百家乐 4",
+        "zh_tw": "幸運百家樂 4",
+        "ja": "ラッキーバカラ4",
+        "es": "Baccarat Suerte 4"
+    }
 }
